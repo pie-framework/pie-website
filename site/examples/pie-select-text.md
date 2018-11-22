@@ -1,0 +1,39 @@
+---
+title: Pie Select Text
+layout: DemoLayout
+pageClass: customDemoPage
+pie: "@pie-element/select-text@3.3.2"
+model:
+    id: '1'
+    element: select-text
+    highlightChoices: true
+    feedback:
+      correct:
+        type: default
+        default: Correct
+      incorrect:
+        type: default
+        default: Incorrect
+      partial:
+        type: default
+        default: Nearly
+    partialScoring: false
+    maxSelections: 2
+    mode: sentence
+    prompt: What sentences contain the character 6 in them?
+    text: Rachel cut out 8 stars in 6 minutes. Lovelle cut out 6 stars in 4 minutes. Rachel
+      cut out 4 more stars than Lovelle. Lovelle and Rachel cut the same number of stars
+      in 6 minutes.
+    tokens:
+    - text: Rachel cut out 8 stars in 6 minutes.
+      start: 0
+      end: 36
+      correct: true
+    - text: Lovelle cut out 6 stars in 4 minutes.
+      start: 37
+      end: 74
+      correct: true
+    - text: Lovelle and Rachel cut the same number of stars in 6 minutes.
+      start: 117
+      end: 177
+---
