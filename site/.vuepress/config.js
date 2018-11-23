@@ -1,7 +1,7 @@
 module.exports = {
   title: 'PIE Framework',
   head: [
-    ['script', { src: 'http://localhost:3333/build/pie-demo.js' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/gh/pie-framework/pie-demo-component/dist/pie-demo.js' }]
   ],
   themeConfig: {
     logo: '/pie-logo.svg',
