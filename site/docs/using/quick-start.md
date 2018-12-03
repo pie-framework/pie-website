@@ -1,9 +1,17 @@
+---
+layout: DefaultLayout
+---
+
 # Quick Start
 
 This is a quick demonstration of how to define, package and render an Assessment Item. 
 
 
 ## Getting Started
+
+```
+BOOOX
+```
 
 To package and view the example Assessment Item we will use the PIE CLI toolkit, this can be installed by using the following command in a terminal window.
 

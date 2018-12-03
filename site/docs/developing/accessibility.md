@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Accessibility
 
 

@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Development Tutorial
 
 To start creating a PIE, the first step is to create a directory and initialize the project. For the purposes of this explanation, we'll be developing a simple toggle with a value of either `true` or `false`.

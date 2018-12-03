@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Environment
 
 The environment `env` Object helps to define the current runtime context for PIEs as they are being viewed by a user.

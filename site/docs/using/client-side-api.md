@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Client Side API
 
 ### IGNORE THIS PAGE! TO BE REMOVED.

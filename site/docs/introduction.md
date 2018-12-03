@@ -1,5 +1,7 @@
 ---
 title: Introduction
+sidebar: false
+layout: DefaultLayout
 ---
 
 # PIE: Portable Interactions and Elements

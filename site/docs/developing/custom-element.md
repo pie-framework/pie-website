@@ -1,8 +1,12 @@
+---
+layout: DefaultLayout
+---
+
 # Custom Element
 
 The user interface for a PIE is provided in the browser by a [Custom Element](https://www.w3.org/TR/custom-elements/).
 
-It should be defined in an ES6 module which is included as the main entry point the package (see [Packaging](../packaging.md))
+It should be defined in an ES6 module which is included as the main entry point the package (see [Packaging](/docs/developing/packaging.md))
 
 > The most basic definition of an Element module is an ES6 module (CommonJS is also supported).
 

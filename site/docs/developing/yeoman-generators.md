@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Yeoman Generators
 
 [Yeoman](http://yeoman.io/) is a utility for generating projects.
