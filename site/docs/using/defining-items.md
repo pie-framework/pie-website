@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Defining Items
 
 Using PIEs (Portable Interactions and Elements) an author can define an Assessment Item which comprises one or more questions, interactions, and UI elements that can be presented to a user in a browser. 

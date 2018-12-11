@@ -6,13 +6,14 @@ module.exports = {
   themeConfig: {
     logo: '/pie-logo.svg',
     siteTitle: 'PIE framework',
+    search: false,
     locales: {
       '/': {
         title: 'PIE framework',
         nav: [
-          { text: 'Docs', link: '/docs/introduction' },
+          { text: 'Documents', link: '/docs/introduction' },
           { text: 'Examples', link: '/examples/pie-categorize' },
-          { text: 'Github', link: 'https://github.com/pie-framework' }
+          { text: 'About', link: 'https://github.com/pie-framework' }
         ],
         sidebar: {
           '/examples/': [

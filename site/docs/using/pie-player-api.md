@@ -1,6 +1,8 @@
 ---
 title: pie-player-api
+layout: DefaultLayout
 ---
+
 # pie-player 
 
 

@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 ## Packaging
 
 PIEs are defined as NPM packages, and as a best practice follow a structure for including documentation and a demonstration of the PIE.

@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Utility Libraries & Custom Elements
 
 The PIE Framework provides re-usable Libraries that can be used within PIEs to support common features. Many of these utilities provide support for Accessibility requirements which can be enabled by users when launching an assessment item.

@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # PIE Framework Community 
 
 These are some notes on community process and structure for the PIE Framework. A bare minimum is defined at this stage, it is expected the process and structure will evolve based on continuing input and review by the key contributors. 

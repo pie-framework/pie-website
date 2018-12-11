@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # PIE Framework Design Decisions
 
 The goal of the PIE Framework is to provide a future-proof, user & developer friendly way to create, share and deliver assessment content that supports high levels of interactivity for formative or high-stakes purposes. 

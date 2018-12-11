@@ -1,3 +1,7 @@
+---
+layout: DefaultLayout
+---
+
 # Controller
 
 The PIE Controller is logic that can be provided by your PIE to set the model for the PIE Element for the user interface and to process a user's session to provide an outcome.

@@ -1,17 +1,21 @@
+---
+layout: DefaultLayout
+---
+
 # Rendering Items
 
-The PIE [Packaging Tool](../packaging-items.md) is used to assemble and package the Javascript and HTML into files needed to render an Assessment Item in the browser.
+The PIE [Packaging Tool](/docs/using/packaging-items.md) is used to assemble and package the Javascript and HTML into files needed to render an Assessment Item in the browser.
 
 An Assessment Item packed by the Packaging Tool may have some or all of the following files:
 
-| File              | Description                                                        |
-|-------------------|--------------------------------------------------------------------|
-| config.json       | JSON data that defines the questions & interaction PIEs in an item |
-| index.html        | Markup for adding the PIEs to html document                        |
-| pie-view.js       | Assembled Javascript for rendering the UI for the Assessment Item  |
-| pie-controller.js | Packaged controller code for the PIEs defined in the config        |
-| pie-configure.js  | Packaged configure code (if defined) for the PIEs defined in the config        |
-| pie-item.js       | Single file containing all code and config to render the item  (`--includeComplete`)    |
+| File              | Description                                                                             |       |
+|-------------------|-----------------------------------------------------------------------------------------|-------|
+| config.json       | JSON data that defines the questions & interaction PIEs in an item                      | Cevadsapidjasuoiudisadoisaudoiasudoiasd  |
+| index.html        | Markup for adding the PIEs to html document                                             |    haha   |
+| pie-view.js       | Assembled Javascript for rendering the UI for the Assessment Item                       |       |
+| pie-controller.js | Packaged controller code for the PIEs defined in the config                             |       |
+| pie-configure.js  | Packaged configure code (if defined) for the PIEs defined in the config                 |       |
+| pie-item.js       | Single file containing all code and config to render the item  (`--includeComplete`)    |       |
 
 
 ## Simple Usage - Client Side Only
