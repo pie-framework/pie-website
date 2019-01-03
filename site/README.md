@@ -1,6 +1,4 @@
 ---
-layout: PieHome
-navbar: false
 pageClass: customHomePage
 home: true
 navigation:
