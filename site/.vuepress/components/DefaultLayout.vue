@@ -61,7 +61,6 @@
   import Vue from 'vue'
   import nprogress from 'nprogress'
   import Home from '../../../node_modules/vuepress/lib/default-theme/Home.vue'
-  import Navbar from '../../../node_modules/vuepress/lib/default-theme/Navbar.vue'
   import SearchBox from './SearchBox.vue'
   import Page from '../../../node_modules/vuepress/lib/default-theme/Page.vue'
   import Sidebar from '../../../node_modules/vuepress/lib/default-theme/Sidebar.vue'
@@ -70,7 +69,7 @@
   import dateformat from 'dateformat';
 
   export default {
-    components: { Home, Page, Sidebar, Navbar, SearchBox, SWUpdatePopup },
+    components: { Home, Page, Sidebar, SearchBox, SWUpdatePopup },
 
     data () {
       return {

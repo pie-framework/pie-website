@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'PIE Framework',
+  title: '',
   head: [
-    ['script', { src: 'https://cdn.jsdelivr.net/gh/pie-framework/pie-demo-component/dist/pie-demo.js' }]
+    ['script', { src: 'http://localhost:3333/build/pie-demo.js' }]
   ],
   themeConfig: {
     logo: '/pie-logo.svg',
@@ -11,7 +11,7 @@ module.exports = {
       '/': {
         title: 'PIE framework',
         nav: [
-          { text: 'Documents', link: '/docs/introduction' },
+          { text: 'Developers', link: '/docs/introduction' },
           { text: 'Examples', link: '/examples/pie-categorize' },
           { text: 'About', link: 'https://github.com/pie-framework' }
         ],
@@ -60,5 +60,14 @@ module.exports = {
         }
       }
     }
+  },
+  chainWebpack: (config, isServer) => {
+    /*config.module.rules.delete('svg');
+    config.module
+      .rule('svg')
+      .test(/\.svg$/)
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
+      .end();*/
   }
 };
