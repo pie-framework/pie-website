@@ -1,5 +1,5 @@
 ---
-title: Pie Select Text
+title: Select Text
 layout: DemoLayout
 pageClass: customDemoPage
 pie: "@pie-element/select-text@3.3.2"

@@ -1,5 +1,5 @@
 ---
-title: Pie Number Line
+title: Number Line
 layout: DemoLayout
 pageClass: customDemoPage
 pie: "@pie-element/number-line@3.0.4"

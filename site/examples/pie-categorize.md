@@ -1,5 +1,5 @@
 ---
-title: Pie Categorize
+title: Categorize
 layout: DemoLayout
 pageClass: customDemoPage
 pie: "@pie-element/categorize@2.7.2"

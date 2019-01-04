@@ -22,6 +22,8 @@ module.exports = {
               collapsable: false,
               children: [
                 '/examples/pie-categorize',
+                '/examples/pie-calculator',
+                '/examples/pie-math-inline',
                 '/examples/pie-function-entry',
                 '/examples/pie-inline-choice',
                 '/examples/pie-multiple-choice',

@@ -1,5 +1,5 @@
 ---
-title: Pie Function Entry
+title: Function Entry
 layout: DemoLayout
 pageClass: customDemoPage
 pie: "@pie-element/function-entry@3.0.3"
