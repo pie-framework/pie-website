@@ -29,7 +29,14 @@ module.exports = {
                 '/examples/pie-multiple-choice',
                 '/examples/pie-number-line',
                 '/examples/pie-select-text',
-                '/examples/pie-text-entry'
+                '/examples/pie-text-entry',
+                '/examples/pie-extended-text-entry',
+                '/examples/pie-graph-lines',
+                '/examples/pie-match',
+                '/examples/pie-placement-ordering',
+                '/examples/pie-point-intercept',
+                '/examples/pie-protractor',
+                '/examples/pie-ruler'
               ]
             }
           ],
