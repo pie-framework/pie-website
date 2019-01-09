@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'PIE Framework',
+  title: '',
   head: [
-    ['script', { src: 'https://cdn.jsdelivr.net/gh/pie-framework/pie-demo-component/dist/pie-demo.js' }]
+    ['script', { src: 'https://unpkg.com/pie-demo@1.4.0/dist/pie-demo.js' }]
   ],
   themeConfig: {
     logo: '/pie-logo.svg',
@@ -11,7 +11,7 @@ module.exports = {
       '/': {
         title: 'PIE framework',
         nav: [
-          { text: 'Documents', link: '/docs/introduction' },
+          { text: 'Developers', link: '/docs/introduction' },
           { text: 'Examples', link: '/examples/pie-categorize' },
           { text: 'About', link: 'https://github.com/pie-framework' }
         ],
@@ -22,12 +22,21 @@ module.exports = {
               collapsable: false,
               children: [
                 '/examples/pie-categorize',
+                '/examples/pie-calculator',
+                '/examples/pie-math-inline',
                 '/examples/pie-function-entry',
                 '/examples/pie-inline-choice',
                 '/examples/pie-multiple-choice',
                 '/examples/pie-number-line',
                 '/examples/pie-select-text',
-                '/examples/pie-text-entry'
+                '/examples/pie-text-entry',
+                '/examples/pie-extended-text-entry',
+                '/examples/pie-graph-lines',
+                '/examples/pie-match',
+                '/examples/pie-placement-ordering',
+                '/examples/pie-point-intercept',
+                '/examples/pie-protractor',
+                '/examples/pie-ruler'
               ]
             }
           ],
@@ -60,5 +69,14 @@ module.exports = {
         }
       }
     }
+  },
+  chainWebpack: (config, isServer) => {
+    /*config.module.rules.delete('svg');
+    config.module
+      .rule('svg')
+      .test(/\.svg$/)
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
+      .end();*/
   }
 };

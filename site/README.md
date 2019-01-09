@@ -1,5 +1,13 @@
 ---
+pageClass: customHomePage
 home: true
+navigation:
+- text: 'Documents'
+  link: '/docs/introduction'
+- text: 'Examples'
+  link: '/examples/pie-categorize'
+- text: 'About'
+  link: 'https://github.com/pie-framework'
 heroImage: assets/pie-logo.svg
 actionText: Get Started →
 actionLink: /docs/

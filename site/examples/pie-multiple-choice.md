@@ -1,8 +1,8 @@
 ---
-title: Pie Multiple Choice
+title: Multiple Choice
 layout: DemoLayout
 pageClass: customDemoPage
-pie: "@pie-element/multiple-choice@2.3.2"
+pie: "@pie-element/multiple-choice@2.3.6"
 model:
     id: '1'
     element: multiple-choice

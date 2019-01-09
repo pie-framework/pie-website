@@ -12,8 +12,13 @@ $codeBgColor = #020720
 $wrappedTextBgColor = #dfe4ff
 $wrappedTextColor = #040c38
 
+#app {
+  height: 100%;
+}
+
 // Custom Css
 .customDemoPage {
+  height: 100%;
   padding-left 20rem;
 
   .sidebar {
@@ -21,10 +26,17 @@ $wrappedTextColor = #040c38
   }
 
   .custom-layout {
+    height: 100%;
     padding-top 0;
 
-    .element-container {
-      padding-top: 4rem;
+    .theme-container {
+      height: 100%;
+
+      .element-container {
+        height: calc(100% - 4rem);
+        width: 99%;
+        padding-top: 4rem;
+      }
     }
   }
 }
@@ -122,12 +134,26 @@ $wrappedTextColor = #040c38
   }
 }
 
+.customHomePage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 // Overriding CSS
+html, body {
+  height: 100%;
+}
+
 .navbar {
   background-color: $mainColor !important;
 
   .links {
     background-color: $mainColor !important;
+  }
+
+  .logo {
+    height 1.25rem;
+    vertical-align middle
   }
 }
 

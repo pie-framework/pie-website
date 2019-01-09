@@ -1,5 +1,5 @@
 ---
-title: Pie Inline Choice
+title: Inline Choice
 layout: DemoLayout
 pageClass: customDemoPage
 pie: "@pie-element/inline-choice@2.0.4"

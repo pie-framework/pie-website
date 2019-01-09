@@ -1,5 +1,5 @@
 ---
-title: Pie Text Entry
+title: Text Entry
 layout: DemoLayout
 pageClass: customDemoPage
 pie: "@pie-element/text-entry@3.1.1"
