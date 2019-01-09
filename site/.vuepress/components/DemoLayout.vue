@@ -28,22 +28,22 @@
       if (pieDemo.loadPies) {
         if (!window['pie']) {
           const packages = [
-            "text-entry@3.1.1",
-            "select-text@3.3.2",
-            "multiple-choice@2.3.6",
-            "number-line@3.0.4",
-            "function-entry@3.0.3",
-            "inline-choice@2.0.4",
-            "x-categorize@2.7.2",
-            "math-inline@0.0.5",
-            "x-calculator@2.0.3",
-            "x-ruler@3.0.3",
-            "graph-lines@1.1.4",
-            "placement-ordering@3.2.0",
-            "extended-text-entry@3.3.2",
+            "x-calculator@2.0.4",
+            "x-categorize@2.7.4",
+            "extended-text-entry@3.3.3",
+            "function-entry@3.0.4",
+            "graph-lines@1.1.5",
+            "inline-choice@2.0.5",
+            "x-match@1.5.1",
+            "math-inline@0.0.9",
+            "multiple-choice@2.4.1",
+            "number-line@3.0.9",
+            "placement-ordering@3.2.2",
+            "point-intercept@3.1.5",
             "x-protractor@2.0.1",
-            "x-match@1.5.0",
-            "point-intercept@3.1.3"
+            "x-ruler@3.0.5",
+            "select-text@3.3.4",
+            "text-entry@3.1.3"
           ];
           const elementNumber = 16;
           const names = packages.slice(0, elementNumber).join('+');

@@ -1,7 +1,7 @@
 module.exports = {
   title: '',
   head: [
-    ['script', { src: 'http://localhost:3333/build/pie-demo.js' }]
+    ['script', { src: 'https://unpkg.com/pie-demo@1.4.0/dist/pie-demo.js' }]
   ],
   themeConfig: {
     logo: '/pie-logo.svg',
