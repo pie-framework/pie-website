@@ -35,7 +35,7 @@
             "graph-lines@1.1.5",
             "inline-choice@2.0.5",
             "x-match@1.5.1",
-            "math-inline@0.0.9",
+            "math-inline@0.0.10",
             "multiple-choice@2.4.1",
             "number-line@3.0.9",
             "placement-ordering@3.2.2",

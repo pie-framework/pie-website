@@ -2,7 +2,7 @@
 title: Equation Response
 layout: DemoLayout
 pageClass: customDemoPage
-pie: "@pie-element/math-inline@0.0.8"
+pie: "@pie-element/math-inline@0.0.10"
 model:
     id: '1'
     element: math-inline
