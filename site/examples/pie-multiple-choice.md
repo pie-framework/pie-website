@@ -2,7 +2,7 @@
 title: Multiple Choice
 layout: DemoLayout
 pageClass: customDemoPage
-pie: "@pie-element/multiple-choice@2.4.5"
+pie: "@pie-element/multiple-choice@2.4.6"
 model:
     id: '1'
     element: multiple-choice
