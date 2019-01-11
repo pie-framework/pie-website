@@ -2,7 +2,7 @@
 title: Multiple Choice
 layout: DemoLayout
 pageClass: customDemoPage
-pie: "@pie-element/multiple-choice@2.4.4"
+pie: "@pie-element/multiple-choice@2.4.5"
 model:
     id: '1'
     element: multiple-choice
@@ -39,17 +39,17 @@ model:
                 The maximum points is the total number of answer choices.
     configure: {}
 configure:
-    promptLabel: Prooooompt
-    responseTypeLabel: Type of Answer
-    choicesLabel: Answer Choice
-    addChoiceButtonLabel: Add New Choice
-    enableSelectChoiceMode: true
-    enableSelectChoiceLabels: true
-    enableAddChoice: false
-    enableAddFeedBack: false
-    enableDeleteChoice: false
-    enablePartialScoring: false
-    enableConfigShuffle: false
-    enableShowPrompt: false
+    promptLabel: Promptare
+    addChoiceButtonLabel: Add a choice
+    addChoice: false
+    addFeedBack: true
+    deleteChoice: true
+    showPrompt: true
     answerChoiceCount: 0
+    settingsSelectChoiceMode: true
+    settingsSelectChoicePrefixes: true
+    settingsResponseTypeLabel: Response Type
+    settingsChoicePrefixesLabel: Choice Labels
+    settingsPartialScoring: true
+    settingsConfigShuffle: true
 ---

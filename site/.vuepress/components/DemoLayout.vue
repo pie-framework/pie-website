@@ -27,7 +27,7 @@
             "inline-choice@2.0.5",
             "x-match@1.5.1",
             "math-inline@0.0.10",
-            "multiple-choice@2.4.4",
+            "multiple-choice@2.4.5",
             "number-line@3.0.9",
             "placement-ordering@3.2.2",
             "point-intercept@3.1.5",
