@@ -2,7 +2,7 @@
 title: Multiple Choice
 layout: DemoLayout
 pageClass: customDemoPage
-pie: "@pie-element/multiple-choice@2.3.6"
+pie: "@pie-element/multiple-choice@2.4.4"
 model:
     id: '1'
     element: multiple-choice
@@ -38,4 +38,18 @@ model:
                 that is correctly unchecked will be worth 1 point.
                 The maximum points is the total number of answer choices.
     configure: {}
+configure:
+    promptLabel: Prooooompt
+    responseTypeLabel: Type of Answer
+    choicesLabel: Answer Choice
+    addChoiceButtonLabel: Add New Choice
+    enableSelectChoiceMode: true
+    enableSelectChoiceLabels: true
+    enableAddChoice: false
+    enableAddFeedBack: false
+    enableDeleteChoice: false
+    enablePartialScoring: false
+    enableConfigShuffle: false
+    enableShowPrompt: false
+    answerChoiceCount: 0
 ---

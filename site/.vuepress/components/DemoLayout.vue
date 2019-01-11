@@ -9,21 +9,12 @@
 <script>
   import Vue from 'vue'
 
-  function setupPie(model) {
+  function setupPie(model, configure) {
     const pieDemo = document.getElementById("demo");
-    const hmm = [
-      "x-calculator",
-      "x-ruler",
-      "graph-lines",
-      "placement-ordering",
-      "extended-text-entry",
-      "protractor",
-      "match",
-      "point-intercept"
-    ];
 
     if (pieDemo) {
       pieDemo.model = model;
+      pieDemo.configure = configure;
 
       if (pieDemo.loadPies) {
         if (!window['pie']) {
@@ -36,7 +27,7 @@
             "inline-choice@2.0.5",
             "x-match@1.5.1",
             "math-inline@0.0.10",
-            "multiple-choice@2.4.1",
+            "multiple-choice@2.4.4",
             "number-line@3.0.9",
             "placement-ordering@3.2.2",
             "point-intercept@3.1.5",
@@ -49,15 +40,12 @@
           const names = packages.slice(0, elementNumber).join('+');
           const packagesName = `@pie-element/${packages.slice(0, elementNumber).join('+@pie-element/')}`.replace(/x-/g, '');
 
-          // https://pits-dot-pie-dev-221718.appspot.com/bundles/@pie-element/text-entry@3.1.1+@pie-element/select-text@3.3.2+@pie-element/multiple-choice@2.3.3+@pie-element/number-line@3.0.4+@pie-element/function-entry@3.0.3+@pie-element/inline-choice@2.0.4+@pie-element/categorize@2.7.2+@pie-element/math-inline@0.0.5+@pie-element/calculator@2.0.3+@pie-element/ruler@3.0.3+@pie-element/graph-lines@1.1.4+@pie-element/placement-ordering@3.2.0+@pie-element/extended-text-entry@3.3.2+@pie-element/protractor@2.0.1+@pie-element/match@1.5.0+@pie-element/point-intercept@3.1.3/editor.js
-          // https://pits-dot-pie-dev-221718.appspot.com/bundles/@pie-element/text-entry@3.1.1+@pie-element/select-text@3.3.2+@pie-element/multiple-choice@2.3.3+@pie-element/number-line@3.0.4+@pie-element/function-entry@3.0.3+@pie-element/inline-choice@2.0.4+@pie-element/categorize@2.7.2+@pie-element/math-inline@0.0.5+@pie-element/calculator@2.0.3+@pie-element/ruler@3.0.3+@pie-element/graph-lines@1.1.4+@pie-element/placement-ordering@3.2.0+@pie-element/extended-text-entry@3.3.2+@pie-element/protractor@2.0.1+@pie-element/match@1.5.0+@pie-element/point-intercept@3.1.3/editor.js
-
           pieDemo.loadPies({
             [names]: packagesName
           });
         }
       } else {
-        setTimeout(() => setupPie(model), 200);
+        setTimeout(() => setupPie(model, configure), 200);
       }
     }
   }
@@ -79,11 +67,11 @@
 
     mounted () {
       window.addEventListener('scroll', this.onScroll)
-      setupPie(this.$page.frontmatter.model);
+      setupPie(this.$page.frontmatter.model, this.$page.frontmatter.configure);
     },
 
     updated () {
-      setupPie(this.$page.frontmatter.model);
+      setupPie(this.$page.frontmatter.model, this.$page.frontmatter.configure);
     },
 
     methods: {
