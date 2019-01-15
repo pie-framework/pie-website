@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="86px" viewBox="0 0 1440 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_footer</title>
+    <desc>Created with Sketch.</desc>
+    <g id="•-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage_template-01" transform="translate(0.000000, -4034.000000)" fill="#3F51B5" fill-rule="nonzero">
+            <g id="Group-23" transform="translate(0.000000, 3278.000000)">
+                <g id="Rectangle-5">
+                    <path d="M1440,800.288965 L1440,842 L0,842 L0,800.288965 C113.645757,767.182525 233.64953,752.636629 360.011319,756.651277 C549.554002,762.673248 823.338786,824.231256 1079.98583,834.601257 C1251.08386,841.514591 1371.08858,830.07716 1440,800.288965 Z" id="wave_footer"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

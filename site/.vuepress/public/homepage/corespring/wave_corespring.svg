@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="462px" viewBox="0 0 1440 462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_corespring</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.8191728%" y1="0%" x2="13.8191728%" y2="87.424164%" id="linearGradient-1">
+            <stop stop-color="#EEF1F3" offset="0%"></stop>
+            <stop stop-color="#F6FAFC" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="•-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage_template-01" transform="translate(0.000000, -1760.000000)" fill="url(#linearGradient-1)">
+            <g id="basic-details" transform="translate(0.000000, 1488.000000)">
+                <g id="Group-6">
+                    <g id="Group-4">
+                        <path d="M1440,272.264208 L1440,800 L-1.13686838e-13,800 L-1.13686838e-13,277.645882 C103.945449,299.42436 203.780826,343.868166 291.719163,407.939182 C439.0852,515.308643 610.254707,528.69016 761.82103,491.583425 C913.387352,454.476689 1055.47484,379.477188 1204.11482,329.510475 C1281.01987,303.596444 1359.94968,284.457962 1440,272.264208 Z" id="wave_corespring"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

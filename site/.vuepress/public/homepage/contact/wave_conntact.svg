@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="636px" height="641px" viewBox="0 0 636 641" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_conntact</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="66.1787887%" y1="0%" x2="66.1787887%" y2="94.1055866%" id="linearGradient-1">
+            <stop stop-color="#D6DFE3" offset="0%"></stop>
+            <stop stop-color="#EEF2F4" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="•-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage_template-01" transform="translate(-804.000000, -3352.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-23" transform="translate(0.000000, 3278.000000)">
+                <g id="Rectangle-5">
+                    <path d="M1440,136.186437 L1440.00001,755 L851.0937,755 C831.536358,732.516157 816.650388,706.209689 809.017673,675.612646 C785.511156,581.495861 849.81109,466.071627 941.671662,437.416702 C988.40445,422.871061 1036.89203,428.750412 1084.64619,423.137841 C1132.40036,417.52527 1185.52511,394.892807 1205.86028,347.478755 C1224.70941,303.534999 1208.63515,254.310172 1185.24513,216.618925 C1167.16768,187.496652 1143.78275,153.838182 1157.31963,119.489613 C1170.4158,86.2551905 1210.12587,75.2193429 1243.15999,74.2675404 C1314.35159,72.2086987 1383.74449,94.8011898 1440.00001,136.186432 L1440,136.186437 Z" id="wave_conntact"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
