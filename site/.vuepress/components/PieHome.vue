@@ -127,6 +127,7 @@
                 <img src="../public/homepage/community/Path.svg" class="wave-community" />
                 <div class="community-info">
                     <div class="info-top">
+                        <span class="block"></span>
                         <span>
                             Community
                         </span>
@@ -176,7 +177,64 @@
         </div>
         <img src="../public/homepage/footer/wave_footer.svg" class="wave-footer" />
         <div class="pie-footer">
-
+            <div class="copyright-area">
+                <img src="../public/homepage/header/pie_logo.svg" />
+                <span>
+                    Copyright @ 2019
+                </span>
+            </div>
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <span class="title">
+                        Navigate
+                    </span>
+                    <span>
+                        Developers
+                    </span>
+                    <span>
+                        Examples
+                    </span>
+                    <span>
+                        About
+                    </span>
+                </div>
+                <div class="footer-section">
+                    <span class="title">
+                        Legal
+                    </span>
+                    <span>
+                        Terms & Conditions
+                    </span>
+                    <span>
+                        Private Policy
+                    </span>
+                </div>
+                <div class="footer-section">
+                    <span class="title">
+                        Keep in touch
+                    </span>
+                    <span>
+                        contact@pie-framework.com
+                    </span>
+                    <span>
+                        831-343-547
+                    </span>
+                </div>
+                <div class="footer-section">
+                    <span class="title">
+                        Follow Us
+                    </span>
+                    <span>
+                        Facebook
+                    </span>
+                    <span>
+                        Twitter
+                    </span>
+                    <span>
+                        Instagram
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -198,7 +256,6 @@
 <style lang="stylus">
     @import '../../../node_modules/vuepress/lib/default-theme/styles/config.styl'
 
-@media (min-width: 1250px)
     .home
         display flex
         flex-direction column
@@ -232,6 +289,7 @@
                 position absolute
                 width 0
             .nav-menu
+                align-items center
                 display flex
                 height 65px
                 justify-content space-between
@@ -405,7 +463,6 @@
                     .image-container
                         height 105px
                         margin-bottom 40px
-                        overflow none
                         img
                             width 400px
                     .text-container
@@ -457,12 +514,15 @@
                     width 450px
                     z-index 2
                     .info-top
+                        align-items center
                         display flex
                         .block
-                            background-color #eeeeee
-                            height 36px
-                            margin-right 10px
-                            width 36px
+                            background transparent
+                            border 11px solid #eee
+                            height 10px
+                            margin-right 20px
+                            opacity 0.7
+                            width 10px
                         span
                             color #ffffff
                             font-size 48px
@@ -557,6 +617,7 @@
                         border none !important
                         border-radius 6px
                         box-sizing border-box
+                        font-size 16px
                         height 60px
                         margin-bottom 20px
                         padding-left 20px
@@ -565,6 +626,7 @@
                         border none !important
                         border-radius 6px
                         box-sizing border-box
+                        font-size 16px
                         height 180px
                         margin-bottom 20px
                         padding 20px
@@ -593,13 +655,42 @@
             width calc(100% + 10px)
             z-index 1
         .pie-footer
+            align-items flex-start
             background-image linear-gradient(to bottom, #3f51b5, #1d3095)
             display flex
-            flex-direction column
+            justify-content center
             min-height 230px
-            padding 0 !important
+            box-sizing border-box
+            padding 60px 0 0 0 !important
             position relative
             width 100%
+            .copyright-area
+                display flex
+                flex-direction column
+                margin-right 220px
+                width 260px
+                img
+                    margin-bottom 15px
+                span
+                    color rgba(255, 255, 255, 0.7)
+                    font-size 14px
+            .footer-sections
+                align-items flex-start
+                display flex
+                justify-content space-between
+                .footer-section
+                    display flex
+                    flex-direction column
+                    margin-right 40px
+                    span
+                        color rgba(255, 255, 255, 0.7)
+                        font-size 14px
+                        margin-bottom 15px
+                    .title
+                        color #fff
+                        font-weight bold
+
+
 
         .info-link
             display flex
@@ -611,4 +702,160 @@
                 font-weight bold
             i
                 color #3f51b5
+
+        @media (max-width: 1250px)
+            .header
+                background-image linear-gradient(to left, #3f51b5, #1d3095)
+                height 504px
+
+                &::after
+                    display none
+                .nav-menu
+                    box-sizing border-box
+                    left 0
+                    padding 0 30px
+                    width 100%
+                .header-content
+                    max-width 800px
+                    .wave-header
+                        display none
+                    .header-info
+                        left 50px
+                        top 140px
+                        width 300px
+                        h1
+                            font-size 28px
+                        .description
+                            font-size 14px
+                            letter-spacing 0.6px
+                        .bottom-content
+                            .jump-button
+                                display none
+                            .start-button
+                                height 46px
+                                line-height 46px
+                                width 198px
+                                span
+                                    font-size 14px
+                                    letter-spacing 0.5px
+                    .graphic-header
+                        height 192px
+                        top 184px
+                        width 300px
+            .details
+                height 422px
+                padding 0
+                .wave-details
+                    display none
+                .details-content
+                    bottom 53px
+                    position relative
+                    .section
+                        height 422px
+                        margin-right 24px
+                        width 220px
+                    .image-section
+                        margin-top 26px !important
+                        img
+                            width 220px !important
+                    .info-section
+                        .info-title
+                            font-size 18px !important
+                        .info-content
+                            font-size 14px !important
+                            letter-spacing -1.1px !important
+                            text-align center !important
+            .corespring
+                height 482px
+                padding 0 !important
+                .wave-corespring
+                    display none
+                .corespring-content
+                    .graphic-corespring
+                        margin-right 68px
+                        width 300px
+                    .corespring-info
+                        width 300px !important
+                        .image-container
+                            margin-bottom 20px
+                            img
+                                width 300px
+                        .text-container
+                            margin-bottom 20px
+                            .first-text
+                                font-size 14px
+                                letter-spacing 0.5px
+                            .second-text
+                                font-size 14px
+                                letter-spacing 0.5px
+
+            .community
+                height 388px
+                &::before
+                    display none
+                .wave-community
+                    display none
+                .graphic-community
+                    width 300px
+                .community-info
+                    margin-right 86px !important
+                    width 300px !important
+                    .info-top
+                        span
+                            font-size 28px !important
+                    .info-middle
+                        span
+                            font-size 14px !important
+                    .contact-button
+                        height 46px !important
+                        line-height 46px !important
+                        width 168px !important
+                        span
+                            font-size 14px !important
+            .illuminate
+                padding 0
+                .partner-button
+                    height 69px !important
+                    width 252px !important
+            .contact
+                padding 0 !important
+                .wave-contact
+                    display none !important
+                .contact-info
+                    width 300px !important
+                    margin-right 70px !important
+                    h1
+                        font-size 28px !important
+                        width 184px !important
+                    .send-button
+                        height 46px !important
+                        line-height 46px !important
+                        width 79px !important
+                        span
+                            font-size 14px
+                            letter-spacing 0.8px
+                .graphic-contact
+                    width 315px !important
+            .wave-footer
+                display none
+            .pie-footer
+                background-color #3f51b5 !important
+                height 284px !important
+                flex-direction column-reverse
+                padding 50px !important
+                .copyright-area
+                    flex-direction row
+                    justify-content space-between
+                    margin 0 !important
+                    width 100%
+                    img
+                        margin 0 !important
+                        width 225px !important
+                .footer-sections
+                    margin-bottom 50px
+                    width 100%
+                    .footer-section
+                        &:last-child
+                            margin 0 !important
+
 </style>
