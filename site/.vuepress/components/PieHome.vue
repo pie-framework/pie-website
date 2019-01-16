@@ -105,12 +105,14 @@
                     </div>
                     <div class="text-container">
                         <span class="first-text">
-                            The PIE Framework was developed and contributed to the community as Open Source software by CoreSpring Inc,
-                            based on years of experience serving many millions of assessments to students.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                            ex ea commodo consequat. 
                         </span>
                         <span class="second-text">
-                            Continued work is supported by Illuminate Education, as part of its mission to make the best tools
-                            available to educators and students everywhere.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum.
                         </span>
                     </div>
                     <div class="info-link">
