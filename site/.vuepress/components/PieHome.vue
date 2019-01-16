@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="pie-home">
         <div class="header">
             <div class="nav-menu">
                 <img src="../public/homepage/header/pie_logo.svg" />
@@ -256,7 +256,7 @@
 <style lang="stylus">
     @import '../../../node_modules/vuepress/lib/default-theme/styles/config.styl'
 
-    .home
+    .pie-home
         display flex
         flex-direction column
         overflow hidden
