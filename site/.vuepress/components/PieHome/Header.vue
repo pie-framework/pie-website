@@ -3,6 +3,7 @@
         <div class="nav-menu">
             <img src="/homepage/header/pie_logo.svg" />
             <NavLinks></NavLinks>
+            <i class="fa fa-bars"></i>
         </div>
 
         <div class="header-content">
@@ -147,17 +148,27 @@
                 left 0
                 padding 0 30px
                 width 100%
+                img
+                    width 182.2px
+                .nav-links
+                    display none
+                i
+                    color #fff
+                    font-size 21px
             .header-content
                 align-items center
+                height 400px
                 max-width 800px
                 .wave-header
                     display none
                 .header-info
-                    left 50px
-                    top 140px
+                    bottom 0
+                    left 0
+                    right 0
+                    top 0
                     height 250px
-                    margin-right 70px
-                    width 300px
+                    margin-right 0
+                    width 315px
                     h1
                         font-size 28px
                     .description
@@ -177,6 +188,50 @@
                     bottom 0
                     height 192px
                     left 0
+                    right 0
+                    top 0
+                    width 300px
+
+    @media (max-width: 750px)
+        .header
+            background-image linear-gradient(to left, #3f51b5, #1d3095)
+            height 570px
+
+            &::after
+                display none
+            .header-content
+                flex-direction column
+                max-width 375px
+                .wave-header
+                    display none
+                .header-info
+                    height 250px
+                    margin-right 0
+                    width 300px
+                    h1
+                        font-size 18px
+                        text-align center
+                    .description
+                        font-size 14px
+                        letter-spacing 0.6px
+                    .bottom-content
+                        align-items center
+                        justify-content center
+                        .jump-button
+                            display none
+                        .start-button
+                            height 44px
+                            line-height 44px
+                            width 175px
+                            span
+                                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
+                                font-size: 12px;
+
+        .graphic-header
+                    bottom 0
+                    height 192px
+                    left 0
+                    margin-bottom 30px
                     right 0
                     top 0
                     width 300px

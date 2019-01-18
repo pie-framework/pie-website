@@ -43,4 +43,15 @@
             .partner-button
                 height 69px
                 width 252px
+
+    @media (max-width: 750px)
+        .illuminate
+            flex-direction column
+            height 262px
+            img
+                margin-bottom 50px
+                margin-right 0
+            .partner-button
+                height 69px
+                width 252px
 </style>

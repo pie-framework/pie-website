@@ -106,4 +106,37 @@
                         .second-text
                             font-size 14px
                             letter-spacing 0.5px
+
+    @media (max-width: 750px)
+        .corespring
+            background-color #f0f5f8
+            height 697px
+            .wave-corespring
+                display none
+            .corespring-content
+                align-items center
+                flex-direction column
+                max-width 375px
+                .graphic-corespring
+                    height 225px
+                    margin-bottom 30px
+                    margin-right 0
+                    width 300px
+                .corespring-info
+                    width 300px
+                    .image-container
+                        margin-bottom 20px
+                        img
+                            width 300px
+                    .text-container
+                        margin-bottom 20px
+                        text-align center
+                        .first-text
+                            font-size 14px
+                            letter-spacing -0.4px
+                        .second-text
+                            font-size 14px
+                            letter-spacing -0.4px
+                    .info-link
+                        justify-content center
 </style>

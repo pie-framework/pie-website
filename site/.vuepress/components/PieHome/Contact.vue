@@ -3,10 +3,13 @@
         <img src="/homepage/contact/wave_conntact.svg" class="wave-contact" />
         <div class="contact-content">
             <div class="contact-info">
-                <h1>
-                    We’d love to
-                    hear from you.
-                </h1>
+                <div class="top-info">
+                    <img src="/homepage/contact/graphic_contact.svg" class="graphic-contact" />
+                    <h1>
+                        We’d love to
+                        hear from you.
+                    </h1>
+                </div>
                 <input type="text" name="name" title="name" placeholder="Full Name">
                 <input type="text" name="email" title="email" placeholder="Email">
                 <textarea title="message" name="message" placeholder="Your message"></textarea>
@@ -46,12 +49,15 @@
                 display flex
                 flex-direction column
                 width 400px
-                h1
-                    color #000000
-                    font-size 48px
-                    font-weight bold
-                    line-height 1.25
-                    width 320px
+                .top-info
+                    img
+                        display none
+                    h1
+                        color #000000
+                        font-size 48px
+                        font-weight bold
+                        line-height 1.25
+                        width 320px
                 input
                     background-color #ffffff
                     border none !important
@@ -97,9 +103,10 @@
                 .contact-info
                     width 300px
                     margin-right 70px
-                    h1
-                        font-size 28px
-                        width 184px
+                    .top-info
+                        h1
+                            font-size 28px
+                            width 184px
                     .send-button
                         height 46px
                         line-height 46px
@@ -109,4 +116,36 @@
                             letter-spacing 0.8px
                 .graphic-contact
                     width 315px
+
+    @media (max-width: 750px)
+        .contact
+            background-color #f0f5f8
+            height 600px
+            .wave-contact
+                display none !important
+            .contact-content
+                max-width 375px
+                .contact-info
+                    width 335px
+                    margin-right 0
+                    .top-info
+                        align-items center
+                        display flex
+                        h1
+                            font-size 28px
+                            width 184px
+                        img
+                            display block
+                            height 70px
+                            margin-right 20px
+                            width 66px
+                    .send-button
+                        height 46px
+                        line-height 46px
+                        width 100%
+                        span
+                            font-size 14px
+                            letter-spacing 0.8px
+                .graphic-contact
+                    display none
 </style>

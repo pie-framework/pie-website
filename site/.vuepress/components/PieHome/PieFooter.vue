@@ -3,8 +3,8 @@
         <div class="copyright-area">
             <img src="/homepage/header/pie_logo.svg" />
             <span>
-                    Copyright @ 2019
-                </span>
+                Copyright @ 2019
+            </span>
         </div>
         <div class="footer-sections">
             <div class="footer-section">
@@ -56,6 +56,50 @@
                 <span>
                         Instagram
                     </span>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="first-section">
+                <div class="section-content">
+                    <span>
+                    Keep in touch
+                </span>
+                    <div class="info-icon">
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                        contact@pie-framework.com
+                    </span>
+                    </div>
+                    <div class="info-icon">
+                        <i class="fa fa-phone"></i>
+                        <span>
+                        831-343-547
+                    </span>
+                    </div>
+                    <div class="links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="second-section">
+                <div class="section-content">
+                    <div class="section-info">
+                        <img src="/homepage/header/pie_logo.svg"/>
+                        <div class="terms">
+                            <div>
+                                Terms & Conditions
+                            </div>
+                            <div>
+                                Private Policy
+                            </div>
+                        </div>
+                        <span>
+                            Copyright @ 2019
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -118,4 +162,84 @@
                 .footer-section
                     &:last-child
                         margin 0
+
+    @media (max-width: 750px)
+        .pie-footer
+            align-items center
+            background-color #3f51b5
+            height 400px
+            flex-direction column
+            padding 0
+            .copyright-area
+                display none
+            .footer-sections
+                display none
+            .footer-content
+                width 100%
+                .section-content
+                    align-items center
+                    display flex
+                    flex-direction column
+                    height 100%
+                    max-width 375px
+                .first-section
+                    align-items center
+                    background-color #15257e
+                    box-sizing border-box
+                    color #fff
+                    display flex
+                    height 225px
+                    justify-content center
+                    padding 40px 46px
+                    width 100%
+                    .section-content
+                        align-items flex-start
+                        & > *
+                            margin-bottom 20px
+                            &:last-child
+                                margin-bottom 0
+                        span
+                            display: block;
+                            font-size 14px
+                        .info-icon
+                            align-items center
+                            display flex
+                            i
+                                font-size 16px
+                                margin-right 15px
+                            span
+                                font-size 18px
+                        .links
+                            align-items center
+                            display flex
+                            i
+                                font-size 24px
+                                margin-right 15px
+                                &:last-child
+                                    margin-right 0
+                .second-section
+                    align-items center
+                    background-color #3f51b5
+                    display flex
+                    height 172px
+                    justify-content center
+                    width 100%
+                    .section-content
+                        .section-info
+                            align-items center
+                            color #fff
+                            display flex
+                            flex-direction column
+                            height 100%
+                            justify-content space-evenly
+                            img
+                                width 240px
+                        .terms
+                            display flex
+                            font-size 14px
+                            div
+                                &:first-child
+                                    margin-right 15px
+                        span
+                            font-size 14px
 </style>

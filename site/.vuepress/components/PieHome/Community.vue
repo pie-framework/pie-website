@@ -135,4 +135,41 @@
                         width 168px
                         span
                             font-size 14px
+
+    @media (max-width: 750px)
+        .community
+            background-image linear-gradient(to left, #3f51b5, #1d3095)
+            height 612px
+            &::before
+                display none
+            .wave-community
+                display none
+            .graphic-community
+                margin-bottom 30px
+                width 300px
+            .community-content
+                align-items center
+                flex-direction column-reverse
+                max-width 375px
+                .community-info
+                    height 260px
+                    margin-right 0
+                    width 335px
+                    .info-top
+                        justify-content center
+                        span
+                            font-size 28px
+                    .info-middle
+                        text-align center
+                        span
+                            font-size 14px
+                            letter-spacing 0.5px
+                    .contact-button
+                        align-self center
+                        height 46px
+                        line-height 46px
+                        width 155px
+                        span
+                            font-size 12px
+                            text-shadow 0 1px 2px rgba(0, 0, 0, 0.24)
 </style>

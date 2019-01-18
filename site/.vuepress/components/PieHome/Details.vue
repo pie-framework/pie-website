@@ -145,4 +145,36 @@
                             font-size 14px
                             letter-spacing -1.1px
                             text-align center
+
+    @media (max-width: 750px)
+        .details
+            background-color #f0f5f8
+            height 1158px
+            .wave-details
+                display none
+            .details-content
+                flex-direction column
+                max-width 375px
+                .section
+                    height 380px
+                    width 335px
+                    margin-bottom 20px
+                    margin-right 0
+                    &:last-child
+                        margin-right 0
+                    .image-section
+                        align-items center
+                        background-image linear-gradient(to bottom, #ffffff, #fafafa)
+                        display flex
+                        justify-content center
+                        margin-top 26px
+                        img
+                            width 200px
+                    .info-section
+                        .info-title
+                            font-size 18px
+                        .info-content
+                            font-size 14px
+                            letter-spacing -1.1px
+                            text-align center
 </style>
