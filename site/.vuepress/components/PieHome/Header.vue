@@ -70,6 +70,8 @@
             top 10px
             width calc(100% - 360px)
             z-index 2
+            i
+                display none
         .header-content
             align-items flex-end
             display flex
@@ -150,11 +152,8 @@
                 width 100%
                 img
                     width 182.2px
-                .nav-links
-                    display none
                 i
-                    color #fff
-                    font-size 21px
+                    display none
             .header-content
                 align-items center
                 height 400px
@@ -226,6 +225,13 @@
                             span
                                 text-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
                                 font-size: 12px;
+            .nav-menu
+                .nav-links
+                    display none
+                i
+                    color #fff
+                    display block
+                    font-size 21px
 
         .graphic-header
                     bottom 0
