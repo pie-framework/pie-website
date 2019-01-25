@@ -1,6 +1,8 @@
 ---
 title: Text Entry
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/extended-text-entry@3.3.2"
 model:

@@ -1,6 +1,8 @@
 ---
 title: Point Intercept
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/point-intercept@3.1.3"
 model:

@@ -1,0 +1,92 @@
+.force-sidebar {
+  .search-box-container {
+    align-items: center;
+    background: $activeItemColor;
+    display: flex;
+    height: 76px;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 3.6rem;
+    width: 20rem;
+    z-index: 99;
+
+    .suggestions {
+      right: initial;
+    }
+
+    input {
+      width: 218px;
+
+      &:empty {
+        &:before {
+          content: 'ceva';
+        }
+      }
+    }
+  }
+
+  .sidebar {
+    display: block !important;
+    margin-bottom: 78px;
+    top: calc(3.6rem + 76px);
+  }
+
+  .download-pdf-container {
+    align-items: center;
+    background-color: $mainColor;
+    display: flex;
+    bottom: 0;
+    height: 78px;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    width: 20rem;
+    z-index: 99;
+
+    .text-container {
+      .title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .info {
+        font-size: 12px;
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .page {
+    padding-left: 20rem !important;
+
+    .content {
+      max-width: none !important;
+
+      > h1 {
+        padding-top: 0;
+        margin-top: 0;
+      }
+
+      ul {
+        padding-left: 0;
+        li {
+          align-items: center;
+          display: flex;
+
+          &:before {
+            background-color: $mainColor;
+            content: '';
+            display: inline-block;
+            height: 5px;
+            margin-right: 10px;
+            width: 5px;
+          }
+        }
+      }
+    }
+  }
+}

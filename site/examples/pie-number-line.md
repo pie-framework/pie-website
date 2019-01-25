@@ -1,6 +1,8 @@
 ---
 title: Number Line
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/number-line@3.0.4"
 model:

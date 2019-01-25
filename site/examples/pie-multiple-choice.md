@@ -1,6 +1,8 @@
 ---
 title: Multiple Choice
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/multiple-choice@2.4.6"
 model:

@@ -17,7 +17,7 @@
     <ul
       class="suggestions"
       v-if="showSuggestions"
-      :class="{ 'align-right': alignRight }"
+      :class="{ 'small': boxAlignment === 'right' }"
       @mouseleave="unfocus"
     >
       <li
@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  props: ['placeholder'],
+  props: ['placeholder', 'boxAlignment'],
 
   data () {
     return {

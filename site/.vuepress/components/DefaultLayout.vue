@@ -186,4 +186,5 @@
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
+<style lang="stylus" src="./DefaultLayout/style.styl"></style>
 <style src="../../../node_modules/vuepress/lib/default-theme/styles/theme.styl" lang="stylus"></style>

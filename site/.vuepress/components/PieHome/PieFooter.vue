@@ -116,6 +116,8 @@
         padding 60px 0 0 0
         position relative
         width 100%
+        .footer-content
+            display none
         .copyright-area
             display flex
             flex-direction column
@@ -175,6 +177,7 @@
             .footer-sections
                 display none
             .footer-content
+                display block
                 width 100%
                 .section-content
                     align-items center
@@ -226,7 +229,7 @@
                     width 100%
                     .section-content
                         .section-info
-                            align-items center
+                            align-items flex-start
                             color #fff
                             display flex
                             flex-direction column

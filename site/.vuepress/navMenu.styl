@@ -1,0 +1,29 @@
+.nav-links
+  .nav-link
+    text-transform: uppercase !important;
+    &.external
+      svg
+        display none
+    &:hover
+      border none !important
+      color $activeLinkColor !important
+
+    &.router-link-active
+      border none !important
+      color $activeLinkColor !important
+
+.pie-menu-content
+  & > .nav-links
+    border none
+    display block
+    padding 0
+    .nav-item
+      display block
+      font-size 14px
+      font-weight 900
+      margin 0 0 25px 0
+      padding 0 0 0 20px
+      &:last-child
+        margin 0
+      a
+        margin 0

@@ -1,6 +1,8 @@
 ---
 title: Calculator
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/calculator@2.0.3"
 model:

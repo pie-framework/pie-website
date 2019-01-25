@@ -1,10 +1,7 @@
 <template>
     <div class="header">
-        <div class="nav-menu">
-            <img src="/homepage/header/pie_logo.svg" />
-            <NavLinks></NavLinks>
-            <i class="fa fa-bars"></i>
-        </div>
+        <CustomNavMenu :onMenuIconClick="toggleSideMenu" />
+        <SideMenu :open="shouldShowSideMenu" :closeSideMenu="toggleSideMenu"/>
 
         <div class="header-content">
             <img src="/homepage/header/wave_header.svg" class="wave-header" />
@@ -33,14 +30,35 @@
 </template>
 
 <script>
-  import NavLinks from '../../../../node_modules/vuepress/lib/default-theme/NavLinks.vue'
+  import CustomNavMenu from '../Utils/CustomNavMenu.vue';
+  import SideMenu from '../Utils/SideMenu.vue';
 
   export default {
-    components: { NavLinks }
+    components: { CustomNavMenu, SideMenu },
+
+    data() {
+      return {
+        sideMenuVisible: false
+      };
+    },
+
+    computed: {
+      shouldShowSideMenu() {
+        return this.sideMenuVisible;
+      }
+    },
+
+    methods: {
+      toggleSideMenu() {
+        this.sideMenuVisible = !this.sideMenuVisible;
+      }
+    }
   }
 </script>
 
 <style lang="stylus">
+    @import "../../navMenu.styl";
+
     .header
         align-items: center;
         background-color #1d3095
@@ -49,6 +67,8 @@
         justify-content: center;
         position relative
         width 100%
+        .pie-side-menu
+            display none
         &::after
             background-color #1d3095
             border-bottom 135px solid #f6fafc
@@ -60,18 +80,6 @@
             left 0
             position absolute
             width 0
-        .nav-menu
-            align-items center
-            display flex
-            height 65px
-            justify-content space-between
-            left 180px
-            position absolute
-            top 10px
-            width calc(100% - 360px)
-            z-index 2
-            i
-                display none
         .header-content
             align-items flex-end
             display flex
@@ -143,20 +151,15 @@
             background-image linear-gradient(to left, #3f51b5, #1d3095)
             height 504px
 
+            .pie-side-menu
+                &.open
+                    display block
+
             &::after
                 display none
-            .nav-menu
-                box-sizing border-box
-                left 0
-                padding 0 30px
-                width 100%
-                img
-                    width 182.2px
-                i
-                    display none
             .header-content
                 align-items center
-                height 400px
+                height 410px
                 max-width 800px
                 .wave-header
                     display none
@@ -225,13 +228,6 @@
                             span
                                 text-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
                                 font-size: 12px;
-            .nav-menu
-                .nav-links
-                    display none
-                i
-                    color #fff
-                    display block
-                    font-size 21px
 
         .graphic-header
                     bottom 0
