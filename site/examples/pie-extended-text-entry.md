@@ -1,5 +1,5 @@
 ---
-title: Text Entry
+title: Extended Text
 layout: DemoLayout
 sidebar: false
 navbar: false

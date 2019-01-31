@@ -9,6 +9,8 @@ model:
     id: '1'
     element: math-inline
     mode: advanced
+    config:
+      allowPartialScores: false
     expression: 1+1
     question: What is the equation for a slope?
     equationEditor: simple
