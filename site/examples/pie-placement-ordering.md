@@ -1,6 +1,8 @@
 ---
 title: Placement Ordering
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/placement-ordering@3.2.0"
 model:

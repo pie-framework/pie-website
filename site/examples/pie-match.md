@@ -1,6 +1,8 @@
 ---
 title: Match
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/match@1.5.0"
 model:

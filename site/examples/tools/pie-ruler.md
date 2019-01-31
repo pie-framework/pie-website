@@ -1,6 +1,8 @@
 ---
 title: Ruler
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/ruler@3.0.3"
 model:

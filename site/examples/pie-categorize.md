@@ -1,6 +1,8 @@
 ---
 title: Categorize
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/categorize@2.7.2"
 model:

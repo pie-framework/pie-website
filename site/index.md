@@ -1,6 +1,5 @@
 ---
 title: pie framework 
-layout: Homepage
 main: 
   title: Pie 
   subtitle:  Open Source framework providing full interoperability for authoring, rendering and distribution of interactive (or simple) questions.

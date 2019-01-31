@@ -1,6 +1,8 @@
 ---
 title: Graph Lines
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/graph-lines@1.1.4"
 model:

@@ -1,7 +1,7 @@
 module.exports = {
   title: '',
   head: [
-    ['script', { src: 'https://unpkg.com/pie-demo@1.5.0/dist/pie-demo.js' }]
+    ['script', { src: 'https://unpkg.com/pie-demo@1.8.0/dist/pie-demo.js' }]
   ],
   themeConfig: {
     logo: '/pie-logo.svg',
@@ -18,13 +18,11 @@ module.exports = {
         sidebar: {
           '/examples/': [
             {
-              title: 'Examples',
+              title: 'Integration',
               collapsable: false,
               children: [
                 '/examples/pie-categorize',
-                '/examples/pie-calculator',
                 '/examples/pie-math-inline',
-                '/examples/pie-function-entry',
                 '/examples/pie-inline-choice',
                 '/examples/pie-multiple-choice',
                 '/examples/pie-number-line',
@@ -34,9 +32,16 @@ module.exports = {
                 '/examples/pie-graph-lines',
                 '/examples/pie-match',
                 '/examples/pie-placement-ordering',
-                '/examples/pie-point-intercept',
-                '/examples/pie-protractor',
-                '/examples/pie-ruler'
+                '/examples/pie-point-intercept'
+              ]
+            },
+            {
+              title: 'Tools',
+              collapsable: false,
+              children: [
+                '/examples/tools/pie-calculator',
+                '/examples/tools/pie-protractor',
+                '/examples/tools/pie-ruler'
               ]
             }
           ],
@@ -69,14 +74,5 @@ module.exports = {
         }
       }
     }
-  },
-  chainWebpack: (config, isServer) => {
-    /*config.module.rules.delete('svg');
-    config.module
-      .rule('svg')
-      .test(/\.svg$/)
-      .use('vue-svg-loader')
-      .loader('vue-svg-loader')
-      .end();*/
   }
 };

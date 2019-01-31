@@ -1,12 +1,16 @@
 ---
 title: Equation Response
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/math-inline@0.0.10"
 model:
     id: '1'
     element: math-inline
     mode: advanced
+    config:
+      allowPartialScores: false
     expression: 1+1
     question: What is the equation for a slope?
     equationEditor: simple

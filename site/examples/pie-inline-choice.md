@@ -1,6 +1,8 @@
 ---
 title: Inline Choice
 layout: DemoLayout
+sidebar: false
+navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/inline-choice@2.0.4"
 model:
