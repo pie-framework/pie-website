@@ -10,6 +10,7 @@
   import Vue from 'vue'
   import CustomNavMenu from './Utils/CustomNavMenu.vue'
   import SideMenu from './Utils/SideMenu.vue';
+  import LogRocket from 'logrocket';
 
   function setupPie(model, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
@@ -238,6 +239,10 @@
     },
 
     mounted () {
+      const { themeConfig } = this.$site;
+      if (themeConfig.logrocketProject)  {
+        LogRocket.init(themeConfig.logrocketProject);
+      }
       const models = getModels(this.$page.frontmatter);
 
       window.addEventListener('scroll', this.onScroll);
