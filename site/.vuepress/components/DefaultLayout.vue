@@ -132,7 +132,7 @@
       }
     },
 
-    mounted () {
+    mounted () { 
       window.addEventListener('scroll', this.onScroll)
 
       // configure progress bar

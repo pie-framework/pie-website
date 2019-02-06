@@ -5,6 +5,7 @@ module.exports = {
   ],
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
+    sentryDsn: process.env.SENTRY_DSN,
     logo: '/pie-logo.svg',
     siteTitle: 'PIE framework',
     search: false,
