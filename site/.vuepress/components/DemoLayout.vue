@@ -1,7 +1,11 @@
 <template>
     <div class="pie-demo">
         <CustomNavMenu :onMenuIconClick="toggleSideMenu" />
-        <SideMenu :open="shouldShowSideMenu" :closeSideMenu="toggleSideMenu"/>
+        <SideMenu
+                :open="shouldShowSideMenu"
+                :closeSideMenu="toggleSideMenu"
+                :sideBarTitle="'Examples'"
+        />
         <div class="element-container" v-html="rawHtml"></div>
     </div>
 </template>
@@ -11,7 +15,7 @@
   import CustomNavMenu from './Utils/CustomNavMenu.vue'
   import SideMenu from './Utils/SideMenu.vue';
 
-  function setupPie(model, configure, index, multiplePies) {
+  function setupPie(model, schemaJSONURI, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
 
     if (pieDemo) {
@@ -155,6 +159,7 @@
           "favoriteFruit": "banana"
         }
       ];
+      pieDemo.schemaJSONURI = schemaJSONURI;
       pieDemo.configure = configure;
 
       if (pieDemo.loadPies) {
@@ -185,9 +190,27 @@
           });
         }
       } else {
-        setTimeout(() => setupPie(model, configure, index), 200);
+        setTimeout(() => setupPie(model, schemaJSONURI, configure, index), 200);
       }
     }
+  }
+
+  function renderVersions(site) {
+    const items = document.querySelectorAll('.pie-menu-content .sidebar-group-items li');
+    const pages = site.pages.filter(page => page.path.indexOf('/examples/') >= 0);
+
+    items.forEach((item, index) => {
+      if (!item.querySelector('.version')) {
+        const span = document.createElement('span');
+        const page = pages[index];
+        const pie = page.frontmatter.pie.split('@');
+
+        span.className = 'version';
+        span.innerText = pie[2];
+
+        item.appendChild(span);
+      }
+    });
   }
 
   const getPies = (frontmatter) => {
@@ -239,10 +262,12 @@
 
     mounted () {
       const models = getModels(this.$page.frontmatter);
+      const configure = this.$page.frontmatter.configure;
+      const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
 
       window.addEventListener('scroll', this.onScroll);
 
-      models.forEach((model, index) => setupPie(model, this.$page.frontmatter.configure, index, models.length > 1));
+      models.forEach((model, index) => setupPie(model, schemaJSONURI, configure, index, models.length > 1));
 
       this.observer = new ResizeObserver(() => {
         if (this.navRef.offsetWidth > 750) {
@@ -253,6 +278,8 @@
       if (this.navRef) {
         this.observer.observe(this.navRef);
       }
+
+      renderVersions(this.$site);
     },
 
     beforeDestroy() {
@@ -263,8 +290,12 @@
 
     updated () {
       const models = getModels(this.$page.frontmatter);
+      const configure = this.$page.frontmatter.configure;
+      const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
 
-      models.forEach((model, index) => setupPie(model, this.$page.frontmatter.configure, index, models.length > 1));
+      models.forEach((model, index) => setupPie(model, schemaJSONURI, configure, index, models.length > 1));
+
+      renderVersions(this.$site);
     },
 
     methods: {
@@ -350,6 +381,22 @@
                             z-index 99
                 .sidebar
                     display block !important
+                    .sidebar-group-items
+                        li
+                            display flex
+                            align-items center
+                            justify-content space-between
+                            height 36px
+                            a
+                                margin-left 20px
+                                height auto !important
+                                padding 0 !important
+                                width auto
+                            .version
+                                color rgba(0, 0, 0, 0.4)
+                                font-size 10px
+                                margin-right 10px
+
                     .nav-links
                         display none
                     .sidebar-links
