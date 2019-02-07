@@ -4,6 +4,7 @@ module.exports = {
     ['script', { src: 'https://unpkg.com/pie-demo@1.9.0/dist/pie-demo.js' }]
   ],
   themeConfig: {
+    logrocketProject: process.env.LOGROCKET_PROJECT,
     logo: '/pie-logo.svg',
     siteTitle: 'PIE framework',
     search: false,

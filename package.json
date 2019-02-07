@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "dateformat": "^3.0.3",
+    "logrocket": "^0.6.19",
     "resize-observer-polyfill": "^1.5.1"
   }
 }
