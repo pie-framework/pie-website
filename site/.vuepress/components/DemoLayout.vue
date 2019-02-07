@@ -172,7 +172,7 @@ function setupPie(model, configure, index, multiplePies) {
           "graph-lines@1.1.5",
           "inline-choice@2.0.5",
           "x-match@1.5.1",
-          "math-inline@0.0.11",
+          "math-inline@0.2.3-SNAPSHOT",
           "multiple-choice@2.4.6",
           "number-line@3.0.9",
           "placement-ordering@3.2.2",
