@@ -15,6 +15,7 @@
   import CustomNavMenu from './Utils/CustomNavMenu.vue'
   import SideMenu from './Utils/SideMenu.vue';
   import LogRocket from 'logrocket';
+  import ResizeObserver from 'resize-observer-polyfill';
 
   function setupPie(model, schemaJSONURI, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
@@ -233,7 +234,7 @@
   export default {
     components: { CustomNavMenu, SideMenu },
 
-    data () {
+    data() {
       return {
         sideMenuVisible: false,
         observer: null
@@ -245,7 +246,7 @@
         return this.$refs.navMenu;
       },
 
-      rawHtml () {
+      rawHtml() {
         const text = [];
         const pies = getPies(this.$page.frontmatter);
 
@@ -261,9 +262,9 @@
       },
     },
 
-    mounted () {
+    mounted() {
       const { themeConfig } = this.$site;
-      if (themeConfig.logrocketProject)  {
+      if (themeConfig.logrocketProject) {
         LogRocket.init(themeConfig.logrocketProject);
       }
       const models = getModels(this.$page.frontmatter);
@@ -293,7 +294,7 @@
       }
     },
 
-    updated () {
+    updated() {
       const models = getModels(this.$page.frontmatter);
       const configure = this.$page.frontmatter.configure;
       const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
@@ -307,17 +308,17 @@
       toggleSideMenu() {
         this.sideMenuVisible = !this.sideMenuVisible;
       },
-      toggleSidebar (to) {
+      toggleSidebar(to) {
         this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       },
       // side swipe
-      onTouchStart (e) {
+      onTouchStart(e) {
         this.touchStart = {
           x: e.changedTouches[0].clientX,
           y: e.changedTouches[0].clientY
         }
       },
-      onTouchEnd (e) {
+      onTouchEnd(e) {
         const dx = e.changedTouches[0].clientX - this.touchStart.x
         const dy = e.changedTouches[0].clientY - this.touchStart.y
         if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {

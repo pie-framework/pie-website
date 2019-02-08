@@ -118,6 +118,7 @@
         .pie-menu-content
             background-color #ffffff
             bottom 0
+            height 100%
             position absolute
             right 0
             top 0
@@ -159,6 +160,8 @@
                     margin-left 20px
             .sidebar
                 display none
+                height calc(100% - 127px)
+                overflow scroll
                 position relative
                 transform none
                 width 100%
