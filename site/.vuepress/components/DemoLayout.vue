@@ -194,8 +194,11 @@
       } else {
         setTimeout(() => setupPie(model, schemaJSONURI, configure, index), 200);
       }
+    } else {
+      setTimeout(() => setupPie(model, configure, index), 200);
     }
   }
+}
 
   function renderVersions(site) {
     const items = document.querySelectorAll('.pie-menu-content .sidebar-group-items li');
@@ -220,19 +223,82 @@
       return frontmatter.pies;
     }
 
-    return [frontmatter.pie];
-  };
+const getModels = frontmatter => {
+  if (frontmatter.multiple) {
+    return frontmatter.models;
+  }
 
-  const getModels = (frontmatter) => {
-    if (frontmatter.multiple) {
-      return frontmatter.models;
+  return [frontmatter.model];
+};
+
+export default {
+  components: { CustomNavMenu, SideMenu },
+
+  data() {
+    return {
+      sideMenuVisible: false,
+      observer: null
+    };
+  },
+
+  computed: {
+    navRef() {
+      return this.$refs.navMenu;
+    },
+
+    rawHtml() {
+      const text = [];
+      const pies = getPies(this.$page.frontmatter);
+
+      pies.forEach((pie, index) =>
+        text.push(
+          `<pie-demo id="demo${index}" load="false" editor="true" pie="${pie}"></pie-demo>`
+        )
+      );
+
+      return text.join("\n");
+    },
+
+    shouldShowSideMenu() {
+      return this.sideMenuVisible;
     }
+  },
 
-    return [frontmatter.model];
-  };
+  mounted() {
+    const { themeConfig } = this.$site;
 
-  export default {
-    components: { CustomNavMenu, SideMenu },
+    if (themeConfig.logrocketProject) {
+      LogRocket.init(themeConfig.logrocketProject);
+    }
+    if (themeConfig.sentryDsn)  {
+      Sentry.init({ dsn: themeConfig.sentryDsn });
+    }
+    if (themeConfig.sentryDsn && themeConfig.logrocketProject)  {
+      Sentry.configureScope(scope => {
+        scope.addEventProcessor(async event => {
+          event.extra.sessionURL = LogRocket.sessionURL;
+          return event;
+        });
+      });
+    }
+    const models = getModels(this.$page.frontmatter);
+
+    window.addEventListener("scroll", this.onScroll);
+
+    models.forEach((model, index) =>
+      setupPie(
+        model,
+        this.$page.frontmatter.configure,
+        index,
+        models.length > 1
+      )
+    );
+
+    this.observer = new ResizeObserver(() => {
+      if (this.navRef.offsetWidth > 750) {
+        this.sideMenuVisible = false;
+      }
+    });
 
     data() {
       return {
@@ -240,27 +306,44 @@
         observer: null
       };
     },
+    onTouchEnd(e) {
+      const dx = e.changedTouches[0].clientX - this.touchStart.x;
+      const dy = e.changedTouches[0].clientY - this.touchStart.y;
+      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+        if (dx > 0 && this.touchStart.x <= 80) {
+          this.toggleSidebar(true);
+        } else {
+          this.toggleSidebar(false);
+        }
+      }
+    }
+  }
+};
+</script>
 
-    computed: {
-      navRef() {
-        return this.$refs.navMenu;
-      },
+<style lang="stylus">
+@import '../variables.styl';
+@import '../navMenu.styl';
 
       rawHtml() {
         const text = [];
         const pies = getPies(this.$page.frontmatter);
 
-        pies.forEach((pie, index) => text.push(
-          `<pie-demo id="demo${index}" load="false" editor="true" pie="${pie}"></pie-demo>`
-        ));
+  .custom-layout {
+    height: 100%;
+    padding-top: 0;
 
-        return text.join('\n')
-      },
+    .theme-container {
+      height: 100%;
+    }
+  }
+}
 
-      shouldShowSideMenu() {
-        return this.sideMenuVisible;
-      },
-    },
+.customHomePage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
     mounted() {
       const { themeConfig } = this.$site;
@@ -271,28 +354,34 @@
       const configure = this.$page.frontmatter.configure;
       const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
 
-      window.addEventListener('scroll', this.onScroll);
+  .custom-nav-menu {
+    .nav-menu {
+      position: initial;
+    }
+  }
 
       models.forEach((model, index) => setupPie(model, schemaJSONURI, configure, index, models.length > 1));
 
-      this.observer = new ResizeObserver(() => {
-        if (this.navRef.offsetWidth > 750) {
-          this.sideMenuVisible = false;
-        }
-      });
+  .pie-side-menu {
+    background: #fff;
+    right: initial;
+    top: 65px;
+    width: 220px;
 
-      if (this.navRef) {
-        this.observer.observe(this.navRef);
+    .pie-menu-content {
+      position: relative;
+      width: 220px;
+
+      .menu-header {
+        display: none;
       }
 
       renderVersions(this.$site);
     },
 
-    beforeDestroy() {
-      if (this.observer && this.navRef) {
-        this.observer.unobserve(this.navRef);
+      & > .nav-links {
+        display: none;
       }
-    },
 
     updated() {
       const models = getModels(this.$page.frontmatter);
@@ -329,9 +418,21 @@
           }
         }
       }
+
+      .sidebar {
+        display: block !important;
+
+        .nav-links {
+          display: none;
+        }
+
+        .sidebar-links {
+          display: block;
+        }
+      }
     }
   }
-</script>
+}
 
 <style lang="stylus">
     @import "../variables.styl";
@@ -439,6 +540,26 @@
             .element-container
                 padding 0
 
+        .menu-header {
+          display: flex;
+          margin: 0;
+        }
+
+        & > .nav-links {
+          display: block;
+
+          .nav-item {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .element-container {
+      padding: 0;
+    }
+  }
+}
 </style>
 <style src="prismjs/themes/prism-tomorrow.css"></style>
 <style src="../../../node_modules/vuepress/lib/default-theme/styles/theme.styl" lang="stylus"></style>
