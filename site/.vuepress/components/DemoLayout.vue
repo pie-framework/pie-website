@@ -16,6 +16,7 @@
   import SideMenu from './Utils/SideMenu.vue';
   import LogRocket from 'logrocket';
   import ResizeObserver from 'resize-observer-polyfill';
+  const Sentry = require('@sentry/browser');
 
   function setupPie(model, schemaJSONURI, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
@@ -173,7 +174,7 @@
             "graph-lines@1.1.5",
             "inline-choice@2.0.5",
             "x-match@1.5.1",
-            "math-inline@0.0.11",
+            "math-inline@0.2.3",
             "multiple-choice@2.4.6",
             "number-line@3.0.9",
             "placement-ordering@3.2.2",
@@ -194,11 +195,8 @@
       } else {
         setTimeout(() => setupPie(model, schemaJSONURI, configure, index), 200);
       }
-    } else {
-      setTimeout(() => setupPie(model, configure, index), 200);
     }
   }
-}
 
   function renderVersions(site) {
     const items = document.querySelectorAll('.pie-menu-content .sidebar-group-items li');
@@ -223,82 +221,19 @@
       return frontmatter.pies;
     }
 
-const getModels = frontmatter => {
-  if (frontmatter.multiple) {
-    return frontmatter.models;
-  }
+    return [frontmatter.pie];
+  };
 
-  return [frontmatter.model];
-};
-
-export default {
-  components: { CustomNavMenu, SideMenu },
-
-  data() {
-    return {
-      sideMenuVisible: false,
-      observer: null
-    };
-  },
-
-  computed: {
-    navRef() {
-      return this.$refs.navMenu;
-    },
-
-    rawHtml() {
-      const text = [];
-      const pies = getPies(this.$page.frontmatter);
-
-      pies.forEach((pie, index) =>
-        text.push(
-          `<pie-demo id="demo${index}" load="false" editor="true" pie="${pie}"></pie-demo>`
-        )
-      );
-
-      return text.join("\n");
-    },
-
-    shouldShowSideMenu() {
-      return this.sideMenuVisible;
+  const getModels = (frontmatter) => {
+    if (frontmatter.multiple) {
+      return frontmatter.models;
     }
-  },
 
-  mounted() {
-    const { themeConfig } = this.$site;
+    return [frontmatter.model];
+  };
 
-    if (themeConfig.logrocketProject) {
-      LogRocket.init(themeConfig.logrocketProject);
-    }
-    if (themeConfig.sentryDsn)  {
-      Sentry.init({ dsn: themeConfig.sentryDsn });
-    }
-    if (themeConfig.sentryDsn && themeConfig.logrocketProject)  {
-      Sentry.configureScope(scope => {
-        scope.addEventProcessor(async event => {
-          event.extra.sessionURL = LogRocket.sessionURL;
-          return event;
-        });
-      });
-    }
-    const models = getModels(this.$page.frontmatter);
-
-    window.addEventListener("scroll", this.onScroll);
-
-    models.forEach((model, index) =>
-      setupPie(
-        model,
-        this.$page.frontmatter.configure,
-        index,
-        models.length > 1
-      )
-    );
-
-    this.observer = new ResizeObserver(() => {
-      if (this.navRef.offsetWidth > 750) {
-        this.sideMenuVisible = false;
-      }
-    });
+  export default {
+    components: { CustomNavMenu, SideMenu },
 
     data() {
       return {
@@ -306,82 +241,71 @@ export default {
         observer: null
       };
     },
-    onTouchEnd(e) {
-      const dx = e.changedTouches[0].clientX - this.touchStart.x;
-      const dy = e.changedTouches[0].clientY - this.touchStart.y;
-      if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
-        if (dx > 0 && this.touchStart.x <= 80) {
-          this.toggleSidebar(true);
-        } else {
-          this.toggleSidebar(false);
-        }
-      }
-    }
-  }
-};
-</script>
 
-<style lang="stylus">
-@import '../variables.styl';
-@import '../navMenu.styl';
+    computed: {
+      navRef() {
+        return this.$refs.navMenu;
+      },
 
       rawHtml() {
         const text = [];
         const pies = getPies(this.$page.frontmatter);
 
-  .custom-layout {
-    height: 100%;
-    padding-top: 0;
+        pies.forEach((pie, index) => text.push(
+          `<pie-demo id="demo${index}" load="false" editor="true" pie="${pie}"></pie-demo>`
+        ));
 
-    .theme-container {
-      height: 100%;
-    }
-  }
-}
+        return text.join('\n')
+      },
 
-.customHomePage {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+      shouldShowSideMenu() {
+        return this.sideMenuVisible;
+      },
+    },
 
     mounted() {
       const { themeConfig } = this.$site;
+
       if (themeConfig.logrocketProject) {
         LogRocket.init(themeConfig.logrocketProject);
+      }
+      if (themeConfig.sentryDsn)  {
+        Sentry.init({ dsn: themeConfig.sentryDsn });
+      }
+      if (themeConfig.sentryDsn && themeConfig.logrocketProject)  {
+        Sentry.configureScope(scope => {
+          scope.addEventProcessor(async event => {
+            event.extra.sessionURL = LogRocket.sessionURL;
+            return event;
+          });
+        });
       }
       const models = getModels(this.$page.frontmatter);
       const configure = this.$page.frontmatter.configure;
       const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
 
-  .custom-nav-menu {
-    .nav-menu {
-      position: initial;
-    }
-  }
+      window.addEventListener('scroll', this.onScroll);
 
       models.forEach((model, index) => setupPie(model, schemaJSONURI, configure, index, models.length > 1));
 
-  .pie-side-menu {
-    background: #fff;
-    right: initial;
-    top: 65px;
-    width: 220px;
+      this.observer = new ResizeObserver(() => {
+        if (this.navRef.offsetWidth > 750) {
+          this.sideMenuVisible = false;
+        }
+      });
 
-    .pie-menu-content {
-      position: relative;
-      width: 220px;
-
-      .menu-header {
-        display: none;
+      if (this.navRef) {
+        this.observer.observe(this.navRef);
       }
 
       renderVersions(this.$site);
     },
 
-      & > .nav-links {
-        display: none;
+    beforeDestroy() {
+      if (this.observer && this.navRef) {
+        this.observer.unobserve(this.navRef);
       }
+    },
 
     updated() {
       const models = getModels(this.$page.frontmatter);
@@ -418,21 +342,9 @@ export default {
           }
         }
       }
-
-      .sidebar {
-        display: block !important;
-
-        .nav-links {
-          display: none;
-        }
-
-        .sidebar-links {
-          display: block;
-        }
-      }
     }
   }
-}
+</script>
 
 <style lang="stylus">
     @import "../variables.styl";
@@ -540,26 +452,6 @@ export default {
             .element-container
                 padding 0
 
-        .menu-header {
-          display: flex;
-          margin: 0;
-        }
-
-        & > .nav-links {
-          display: block;
-
-          .nav-item {
-            display: block;
-          }
-        }
-      }
-    }
-
-    .element-container {
-      padding: 0;
-    }
-  }
-}
 </style>
 <style src="prismjs/themes/prism-tomorrow.css"></style>
 <style src="../../../node_modules/vuepress/lib/default-theme/styles/theme.styl" lang="stylus"></style>

@@ -9,7 +9,7 @@
     "vuepress": "^0.14.8"
   },
   "dependencies": {
-    "@sentry/browser": "^4.5.3",
+    "@sentry/browser": "^4.5.4",
     "dateformat": "^3.0.3",
     "logrocket": "^0.6.19",
     "resize-observer-polyfill": "^1.5.1"
