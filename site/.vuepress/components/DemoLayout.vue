@@ -16,6 +16,7 @@
   import SideMenu from './Utils/SideMenu.vue';
   import LogRocket from 'logrocket';
   import ResizeObserver from 'resize-observer-polyfill';
+  const Sentry = require('@sentry/browser');
 
   function setupPie(model, schemaJSONURI, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
@@ -173,7 +174,7 @@
             "graph-lines@1.1.5",
             "inline-choice@2.0.5",
             "x-match@1.5.1",
-            "math-inline@0.0.11",
+            "math-inline@0.2.3",
             "multiple-choice@2.4.6",
             "number-line@3.0.9",
             "placement-ordering@3.2.2",
@@ -264,8 +265,20 @@
 
     mounted() {
       const { themeConfig } = this.$site;
+
       if (themeConfig.logrocketProject) {
         LogRocket.init(themeConfig.logrocketProject);
+      }
+      if (themeConfig.sentryDsn)  {
+        Sentry.init({ dsn: themeConfig.sentryDsn });
+      }
+      if (themeConfig.sentryDsn && themeConfig.logrocketProject)  {
+        Sentry.configureScope(scope => {
+          scope.addEventProcessor(async event => {
+            event.extra.sessionURL = LogRocket.sessionURL;
+            return event;
+          });
+        });
       }
       const models = getModels(this.$page.frontmatter);
       const configure = this.$page.frontmatter.configure;
