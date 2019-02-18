@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/text-entry@3.1.1"
+pie: "@pie-element/text-entry@3.3.1"
 model:
     id: '1'
     element: text-entry

@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/placement-ordering@3.2.0"
+pie: "@pie-element/placement-ordering@3.4.1"
 model:
     id: '1'
     element: 'placement-ordering'

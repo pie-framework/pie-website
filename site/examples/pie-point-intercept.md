@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/point-intercept@3.1.3"
+pie: "@pie-element/point-intercept@3.3.1"
 model:
     id: '1'
     element: 'point-intercept'

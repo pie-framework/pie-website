@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/select-text@3.3.2"
+pie: "@pie-element/select-text@3.6.1"
 model:
     id: '1'
     element: select-text
