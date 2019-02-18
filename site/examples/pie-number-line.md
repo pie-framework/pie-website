@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/number-line@3.0.4"
+pie: "@pie-element/number-line@3.2.1"
 model:
     id: '1'
     element: number-line

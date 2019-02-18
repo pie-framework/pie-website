@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/categorize@2.7.2"
+pie: "@pie-element/categorize@2.10.1"
 model:
     id: '1'
     element: categorize-element
