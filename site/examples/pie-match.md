@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/match@1.8.1"
+pie: "@pie-element/match@1.8.3"
 model:
     id: '1'
     element: 'match-element'
