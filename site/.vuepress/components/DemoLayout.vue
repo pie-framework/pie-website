@@ -169,19 +169,19 @@
         if (!window['pie']) {
           const packages = [
             "x-calculator@2.3.1",
-            "x-categorize@2.10.1",
-            "extended-text-entry@3.3.3",
+            "x-categorize@2.10.3",
+            "extended-text-entry@3.6.3",
             "graph-lines@1.3.1",
             "inline-choice@2.3.1",
-            "x-match@1.8.1",
+            "x-match@1.8.3",
             "math-inline@0.3.1",
             "multiple-choice@2.7.2",
             "number-line@3.2.1",
-            "placement-ordering@3.4.1",
+            "placement-ordering@3.4.3",
             "point-intercept@3.3.1",
             "x-protractor@2.2.1",
             "x-ruler@3.2.1",
-            "select-text@3.6.1",
+            "select-text@3.6.4",
             "text-entry@3.3.1"
           ];
           const elementNumber = 15;
