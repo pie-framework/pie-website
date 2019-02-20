@@ -4,7 +4,7 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/math-inline@0.3.1"
+pie: "@pie-element/math-inline@0.3.3"
 model:
     id: '1'
     element: pie-element-math-inline

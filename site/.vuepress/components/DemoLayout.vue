@@ -174,7 +174,7 @@
             "graph-lines@1.3.1",
             "inline-choice@2.3.1",
             "x-match@1.8.3",
-            "math-inline@0.3.1",
+            "math-inline@0.3.3",
             "multiple-choice@2.7.2",
             "number-line@3.2.1",
             "placement-ordering@3.4.3",
