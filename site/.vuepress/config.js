@@ -1,4 +1,80 @@
-var elements = [];
+var elements = [
+  {
+    "name": "x-calculator",
+    "version": "2.3.1",
+    "label": "Calculator"
+  },
+  {
+    "name": "x-categorize",
+    "version": "2.10.3",
+    "label": "Categorize"
+  },
+  {
+    "name": "extended-text-entry",
+    "version": "3.6.3",
+    "label": "Extended Text"
+  },
+  {
+    "name": "graph-lines",
+    "version": "1.3.1",
+    "label": "Graph Lines"
+  },
+  {
+    "name": "inline-choice",
+    "version": "2.3.1",
+    "label": "Inline Choice"
+  },
+  {
+    "name": "x-match",
+    "version": "1.8.3",
+    "label": "Match"
+  },
+  {
+    "name": "math-inline",
+    "version": "0.3.3",
+    "label": "Equation Response"
+  },
+  {
+    "name": "multiple-choice",
+    "version": "2.7.2",
+    "label": "Multiple Choice"
+  },
+  {
+    "name": "number-line",
+    "version": "3.2.1",
+    "label": "Number Line"
+  },
+  {
+    "name": "placement-ordering",
+    "version": "3.4.3",
+    "label": "Placement Ordering"
+  },
+  {
+    "name": "point-intercept",
+    "version": "3.3.1",
+    "label": "Point Intercept"
+  },
+  {
+    "name": "x-protractor",
+    "version": "2.2.1",
+    "label": "Protractor"
+  },
+  {
+    "name": "x-ruler",
+    "version": "3.2.1",
+    "label": "Ruler"
+  },
+  {
+    "name": "select-text",
+    "version": "3.6.4",
+    "label": "Select Text"
+  },
+  {
+    "name": "text-entry",
+    "version": "3.3.1",
+    "label": "Short Text"
+  }
+];
 
 if (process.env.PIE_JSON_FILE) {
   elements = require(process.env.PIE_JSON_FILE);
