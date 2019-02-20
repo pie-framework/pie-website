@@ -18,7 +18,7 @@
   import ResizeObserver from 'resize-observer-polyfill';
   const Sentry = require('@sentry/browser');
 
-  function setupPie(model, schemaJSONURI, configure, index, multiplePies) {
+  function setupPie(elements, model, schemaJSONURI, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
 
     if (pieDemo) {
@@ -167,7 +167,7 @@
 
       if (pieDemo.loadPies) {
         if (!window['pie']) {
-          const packages = [
+          const packages = elements ? elements : [
             "x-calculator@2.3.1",
             "x-categorize@2.10.3",
             "extended-text-entry@3.6.3",
@@ -193,23 +193,30 @@
           });
         }
       } else {
-        setTimeout(() => setupPie(model, schemaJSONURI, configure, index), 200);
+        setTimeout(() => setupPie(elements, model, schemaJSONURI, configure, index), 200);
       }
     }
   }
 
-  function renderVersions(site) {
+  function renderVersions(elements) {
     const items = document.querySelectorAll('.pie-menu-content .sidebar-group-items li');
-    const pages = site.pages.filter(page => page.path.indexOf('/examples/') >= 0);
+    const itemObj = elements.reduce((acc, item) => {
+      const normalName = item.replace('x-', '');
+      const arrowIndex = normalName.indexOf('@');
+
+      acc[normalName.slice(0, arrowIndex)] = `v${normalName.slice(arrowIndex + 1)}`;
+
+      return acc;
+    }, {});
 
     items.forEach((item, index) => {
       if (!item.querySelector('.version')) {
+        console.log(elements);
         const span = document.createElement('span');
-        const page = pages[index];
-        const pie = page.frontmatter.pie.split('@');
+        const version = itemObj[item.textContent.toLowerCase()];
 
         span.className = 'version';
-        span.innerText = pie[2];
+        span.innerText = version;
 
         item.appendChild(span);
       }
@@ -286,7 +293,7 @@
 
       window.addEventListener('scroll', this.onScroll);
 
-      models.forEach((model, index) => setupPie(model, schemaJSONURI, configure, index, models.length > 1));
+      models.forEach((model, index) => setupPie(themeConfig.elements, model, schemaJSONURI, configure, index, models.length > 1));
 
       this.observer = new ResizeObserver(() => {
         if (this.navRef.offsetWidth > 750) {
@@ -298,7 +305,7 @@
         this.observer.observe(this.navRef);
       }
 
-      renderVersions(this.$site);
+      renderVersions(themeConfig.elements);
     },
 
     beforeDestroy() {
@@ -308,13 +315,14 @@
     },
 
     updated() {
+      const { themeConfig } = this.$site;
       const models = getModels(this.$page.frontmatter);
       const configure = this.$page.frontmatter.configure;
       const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
 
-      models.forEach((model, index) => setupPie(model, schemaJSONURI, configure, index, models.length > 1));
+      models.forEach((model, index) => setupPie(themeConfig.elements, model, schemaJSONURI, configure, index, models.length > 1));
 
-      renderVersions(this.$site);
+      renderVersions(themeConfig.elements);
     },
 
     methods: {

@@ -1,3 +1,11 @@
+var elements = [];
+
+if (process.env.PIE_JSON_FILE) {
+  elements = require(process.env.PIE_JSON_FILE);
+}
+
+console.log('Elements', elements);
+
 module.exports = {
   title: '',
   head: [
@@ -6,6 +14,7 @@ module.exports = {
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
     sentryDsn: process.env.SENTRY_DSN,
+    elements: elements,
     logo: '/pie-logo.svg',
     siteTitle: 'PIE framework',
     search: false,
