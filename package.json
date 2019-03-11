@@ -5,7 +5,8 @@
     "dev": "vuepress dev site",
     "build": "vuepress build site",
     "grabElements": "node ./scripts/grabber.js ./site/.vuepress/pie-packages.json",
-    "buildLatest": "npm run grabElements && PIE_JSON_FILE=\"./elements.json\" npm run build"
+    "getChangelogs": "node ./scripts/changelogger.js",
+    "buildLatest": "npm run grabElements && npm run getChangelogs && PIE_JSON_FILE=\"./elements.json\" npm run build"
   },
   "devDependencies": {
     "vuepress": "^0.14.8"
@@ -14,9 +15,11 @@
     "@sentry/browser": "^4.5.4",
     "dateformat": "^3.0.3",
     "graphql-request": "^1.8.2",
+    "gunzip-maybe": "^1.4.1",
     "json-beautify": "^1.0.1",
     "logrocket": "^0.6.19",
     "pacote": "^9.5.0",
-    "resize-observer-polyfill": "^1.5.1"
+    "resize-observer-polyfill": "^1.5.1",
+    "tar-stream": "^2.0.1"
   }
 }

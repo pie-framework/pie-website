@@ -13,7 +13,7 @@
         <div
                 class="sidebar-container"
         >
-            <div class="search-box-container">
+            <div v-if="shouldShowSearchBox" class="search-box-container">
                 <SearchBox placeholder="Search" />
             </div>
             <Sidebar
@@ -80,6 +80,12 @@
     },
 
     computed: {
+      shouldShowSearchBox () {
+        const { frontmatter } = this.$page
+
+        return !frontmatter.noSearchBox;
+      },
+
       shouldShowNavbar () {
         const { themeConfig } = this.$site
         const { frontmatter } = this.$page
