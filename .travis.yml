@@ -6,7 +6,7 @@ script:
 deploy:
   provider: surge
   project: ./site/.vuepress/dist
-  domain: pie-website.surge.sh 
+  domain: pie-website-andrei.surge.sh
   skip_cleanup: true
   on:
     branch:
