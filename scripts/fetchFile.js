@@ -66,7 +66,7 @@ const getFile = (tarStream, path) => {
 
     e.on("error", err => reject(err));
 
-    log("begin piping...");
+    log("begin piping....");
     tarStream.pipe(gunzip()).pipe(e);
   });
 };
