@@ -132,6 +132,29 @@ module.exports = {
               ]
             }
           ],
+          '/changes': [
+            '/changes/introduction.html',
+            {
+              collapsable: false,
+              children: [
+                '/changes/pie-calculator',
+                '/changes/pie-protractor',
+                '/changes/pie-ruler',
+                '/changes/pie-categorize',
+                '/changes/pie-math-inline',
+                '/changes/pie-inline-choice',
+                '/changes/pie-multiple-choice',
+                '/changes/pie-number-line',
+                '/changes/pie-select-text',
+                '/changes/pie-text-entry',
+                '/changes/pie-extended-text-entry',
+                '/changes/pie-graph-lines',
+                '/changes/pie-match',
+                '/changes/pie-placement-ordering',
+                '/changes/pie-point-intercept'
+              ]
+            }
+          ],
           '/changelogs': [
             '/changelogs/introduction',
             {

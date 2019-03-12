@@ -3,6 +3,7 @@ const jsonBeautify = require("json-beautify");
 const { request: graphQlRequest } = require("graphql-request");
 const { resolve } = require("path");
 const { readJsonSync, writeFile } = require("fs-extra");
+const versionChangelogger = require('./versionChangelogger');
 const pacote = require("pacote");
 const file = args._[0];
 
@@ -19,8 +20,44 @@ const promises = Promise.all(
   })
 );
 
-promises.then(results => {
-  const query = `mutation { 
+const changeLogsFn = (results) => {
+  const versionPromises = Promise.all(
+    results.map((nv, index) => {
+      return versionChangelogger
+        .getChangeLogs(nv.packageName, nv.version.replace('^', ''))
+        .then(data => ({
+          label: json[index].label,
+          packageName: nv.packageName,
+          data
+        }));
+    })
+  );
+
+  versionPromises.then((versionResults) => {
+    versionResults.forEach(({ packageName, label, data }) => {
+      const formattedName = packageName.slice(13);
+      const text = `---
+title: ${label}
+sidebar: false
+navbar: false
+layout: DefaultLayout
+noSearchBox: true
+---
+${data}
+`;
+
+      writeFile(`./site/changes/pie-${formattedName}.md`, text);
+    });
+  });
+};
+
+let tries = 1;
+
+const handlePromises = (elementPromises) => {
+  let checks = 0;
+
+  elementPromises.then((results) => {
+    const query = `mutation { 
   createBundle(deps: [
     ${results.reduce((str, json, index) => {
       return `${str}{ name: "${json.packageName}", version: "${json.version}" }${index === results.length - 1 ? '' : ',\n'}`;
@@ -39,12 +76,56 @@ promises.then(results => {
       }
 }`;
 
-  console.log(query);
+    console.log(query);
 
-  graphQlRequest('http://pits-dot-pie-dev-221718.appspot.com/graphql?', query).then(data => {
-    writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {
-      if (err) throw err;
-      console.log('Saved!');
+    graphQlRequest('http://pits-dot-pie-dev-221718.appspot.com/graphql?', query).then((data) => {
+      if (data && data.createBundle) {
+        const statusPoll = (bundleData) => {
+          const statusQuery = `
+query {
+  build(id:"${bundleData.createBundle.id}"){
+    deps{
+      name 
+      version 
+    }
+    scope{
+      controllers
+    }
+    
+    status 
+  }
+}`;
+          checks += 1;
+          console.log(checks);
+
+          graphQlRequest('http://pits-dot-pie-dev-221718.appspot.com/graphql?', statusQuery)
+            .then((data) => {
+              if (data && data.build.status === 'started') {
+                setTimeout(() => {
+                  statusPoll(bundleData);
+                }, 30000);
+              } else if (data.build.status !== 'failed') {
+                changeLogsFn(results);
+
+                console.log('Done');
+
+                writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {
+                  if (err) throw err;
+                  console.log('Saved!');
+                });
+              } else if (tries === 1) {
+                console.log('Rechecking');
+
+                tries += 1;
+                handlePromises(elementPromises);
+              }
+            });
+        };
+
+        statusPoll(data);
+      }
     });
   });
-});
+};
+
+handlePromises(promises);
