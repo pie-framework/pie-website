@@ -10,38 +10,6 @@ noSearchBox: true
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.3.2](https://github.com/pie-framework/pie-elements/compare/@pie-element/inline-choice@2.3.1...@pie-element/inline-choice@2.3.2) (2019-02-20)
-
-**Note:** Version bump only for package @pie-element/inline-choice
-
-
-
-
-
-## [2.3.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/inline-choice@2.2.1...@pie-element/inline-choice@2.3.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/inline-choice
-
-
-
-
-
-## [2.2.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/inline-choice@2.1.1...@pie-element/inline-choice@2.2.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/inline-choice
-
-
-
-
-
-## [2.1.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/inline-choice@2.1.0...@pie-element/inline-choice@2.1.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/inline-choice
-
-
-
-
-
 # [2.1.0](https://github.com/pie-framework/pie-elements/compare/@pie-element/inline-choice@2.0.5...@pie-element/inline-choice@2.1.0) (2019-02-08)
 
 

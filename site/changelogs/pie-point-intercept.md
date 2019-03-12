@@ -10,38 +10,6 @@ noSearchBox: true
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.3.2](https://github.com/pie-framework/pie-elements/compare/@pie-element/point-intercept@3.3.1...@pie-element/point-intercept@3.3.2) (2019-02-20)
-
-**Note:** Version bump only for package @pie-element/point-intercept
-
-
-
-
-
-## [3.3.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/point-intercept@3.2.1...@pie-element/point-intercept@3.3.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/point-intercept
-
-
-
-
-
-## [3.2.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/point-intercept@3.1.7...@pie-element/point-intercept@3.2.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/point-intercept
-
-
-
-
-
-## [3.1.7](https://github.com/pie-framework/pie-elements/compare/@pie-element/point-intercept@3.1.6...@pie-element/point-intercept@3.1.7) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/point-intercept
-
-
-
-
-
 ## [3.1.6](https://github.com/pie-framework/pie-elements/compare/@pie-element/point-intercept@3.1.4...@pie-element/point-intercept@3.1.6) (2019-02-08)
 
 **Note:** Version bump only for package @pie-element/point-intercept

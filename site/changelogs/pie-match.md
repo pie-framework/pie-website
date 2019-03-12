@@ -10,41 +10,6 @@ noSearchBox: true
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.9.0](https://github.com/pie-framework/pie-elements/compare/@pie-element/match@1.8.1...@pie-element/match@1.9.0) (2019-02-20)
-
-
-### Features
-
-* **general:** updated the pie-lib/editable-html versions for all elements ([f642cb5](https://github.com/pie-framework/pie-elements/commit/f642cb5))
-
-
-
-
-
-## [1.8.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/match@1.7.1...@pie-element/match@1.8.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/match
-
-
-
-
-
-## [1.7.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/match@1.6.1...@pie-element/match@1.7.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/match
-
-
-
-
-
-## [1.6.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/match@1.6.0...@pie-element/match@1.6.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/match
-
-
-
-
-
 # [1.6.0](https://github.com/pie-framework/pie-elements/compare/@pie-element/match@1.5.1...@pie-element/match@1.6.0) (2019-02-08)
 
 

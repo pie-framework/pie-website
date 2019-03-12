@@ -8,7 +8,7 @@ const json = readJsonSync(resolve(file)).slice(0);
 
 const promises = Promise.all(
   json.map(nv => {
-    return fetchFile(nv.name, 'package/CHANGELOG.md').then(r => {
+    return fetchFile(`${nv.name}@next`, ['package/NEXT.CHANGELOG.md', 'package/CHANGELOG.md']).then(r => {
       const elementName = nv.name.slice(13);
       const formattedName = elementName.indexOf('-') > 0 ? elementName : `x-${elementName}`;
 

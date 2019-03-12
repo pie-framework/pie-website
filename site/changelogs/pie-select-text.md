@@ -10,41 +10,6 @@ noSearchBox: true
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [3.7.0](https://github.com/pie-framework/pie-elements/compare/@pie-element/select-text@3.6.1...@pie-element/select-text@3.7.0) (2019-02-20)
-
-
-### Features
-
-* **general:** updated the pie-lib/editable-html versions for all elements ([f642cb5](https://github.com/pie-framework/pie-elements/commit/f642cb5))
-
-
-
-
-
-## [3.6.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/select-text@3.5.1...@pie-element/select-text@3.6.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/select-text
-
-
-
-
-
-## [3.5.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/select-text@3.4.1...@pie-element/select-text@3.5.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/select-text
-
-
-
-
-
-## [3.4.1](https://github.com/pie-framework/pie-elements/compare/@pie-element/select-text@3.4.0...@pie-element/select-text@3.4.1) (2019-02-13)
-
-**Note:** Version bump only for package @pie-element/select-text
-
-
-
-
-
 # [3.4.0](https://github.com/pie-framework/pie-elements/compare/@pie-element/select-text@3.3.3...@pie-element/select-text@3.4.0) (2019-02-08)
 
 
