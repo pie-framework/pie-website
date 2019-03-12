@@ -105,7 +105,7 @@ module.exports = {
         sidebar: {
           '/examples/': [
             {
-              title: 'Integration',
+              title: 'Interactions',
               collapsable: false,
               children: [
                 '/examples/pie-categorize',
