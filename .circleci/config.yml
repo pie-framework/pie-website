@@ -1,0 +1,71 @@
+version: 2
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:11.10.0
+
+restore_cache: &restore_cache
+  keys:
+    - v1-dependencies-{{ checksum "package.json" }}
+    # fallback to using the latest cache if no exact match is found
+    - v1-dependencies-
+
+save_cache: &save_cache
+  paths:
+    - node_modules
+  key: v1-dependencies-{{ checksum "package.json" }}
+
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache: *restore_cache
+      - run: npm install
+      - save_cache: *save_cache
+      - run:
+          name: Building The Site
+          command: npm run build
+      - run:
+          name: Deploying to Surge
+          command: surge --project ./site/.vuepress/dist pie-website-next.surge.sh
+  buildLatest:
+      <<: *defaults
+      steps:
+        - checkout
+        # Download and cache dependencies
+        - restore_cache: *restore_cache
+        - run: npm install
+        - save_cache: *save_cache
+        - run:
+            name: Building The Site
+            command: npm run buildLatest
+        - run:
+          name: Deploying to Surge
+          command: surge --project ./site/.vuepress/dist pie-website-next.surge.sh
+
+workflows:
+  version: 2
+
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - next-versions
+                - feat/cronjob-functionality
+
+  nightly:
+    triggers:
+      - schedule:
+          cron: '0 0 * * *'
+          filters:
+            branches:
+              only:
+                - next-versions
+                - feat/cronjob-functionality
+    jobs:
+      - buildLatest
