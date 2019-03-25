@@ -27,7 +27,7 @@ const getFile = (tarStream, path) => {
 
   return new Promise((resolve, reject) => {
     const e = extract();
-    const data = {};
+    const data = [];
 
     e.on("entry", async (header, stream, done) => {
       log("entry:", header.name);
@@ -56,12 +56,12 @@ const getFile = (tarStream, path) => {
 
     e.on("close", () => {
       log("close:");
-      resolve(Object.values(data).join(''));
+      resolve(data);
     });
 
     e.on("finish", () => {
       log("finish:");
-      resolve(Object.values(data).join(''));
+      resolve(data);
     });
 
     e.on("error", err => reject(err));
