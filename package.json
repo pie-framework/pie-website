@@ -9,6 +9,7 @@
     "buildLatest": "npm run grabElements && npm run getChangelogs && PIE_JSON_FILE=\"./elements.json\" npm run build"
   },
   "devDependencies": {
+    "surge": "^0.20.3",
     "vuepress": "^0.14.8"
   },
   "dependencies": {

@@ -41,11 +41,11 @@ const dataMap = {};
 const getInfoFromChangeLogData = (changeLogData, dependencyOfPackage) => {
   const formattedData = [];
   const startDate = moment(deployJSON.date, 'YYYY-MM-DD HH:mm:ss');
-  const endDate = moment(deployJSON.date, 'YYYY-MM-DD');
+  // const endDate = moment(deployJSON.date, 'YYYY-MM-DD');
   const dependencyOf = packagesMap[dependencyOfPackage] || dependencyOfPackage;
 
-  startDate.startOf('day');
-  endDate.add(1, 'days');
+  /*startDate.startOf('day');
+  endDate.add(1, 'days');*/
 
   let packLabel = '';
 
@@ -57,10 +57,10 @@ const getInfoFromChangeLogData = (changeLogData, dependencyOfPackage) => {
 
     const date = moment(log.committerDate, 'YYYY-MM-DD HH:mm:ss');
 
-    if (date.diff(startDate, 'hours') > 0 && (
+    if (date.diff(startDate, 'hours') > 0 /*&& (
         endDate.diff(date, 'hours') >= 0 &&
         endDate.diff(date, 'hours') <= 24
-      )
+      )*/
     ) {
       const dateKey = moment(deployJSON.date, 'YYYY-MM-DD').format('MM/DD/YYYY');
 
