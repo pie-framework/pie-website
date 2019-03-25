@@ -11,7 +11,7 @@ const json = readJsonSync(resolve(file));
 
 const promises = Promise.all(
   json.map(nv => {
-    return pacote.manifest(`${nv.name}@${nv.version}`).then(r => {
+    return pacote.manifest(`${nv.name}@next`).then(r => {
       const elementName = nv.name.slice(13);
       const formattedName = elementName.indexOf('-') > 0 ? elementName : `x-${elementName}`;
 
@@ -24,7 +24,7 @@ const changeLogsFn = (results) => {
   const versionPromises = Promise.all(
     results.map((nv, index) => {
       return versionChangelogger
-        .getChangeLogs(nv.packageName, nv.version.replace('^', ''))
+        .getChangeLogs(nv.packageName, 'all', 'next')
         .then(data => ({
           label: json[index].label,
           packageName: nv.packageName,

@@ -22,17 +22,29 @@ class StringWritable extends Writable {
   }
 }
 
-const getFile = (tarStream, path) =>
-  new Promise((resolve, reject) => {
+const getFile = (tarStream, path) => {
+  let fileArray = Array.isArray(path) ? path : [path];
+
+  return new Promise((resolve, reject) => {
     const e = extract();
-    let data = "";
+    const data = [];
+
     e.on("entry", async (header, stream, done) => {
       log("entry:", header.name);
+      let isRightFile = false;
+      let fileIndex = null;
 
-      if (header.name === path) {
+      fileArray.forEach((el, index) => {
+        if (el === header.name) {
+          isRightFile = true;
+          fileIndex = index;
+        }
+      });
+
+      if (isRightFile) {
         const ws = new StringWritable((err, content) => {
           log("error");
-          data = content;
+          data[fileIndex] = content;
           done(err);
         });
         stream.pipe(ws);
@@ -54,9 +66,10 @@ const getFile = (tarStream, path) =>
 
     e.on("error", err => reject(err));
 
-    log("begin piping...");
+    log("begin piping....");
     tarStream.pipe(gunzip()).pipe(e);
   });
+};
 
 const run = async (packageName, file) => {
   const n = packageName;
