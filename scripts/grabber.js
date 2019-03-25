@@ -107,7 +107,7 @@ query {
               } else if (data.build.status !== 'failed') {
                 changeLogsFn(results);
 
-                console.log('Done');
+                console.log('Done building');
 
                 writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {
                   if (err) throw err;
