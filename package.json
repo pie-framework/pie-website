@@ -12,6 +12,7 @@
     "webpack-dev-middleware": "3.6.0"
   },
   "devDependencies": {
+    "surge": "^0.20.3",
     "vuepress": "^0.14.8"
   },
   "dependencies": {
