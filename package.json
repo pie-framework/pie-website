@@ -8,6 +8,9 @@
     "getChangelogs": "node ./scripts/changelogger.js",
     "buildLatest": "npm run grabElements && npm run getChangelogs && PIE_JSON_FILE=\"./elements.json\" npm run build"
   },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
   "devDependencies": {
     "vuepress": "^0.14.8"
   },

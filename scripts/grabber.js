@@ -3,7 +3,6 @@ const jsonBeautify = require("json-beautify");
 const { request: graphQlRequest } = require("graphql-request");
 const { resolve } = require("path");
 const { readJsonSync, writeFile } = require("fs-extra");
-const versionChangelogger = require('./versionChangelogger');
 const pacote = require("pacote");
 const file = args._[0];
 
@@ -19,37 +18,6 @@ const promises = Promise.all(
     });
   })
 );
-
-const changeLogsFn = (results) => {
-  const versionPromises = Promise.all(
-    results.map((nv, index) => {
-      return versionChangelogger
-        .getChangeLogs(nv.packageName, 'all', 'next')
-        .then(data => ({
-          label: json[index].label,
-          packageName: nv.packageName,
-          data
-        }));
-    })
-  );
-
-  versionPromises.then((versionResults) => {
-    versionResults.forEach(({ packageName, label, data }) => {
-      const formattedName = packageName.slice(13);
-      const text = `---
-title: ${label}
-sidebar: false
-navbar: false
-layout: DefaultLayout
-noSearchBox: true
----
-${data}
-`;
-
-      writeFile(`./site/changes/pie-${formattedName}.md`, text);
-    });
-  });
-};
 
 let tries = 1;
 
@@ -105,8 +73,6 @@ query {
                   statusPoll(bundleData);
                 }, 30000);
               } else if (data.build.status !== 'failed') {
-                changeLogsFn(results);
-
                 console.log('Done building');
 
                 writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {

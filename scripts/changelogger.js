@@ -128,9 +128,6 @@ const getInfoFromChangeLogs = (data, packageName) => new Promise((resolve) => {
 
   let totalData = `${getInfoFromChangeLogData(nextData)}\n${getInfoFromChangeLogData(latestData)}`;
 
-  // console.log(getInfoFromChangeLogData(nextData));
-  // console.log(getInfoFromChangeLogData(latestData));
-
   console.log(packageName);
 
   Promise
@@ -144,8 +141,6 @@ const getInfoFromChangeLogs = (data, packageName) => new Promise((resolve) => {
 
         if (nextData || latestData) {
           totalData = `${totalData}\n${nextData}\n${latestData}`;
-          /*console.log(nextData);
-          console.log(latestData);*/
         }
       });
 
