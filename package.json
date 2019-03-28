@@ -3,15 +3,30 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev site",
-    "build": "vuepress build site"
+    "build": "vuepress build site",
+    "grabElements": "node ./scripts/grabber.js ./site/.vuepress/pie-packages.json",
+    "getChangelogs": "node ./scripts/changelogger.js",
+    "buildLatest": "npm run grabElements && npm run getChangelogs && PIE_JSON_FILE=\"./elements.json\" npm run build"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
   },
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "surge": "^0.20.3",
+    "vuepress": "^0.14.8",
+    "webpack": "4.8.1"
   },
   "dependencies": {
     "@sentry/browser": "^4.5.4",
     "dateformat": "^3.0.3",
+    "graphql-request": "^1.8.2",
+    "gunzip-maybe": "^1.4.1",
+    "json-beautify": "^1.0.1",
+    "lodash": "^4.17.11",
     "logrocket": "^0.6.19",
-    "resize-observer-polyfill": "^1.5.1"
+    "moment": "^2.24.0",
+    "pacote": "^9.5.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "tar-stream": "^2.0.1"
   }
 }

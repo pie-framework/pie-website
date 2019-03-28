@@ -105,7 +105,7 @@ module.exports = {
         sidebar: {
           '/examples/': [
             {
-              title: 'Integration',
+              title: 'Interactions',
               collapsable: false,
               children: [
                 '/examples/pie-categorize',
@@ -129,6 +129,32 @@ module.exports = {
                 '/examples/tools/pie-calculator',
                 '/examples/tools/pie-protractor',
                 '/examples/tools/pie-ruler'
+              ]
+            }
+          ],
+          '/changes': [
+            '/changes/introduction.html'
+          ],
+          '/changelogs': [
+            '/changelogs/introduction',
+            {
+              collapsable: false,
+              children: [
+                '/changelogs/pie-calculator',
+                '/changelogs/pie-protractor',
+                '/changelogs/pie-ruler',
+                '/changelogs/pie-categorize',
+                '/changelogs/pie-math-inline',
+                '/changelogs/pie-inline-choice',
+                '/changelogs/pie-multiple-choice',
+                '/changelogs/pie-number-line',
+                '/changelogs/pie-select-text',
+                '/changelogs/pie-text-entry',
+                '/changelogs/pie-extended-text-entry',
+                '/changelogs/pie-graph-lines',
+                '/changelogs/pie-match',
+                '/changelogs/pie-placement-ordering',
+                '/changelogs/pie-point-intercept'
               ]
             }
           ],
