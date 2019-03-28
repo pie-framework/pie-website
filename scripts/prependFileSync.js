@@ -6,7 +6,7 @@ module.exports = (fileName, text) => {
   };
   const data = readFileSync(fileName, readOptions);
   const fd = openSync(fileName, 'w+');
-  const insert = new Buffer(text);
+  const insert = Buffer.from(text);
   let delimiter = 0;
 
   if (data) {

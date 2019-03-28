@@ -1,3 +1,4 @@
+const args = require("minimist")(process.argv.slice(2));
 const moment = require("moment");
 const reduce = require("lodash/reduce");
 const forEach = require("lodash/forEach");
@@ -5,11 +6,14 @@ const isArray = require("lodash/isArray");
 const fetchFile = require("./fetchFile");
 const { resolve } = require("path");
 
-const { readJsonSync, writeFileSync } = require("fs-extra");
+const { readFileSync, readJsonSync, writeFileSync } = require("fs-extra");
 const prependFileSync = require("./prependFileSync");
 
 const deployFile = './site/.vuepress/deploy-info.json';
 const deployJSON = readJsonSync(resolve(deployFile));
+/*const deployJSON = {
+  date: args._[1]
+};*/
 const file = './site/.vuepress/pie-packages.json';
 const json = readJsonSync(resolve(file)).slice(0);
 const packagesMap = json.reduce((obj, j) => {
@@ -18,10 +22,13 @@ const packagesMap = json.reduce((obj, j) => {
   return obj;
 }, {});
 
+const type = args._[0] || 'latest';
+const isNext = type === 'next';
+
 const promises = Promise.all(
   json.map(nv => {
     return fetchFile(
-      `${nv.name}@next`,
+      `${nv.name}@${type}`,
       [
         'package/NEXT.CHANGELOG.json',
         'package/CHANGELOG.json',
@@ -39,22 +46,28 @@ const promises = Promise.all(
 
 const dataMap = {};
 
-const getInfoFromChangeLogData = (changeLogData, dependencyOfPackage) => {
+const getInfoFromChangeLogData = (changeLogData, packageName, parentPackage) => {
   const formattedData = [];
   const startDate = moment(deployJSON.date, 'YYYY-MM-DD HH:mm:ss');
-  const dependencyOf = packagesMap[dependencyOfPackage] || dependencyOfPackage;
+  const endDate = moment(deployJSON.date, 'YYYY-MM-DD HH:mm:ss');
+  const dependencyOf = parentPackage ? packagesMap[parentPackage] : parentPackage;
+
+  startDate.startOf('day');
+  endDate.add(1, 'days');
 
   let packLabel = '';
 
   changeLogData.forEach((log) => {
-    const tag = log.tag || log.earliestTag;
-    const packageName = tag.slice(0, tag.lastIndexOf('@'));
-
     packLabel = packagesMap[packageName] || packageName;
+
+    if (packLabel === '') {
+      console.log('empty data', changeLogData);
+      console.log('packLabel', packLabel);
+    }
 
     const date = moment(log.committerDate, 'YYYY-MM-DD HH:mm:ss');
 
-    if (date.diff(startDate, 'hours') > 0) {
+    if (date > startDate && date <= endDate) {
       const dateKey = moment(deployJSON.date, 'YYYY-MM-DD').format('MM/DD/YYYY');
 
       if (!dataMap[dateKey]) {
@@ -78,7 +91,7 @@ const getInfoFromChangeLogData = (changeLogData, dependencyOfPackage) => {
           dataMap[dateKey][dependencyOf].dependencies[packLabel][log.type] = [];
         }
 
-        dataMap[dateKey][dependencyOf].dependencies[packLabel][log.type].push(log);
+        dataMap[dateKey][dependencyOf].dependencies[packLabel][log.type].push({ ...log, packageName });
       } else {
         if (!dataMap[dateKey][packLabel]) {
           dataMap[dateKey][packLabel] = {};
@@ -88,7 +101,7 @@ const getInfoFromChangeLogData = (changeLogData, dependencyOfPackage) => {
           dataMap[dateKey][packLabel][log.type] = [];
         }
 
-        dataMap[dateKey][packLabel][log.type].push(log);
+        dataMap[dateKey][packLabel][log.type].push({ ...log, packageName });
       }
     }
   });
@@ -114,6 +127,7 @@ const getInfoFromChangeLogs = (data, packageName) => new Promise((resolve) => {
   }, '');
   const otherLibPromises = [
     fetchFile(pieUiEl, ['package/NEXT.CHANGELOG.json', 'package/CHANGELOG.json'])
+      .then(r => ({ files: r, packageName}))
   ];
 
   forEach(configurePackage.dependencies, (dep, key) => {
@@ -122,25 +136,26 @@ const getInfoFromChangeLogs = (data, packageName) => new Promise((resolve) => {
 
       otherLibPromises.push(
         fetchFile(packageName, ['package/NEXT.CHANGELOG.json', 'package/CHANGELOG.json'])
+          .then(r => ({ files: r, packageName}))
       );
     }
   });
 
-  let totalData = `${getInfoFromChangeLogData(nextData)}\n${getInfoFromChangeLogData(latestData)}`;
+  let totalData = `${isNext ? `${getInfoFromChangeLogData(nextData, packageName)}\n` : ''}${getInfoFromChangeLogData(latestData, packageName)}`;
 
   console.log(packageName);
 
   Promise
     .all(otherLibPromises)
     .then((values) => {
-      values.forEach((files) => {
+      values.forEach(({ files, packageName: depName }) => {
         const nextJSON = files[0] ? JSON.parse(files[0]) : [];
         const latestJSON = files[1] ? JSON.parse(files[1]) : [];
-        const nextData = getInfoFromChangeLogData(nextJSON, packageName);
-        const latestData = getInfoFromChangeLogData(latestJSON, packageName);
+        const nextData = isNext ? `\n${getInfoFromChangeLogData(nextJSON, depName, packageName)}` : '';
+        const latestData = getInfoFromChangeLogData(latestJSON, depName, packageName);
 
         if (nextData || latestData) {
-          totalData = `${totalData}\n${nextData}\n${latestData}`;
+          totalData = `${totalData}${nextData}\n${latestData}`;
         }
       });
 
@@ -192,7 +207,7 @@ promises.then(results => {
                       usedKeys[log.elementLabel] = true;
                     }
 
-                    const tag = log.tag || log.earliestTag;
+                    const tag = log.tag || log.earliestTag || '';
 
                     const version = tag.slice(tag.lastIndexOf('@') + 1);
                     const commiterDate = moment(log.committerDate, 'YYYY-MM-DD HH:mm:ss').format('MM/DD/YYYY HH:mm:ss');
@@ -214,8 +229,11 @@ promises.then(results => {
       });
       const totalData = formattedData.join('\n');
 
-      prependFileSync(`./site/changes/test.md`, totalData);
+      prependFileSync(`./site/changes/${type}_introduction.md`, totalData);
 
+      const allData = readFileSync(`./site/changes/${type}_introduction.md`);
+
+      writeFileSync('./site/changes/introduction.md', allData);
       writeFileSync(deployFile,
 `{
   "date": "${moment().format('YYYY-MM-DD HH:mm:ss')}"

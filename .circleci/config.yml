@@ -30,6 +30,20 @@ jobs:
           command: npm run build
       - run:
           name: Deploying to Surge
+          command: surge --project ./site/.vuepress/dist pie-website.surge.sh
+  buildNext:
+      <<: *defaults
+      steps:
+        - checkout
+        # Download and cache dependencies
+        - restore_cache: *restore_cache
+        - run: npm install
+        - save_cache: *save_cache
+        - run:
+            name: Building The Site
+            command: npm run buildNext
+        - run:
+          name: Deploying to Surge
           command: surge --project ./site/.vuepress/dist pie-website-next.surge.sh
   buildLatest:
       <<: *defaults
@@ -44,7 +58,7 @@ jobs:
             command: npm run buildLatest
         - run:
           name: Deploying to Surge
-          command: surge --project ./site/.vuepress/dist pie-website-next.surge.sh
+          command: surge --project ./site/.vuepress/dist pie-website.surge.sh
 
 workflows:
   version: 2
@@ -55,8 +69,7 @@ workflows:
           filters:
             branches:
               only:
-                - next-versions
-                - feat/cronjob-functionality
+                - master
 
   nightly:
     triggers:
@@ -65,7 +78,7 @@ workflows:
           filters:
             branches:
               only:
-                - next-versions
-                - feat/cronjob-functionality
+                - master
     jobs:
       - buildLatest
+      - buildNext

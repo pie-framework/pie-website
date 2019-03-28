@@ -5,12 +5,13 @@ const { resolve } = require("path");
 const { readJsonSync, writeFile } = require("fs-extra");
 const pacote = require("pacote");
 const file = args._[0];
+const type = args._[1] || 'latest';
 
 const json = readJsonSync(resolve(file));
 
 const promises = Promise.all(
   json.map(nv => {
-    return pacote.manifest(`${nv.name}@next`).then(r => {
+    return pacote.manifest(`${nv.name}@${type}`).then(r => {
       const elementName = nv.name.slice(13);
       const formattedName = elementName.indexOf('-') > 0 ? elementName : `x-${elementName}`;
 
@@ -84,6 +85,8 @@ query {
 
                 tries += 1;
                 handlePromises(elementPromises);
+              } else {
+                console.log('Failed');
               }
             });
         };
