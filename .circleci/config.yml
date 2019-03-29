@@ -25,12 +25,18 @@ jobs:
         - restore_cache: *restore_cache
         - run: npm install
         - save_cache: *save_cache
+        # - run:
+        #     name: Building The Next Site
+        #     command: npm run buildNext
         - run:
-            name: Building The Next Site
-            command: npm run buildNext
+            name: Saving artifact-file
+            command: "mkdir -p /tmp/artifacts && cp ./site/.vuepress/deploy-info.json /tmp/artifacts/deploy-info.json"
+        - store_artifacts:
+            path: /tmp/artifacts
         - run:
             name: Deploying to pie-website-next.surge.sh
-            command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
+            command: echo "Deployed"
+            # command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
   buildLatest:
       <<: *defaults
       steps:
@@ -39,12 +45,18 @@ jobs:
         - restore_cache: *restore_cache
         - run: npm install
         - save_cache: *save_cache
+        # - run:
+        #     name: Building The Latest Site
+        #     command: npm run buildLatest
         - run:
-            name: Building The Latest Site
-            command: npm run buildLatest
+            name: Saving artifact-file
+            command: "mkdir -p /tmp/artifacts && cp ./site/.vuepress/deploy-info.json /tmp/artifacts/deploy-info.json"
+        - store_artifacts:
+            path: /tmp/artifacts
         - run:
             name: Deploying to pie-website.surge.sh
-            command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
+            command: echo "Deployed"
+            # command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
 
 workflows:
   version: 2
