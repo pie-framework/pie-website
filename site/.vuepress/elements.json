@@ -90,3 +90,5 @@
     "packageName": "@pie-element/text-entry"
   }
 ]
+
+curl https://circleci.com/api/v1.1/project/github/pie-framework/pie-website/latest/artifacts?circle-token=775e7d1c63fb40842529c6a77839243381bd8a5b | grep -o 'https://[^"]*' > artifacts.txt

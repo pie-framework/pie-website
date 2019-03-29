@@ -29,9 +29,6 @@ jobs:
         #     name: Building The Next Site
         #     command: npm run buildNext
         - run:
-            name: Use artifact file
-            command: "cat /tmp/artifacts/deploy-info.json"
-        - run:
             name: Saving artifact-file
             command: "mkdir -p /tmp/artifacts && cp ./site/.vuepress/deploy-info.json /tmp/artifacts/deploy-info-next.json"
         - store_artifacts:
