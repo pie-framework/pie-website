@@ -52,9 +52,9 @@ jobs:
             name: Building The Next Site
             command: npm run buildNext
         - run:
-          name: Deploying to Surge
-          command: echo "Deploying to pie-website-next.surge.sh"
-          # command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
+            name: Deploying to Surge
+            command: echo "Deploying to pie-website-next.surge.sh"
+            # command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
   buildLatest:
       <<: *defaults
       steps:
@@ -67,9 +67,9 @@ jobs:
             name: Building The Latest Site
             command: npm run buildLatest
         - run:
-          name: Deploying to Surge
-          command: echo "Deploying to pie-website.surge.sh"
-          # command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
+            name: Deploying to Surge
+            command: echo "Deploying to pie-website.surge.sh"
+            # command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
 
 workflows:
   version: 2
