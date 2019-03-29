@@ -98,7 +98,7 @@ workflows:
               only:
                 - master
     jobs:
-      - buildLatest
-      - buildNext:
-        requires:
-          - buildLatest
+      - buildNext
+      - buildLatest:
+          requires:
+            - buildNext
