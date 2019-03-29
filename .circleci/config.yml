@@ -17,20 +17,6 @@ save_cache: &save_cache
   key: v1-dependencies-{{ checksum "package.json" }}
 
 jobs:
-  build:
-    <<: *defaults
-    steps:
-      - checkout
-      # Download and cache dependencies
-      - restore_cache: *restore_cache
-      - run: npm install
-      - save_cache: *save_cache
-      - run:
-          name: Building The Site
-          command: npm run buildLatest && npm run buildNext
-      - run:
-          name: Deploying to Surge
-          command: surge --project ./site/.vuepress/dist pie-website.surge.sh
   buildNext:
       <<: *defaults
       steps:
@@ -44,7 +30,8 @@ jobs:
             command: npm run buildNext
         - run:
           name: Deploying to Surge
-          command: surge --project ./site/.vuepress/dist pie-website-next.surge.sh
+          command: echo "Deploying to pie-website-next.surge.sh"
+          # command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
   buildLatest:
       <<: *defaults
       steps:
@@ -58,14 +45,22 @@ jobs:
             command: npm run buildLatest
         - run:
           name: Deploying to Surge
-          command: surge --project ./site/.vuepress/dist pie-website.surge.sh
+          command: echo "Deploying to pie-website.surge.sh"
+          # command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
 
 workflows:
   version: 2
 
   build:
     jobs:
-      - build:
+      - buildNext:
+          filters:
+            branches:
+              only:
+                - master
+      - buildLatest:
+          requires:
+            - buildNext
           filters:
             branches:
               only:
@@ -81,4 +76,6 @@ workflows:
                 - master
     jobs:
       - buildLatest
-      - buildNext
+      - buildNext:
+        requires:
+          - buildLatest
