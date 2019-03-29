@@ -86,7 +86,9 @@ query {
                 tries += 1;
                 handlePromises(elementPromises);
               } else {
-                console.log('Failed');
+                console.error('Failed to grab elements');
+
+                process.exit(1);
               }
             });
         };

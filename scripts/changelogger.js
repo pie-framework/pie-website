@@ -181,7 +181,7 @@ promises.then(results => {
         fix: 'Bug Fixes'
       };
 
-      writeFileSync(`./test.json`, JSON.stringify(dataMap));
+      // writeFileSync(`./test.json`, JSON.stringify(dataMap));
 
       Object.keys(dataMap).forEach((key) => {
         if (dataMap.hasOwnProperty(key)) {
