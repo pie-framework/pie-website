@@ -6,8 +6,9 @@
     "build": "vuepress build site",
     "grabElements": "node ./scripts/grabber.js ./site/.vuepress/pie-packages.json",
     "getChangelogs": "node ./scripts/changelogger.js",
-    "buildLatest": "npm run grabElements && npm run getChangelogs && PIE_JSON_FILE=\"./elements.json\" npm run build",
-    "buildNext": "npm run grabElements next && npm run getChangelogs next && PIE_JSON_FILE=\"./elements.json\" npm run build"
+    "addDeployInfo": "cp ./site/.vuepress/deploy-info.json ./site/.vuepress/dist/deploy-info.json",
+    "buildLatest": "npm run grabElements && npm run getChangelogs && PIE_JSON_FILE=\"./elements.json\" npm run build && npm run addDeployInfo",
+    "buildNext": "npm run grabElements next && npm run getChangelogs next && PIE_JSON_FILE=\"./elements.json\" npm run build && npm run addDeployInfo"
   },
   "resolutions": {
     "webpack-dev-middleware": "3.6.0"

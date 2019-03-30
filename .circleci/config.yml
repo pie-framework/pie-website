@@ -25,18 +25,15 @@ jobs:
         - restore_cache: *restore_cache
         - run: npm install
         - save_cache: *save_cache
-        # - run:
-        #     name: Building The Next Site
-        #     command: npm run buildNext
         - run:
-            name: Saving artifact-file
-            command: "mkdir -p /tmp/artifacts && cp ./site/.vuepress/deploy-info.json /tmp/artifacts/deploy-info-next.json"
-        - store_artifacts:
-            path: /tmp/artifacts
+            name: Getting The Last Deploy Info
+            command: "curl http://pie-website-next.surge.sh/deploy-info.json > ./site/.vuepress/deploy-info.json"
+        - run:
+            name: Building The Next Site
+            command: npm run buildNext
         - run:
             name: Deploying to pie-website-next.surge.sh
-            command: echo "Deployed"
-            # command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
+            command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
   buildLatest:
       <<: *defaults
       steps:
@@ -45,18 +42,15 @@ jobs:
         - restore_cache: *restore_cache
         - run: npm install
         - save_cache: *save_cache
-        # - run:
-        #     name: Building The Latest Site
-        #     command: npm run buildLatest
         - run:
-            name: Saving artifact-file
-            command: "mkdir -p /tmp/artifacts && cp ./site/.vuepress/deploy-info.json /tmp/artifacts/deploy-info-latest.json"
-        - store_artifacts:
-            path: /tmp/artifacts
+            name: Getting The Last Deploy Info
+            command: "curl http://pie-website.surge.sh/deploy-info.json > ./site/.vuepress/deploy-info.json"
+        - run:
+            name: Building The Latest Site
+            command: npm run buildLatest
         - run:
             name: Deploying to pie-website.surge.sh
-            command: echo "Deployed"
-            # command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
+            command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
 
 workflows:
   version: 2
