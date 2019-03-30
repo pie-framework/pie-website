@@ -33,7 +33,7 @@ jobs:
             command: npm run buildNext
         - run:
             name: Deploying to pie-website-next.surge.sh
-            command: surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh
+            command: npm run deployNext
   buildLatest:
       <<: *defaults
       steps:
@@ -50,7 +50,7 @@ jobs:
             command: npm run buildLatest
         - run:
             name: Deploying to pie-website.surge.sh
-            command: surge --project ./site/.vuepress/dist --domain pie-website.surge.sh
+            command: npm run deployLatest
 
 workflows:
   version: 2
