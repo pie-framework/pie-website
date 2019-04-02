@@ -203,7 +203,6 @@ promises.then(results => {
 
                   logs[elName][logType].forEach((log) => {
                     if (!usedKeys[log.elementLabel]) {
-                      // formattedData.push(`## ${log.elementLabel}\n`);
                       usedKeys[log.elementLabel] = true;
                     }
 
