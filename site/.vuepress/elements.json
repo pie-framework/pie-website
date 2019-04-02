@@ -43,7 +43,7 @@
   },
   {
     "name": "multiple-choice",
-    "version": "2.10.4-next.0",
+    "version": "2.10.4-next.43",
     "label": "Multiple Choice",
     "packageName": "@pie-element/multiple-choice"
   },
