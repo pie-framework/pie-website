@@ -4,6 +4,23 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/02/2019
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 04/02/2019 17:11:17
+
+Version: ''
+
+feat: partial scoring
+
+Commit Date: 04/02/2019 11:20:20
+
+Version: ''
+
+feat: support env.partialScoring, disable for radio
 ## 03/26/2019
 
 ### Extended Text
