@@ -88,5 +88,11 @@
     "version": "3.5.2-next.2",
     "label": "Short Text",
     "packageName": "@pie-element/text-entry"
+  },
+  {
+    "name": "x-ebsr",
+    "version": "1.1.0",
+    "label": "EBSR",
+    "packageName": "@pie-element/ebsr"
   }
 ]

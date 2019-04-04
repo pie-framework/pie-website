@@ -73,6 +73,11 @@ var elements = [
     "name": "text-entry",
     "version": "3.3.1",
     "label": "Short Text"
+  },
+  {
+    "name": "x-ebsr",
+    "version": "1.1.0",
+    "label": "EBSR"
   }
 ];
 
@@ -119,7 +124,8 @@ module.exports = {
                 '/examples/pie-graph-lines',
                 '/examples/pie-match',
                 '/examples/pie-placement-ordering',
-                '/examples/pie-point-intercept'
+                '/examples/pie-point-intercept',
+                '/examples/pie-ebsr'
               ]
             },
             {
