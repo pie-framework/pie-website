@@ -4,6 +4,169 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/04/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:07:46
+
+Version: ''
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:08:15
+
+Version: ''
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 12:45:23
+
+Version: ''
+
+fix: remove mathquill ref from general-config-block
+
+Commit Date: 04/04/2019 12:38:17
+
+Version: ''
+
+fix: bump configure dependencies
+
+Commit Date: 04/04/2019 12:21:46
+
+Version: ''
+
+fix: bump @pie-ui/math-inline
+
+Commit Date: 04/04/2019 10:35:12
+
+Version: ''
+
+fix: bump math deps
+
+Commit Date: 04/04/2019 10:08:31
+
+Version: ''
+
+fix: bump math-input
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Chores
+
+Commit Date: 04/04/2019 11:55:46
+
+Version: '1.2.2'
+
+chore: new mathquill mock and test fixes
+
+Commit Date: 04/04/2019 11:13:39
+
+Version: '1.2.2'
+
+chore: replace mathquill dependency for math-inline
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:08:50
+
+Version: ''
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:09:08
+
+Version: ''
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:09:29
+
+Version: ''
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
 ## 04/02/2019
 
 ### Multiple Choice
