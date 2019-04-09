@@ -2,7 +2,7 @@
   "name": "pie-website",
   "version": "1.0.0",
   "scripts": {
-    "dev": "PIE_JSON_FILE=\"./elements.json\" vuepress dev site",
+    "dev": "vuepress dev site",
     "build": "vuepress build site",
     "grabElements": "node ./scripts/grabber.js ./site/.vuepress/pie-packages.json",
     "getChangelogs": "node ./scripts/changelogger.js",

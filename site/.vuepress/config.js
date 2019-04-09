@@ -10,6 +10,11 @@ var elements = [
     "label": "Categorize"
   },
   {
+    "name": "x-ebsr",
+    "version": "1.1.3",
+    "label": "EBSR"
+  },
+  {
     "name": "extended-text-entry",
     "version": "3.6.3",
     "label": "Extended Text"
@@ -73,19 +78,12 @@ var elements = [
     "name": "text-entry",
     "version": "3.3.1",
     "label": "Short Text"
-  },
-  {
-    "name": "x-ebsr",
-    "version": "1.1.0",
-    "label": "EBSR"
   }
 ];
 
 if (process.env.PIE_JSON_FILE) {
   elements = require(process.env.PIE_JSON_FILE);
 }
-
-console.log('Elements', elements);
 
 module.exports = {
   title: '',
