@@ -8,10 +8,19 @@ async function pushChanges() {
   const configSet = `git config user.email "lakatosandrei@gmail.com" && git config user.name "lakatosandrei"`;
   const pushCommand = 'git push -q https://${GITHUB_TOKEN}@github.com/pie-framework/pie-website.git master';
 
-  const { stdout, stderr } = await exec(`${pullingCommand} && ${configSet} && ${addCommand} && ${commitCommand} && ${pushCommand}`);
+  try {
+    const { stdout, stderr } = await exec(`${pullingCommand} && ${configSet} && ${addCommand} && ${commitCommand} && ${pushCommand}`);
 
-  console.log('stdout:', stdout);
-  console.log('stderr:', stderr);
+    console.log('stdout:', stdout);
+    console.log('stderr:', stderr);
+
+    if (stderr) {
+      process.exit(1);
+    }
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
+  }
 }
 
 pushChanges();
