@@ -4,6 +4,87 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/05/2019
+
+### Select Text
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 04/05/2019 13:45:49
+
+Version: '1.5.7'
+
+fix: Updated with correct @pie-lib/text-select version in order to work with html content.
 ## 04/04/2019
 
 ### Categorize
@@ -12,7 +93,7 @@ sidebarDepth: 2
 
 Commit Date: 04/04/2019 10:07:46
 
-Version: ''
+Version: '2.13.4'
 
 fix: bump editable-html
 
@@ -34,7 +115,7 @@ fix: move mathquill to devDependency
 
 Commit Date: 04/04/2019 10:08:15
 
-Version: ''
+Version: '3.9.5'
 
 fix: bump editable-html
 
@@ -56,31 +137,31 @@ fix: move mathquill to devDependency
 
 Commit Date: 04/04/2019 12:45:23
 
-Version: ''
+Version: '0.6.1'
 
 fix: remove mathquill ref from general-config-block
 
 Commit Date: 04/04/2019 12:38:17
 
-Version: ''
+Version: '0.6.1'
 
 fix: bump configure dependencies
 
 Commit Date: 04/04/2019 12:21:46
 
-Version: ''
+Version: '0.6.1'
 
 fix: bump @pie-ui/math-inline
 
 Commit Date: 04/04/2019 10:35:12
 
-Version: ''
+Version: '0.6.1'
 
 fix: bump math deps
 
 Commit Date: 04/04/2019 10:08:31
 
-Version: ''
+Version: '0.6.1'
 
 fix: bump math-input
 
@@ -108,7 +189,7 @@ chore: replace mathquill dependency for math-inline
 
 Commit Date: 04/04/2019 10:08:50
 
-Version: ''
+Version: '2.11.0'
 
 fix: bump editable-html
 
@@ -130,7 +211,7 @@ fix: move mathquill to devDependency
 
 Commit Date: 04/04/2019 10:09:08
 
-Version: ''
+Version: '3.7.4'
 
 fix: bump editable-html
 
@@ -152,7 +233,7 @@ fix: move mathquill to devDependency
 
 Commit Date: 04/04/2019 10:09:29
 
-Version: ''
+Version: '3.9.5'
 
 fix: bump editable-html
 

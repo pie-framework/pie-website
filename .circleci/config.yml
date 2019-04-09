@@ -26,8 +26,8 @@ jobs:
         - run: npm install
         - save_cache: *save_cache
         - run:
-            name: Getting The Last Deploy Info
-            command: "curl http://pie-website-next.surge.sh/deploy-info.json > ./site/.vuepress/deploy-info.json"
+            name: Pulling latest
+            command: npm run pullLatest
         - run:
             name: Building The Next Site
             command: npm run buildNext
@@ -46,8 +46,8 @@ jobs:
         - run: npm install
         - save_cache: *save_cache
         - run:
-            name: Getting The Last Deploy Info
-            command: "curl http://pie-website.surge.sh/deploy-info.json > ./site/.vuepress/deploy-info.json"
+            name: Pulling latest
+            command: npm run pullLatest
         - run:
             name: Building The Latest Site
             command: npm run buildLatest

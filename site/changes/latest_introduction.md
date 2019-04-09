@@ -4,6 +4,401 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: '3.10.0'
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: '3.10.0'
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: '3.10.0'
+
+feat: partial scoring - use @pie-lib/controller-utils
+## 04/05/2019
+
+### Select Text
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 04/05/2019 13:45:49
+
+Version: '1.5.7'
+
+fix: Updated with correct @pie-lib/text-select version in order to work with html content.
+## 04/04/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:07:46
+
+Version: '2.13.4'
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:08:15
+
+Version: '3.9.5'
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 12:45:23
+
+Version: '0.6.1'
+
+fix: remove mathquill ref from general-config-block
+
+Commit Date: 04/04/2019 12:38:17
+
+Version: '0.6.1'
+
+fix: bump configure dependencies
+
+Commit Date: 04/04/2019 12:21:46
+
+Version: '0.6.1'
+
+fix: bump @pie-ui/math-inline
+
+Commit Date: 04/04/2019 10:35:12
+
+Version: '0.6.1'
+
+fix: bump math deps
+
+Commit Date: 04/04/2019 10:08:31
+
+Version: '0.6.1'
+
+fix: bump math-input
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Chores
+
+Commit Date: 04/04/2019 11:55:46
+
+Version: '1.2.2'
+
+chore: new mathquill mock and test fixes
+
+Commit Date: 04/04/2019 11:13:39
+
+Version: '1.2.2'
+
+chore: replace mathquill dependency for math-inline
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:08:50
+
+Version: '2.11.0'
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:09:08
+
+Version: '3.7.4'
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 04/04/2019 10:09:29
+
+Version: '3.9.5'
+
+fix: bump editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Bug Fixes
+
+Commit Date: 04/04/2019 09:15:04
+
+Version: '7.2.0'
+
+fix: move mathquill to devDependency
+## 04/03/2019
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 04/03/2019 14:31:20
+
+Version: '2.11.1'
+
+fix: Update state.model if there are any changes.
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '7.2.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+###### Bug Fixes
+
+Commit Date: 04/03/2019 22:02:07
+
+Version: '7.2.0'
+
+fix(extended-text-entry): Fixed dimensions issue (width & height) were not changing properly.
+
+### Extended Text
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '7.2.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+###### Bug Fixes
+
+Commit Date: 04/03/2019 22:02:07
+
+Version: '7.2.0'
+
+fix(extended-text-entry): Fixed dimensions issue (width & height) were not changing properly.
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '7.2.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+###### Bug Fixes
+
+Commit Date: 04/03/2019 22:02:07
+
+Version: '7.2.0'
+
+fix(extended-text-entry): Fixed dimensions issue (width & height) were not changing properly.
+
+### Equation Response
+
+#### Dependencies 
+
+##### @pie-lib/math-input@5.3.1
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '5.3.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+##### @pie-lib/math-toolbar@0.10.1
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '0.10.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '7.2.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+###### Bug Fixes
+
+Commit Date: 04/03/2019 22:02:07
+
+Version: '7.2.0'
+
+fix(extended-text-entry): Fixed dimensions issue (width & height) were not changing properly.
+
+### Select Text
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.2.0
+
+###### Features
+
+Commit Date: 04/03/2019 22:05:15
+
+Version: '7.2.0'
+
+feat: use @pie-framework/mathquill - our fork with extras
+
+###### Bug Fixes
+
+Commit Date: 04/03/2019 22:02:07
+
+Version: '7.2.0'
+
+fix(extended-text-entry): Fixed dimensions issue (width & height) were not changing properly.
+## 04/02/2019
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 04/02/2019 17:11:17
+
+Version: '2.11.0'
+
+feat: partial scoring
+
+Commit Date: 04/02/2019 11:20:20
+
+Version: '2.11.0'
+
+feat: support env.partialScoring, disable for radio
+
+### Equation Response
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Chores
+
+Commit Date: 04/02/2019 12:15:07
+
+Version: '1.2.2'
+
+chore: math-inline mathquill issue reproducible sample with model
+
+##### @pie-lib/math-input@5.3.1
+
+###### Bug Fixes
+
+Commit Date: 04/02/2019 16:20:39
+
+Version: '5.3.0'
+
+fix: shouldComponentUpdate correctly checks latex
 ## 03/26/2019
 
 ### Equation Response
