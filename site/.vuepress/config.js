@@ -10,6 +10,11 @@ var elements = [
     "label": "Categorize"
   },
   {
+    "name": "x-ebsr",
+    "version": "1.1.3",
+    "label": "EBSR"
+  },
+  {
     "name": "extended-text-entry",
     "version": "3.6.3",
     "label": "Extended Text"
@@ -119,7 +124,8 @@ module.exports = {
                 '/examples/pie-graph-lines',
                 '/examples/pie-match',
                 '/examples/pie-placement-ordering',
-                '/examples/pie-point-intercept'
+                '/examples/pie-point-intercept',
+                '/examples/pie-ebsr'
               ]
             },
             {
