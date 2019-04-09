@@ -37,6 +37,17 @@ Commit Date: 04/09/2019 13:08:36
 Version: ''
 
 feat: partial scoring - use @pie-lib/controller-utils
+## 04/09/2019
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: ''
+
+feat: partial scoring - use @pie-lib/controller-utils
 ## 04/05/2019
 
 ### Select Text
