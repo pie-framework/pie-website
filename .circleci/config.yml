@@ -26,6 +26,9 @@ jobs:
         - run: npm install
         - save_cache: *save_cache
         - run:
+            name: Pulling latest
+            command: npm run pullLatest
+        - run:
             name: Building The Next Site
             command: npm run buildNext
         - run:
@@ -42,6 +45,9 @@ jobs:
         - restore_cache: *restore_cache
         - run: npm install
         - save_cache: *save_cache
+        - run:
+            name: Pulling latest
+            command: npm run pullLatest
         - run:
             name: Building The Latest Site
             command: npm run buildLatest

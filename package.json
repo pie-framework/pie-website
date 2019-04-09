@@ -10,7 +10,8 @@
     "buildNext": "npm run grabElements next && npm run getChangelogs next && PIE_JSON_FILE=\"./elements.json\" npm run build",
     "deployLatest": "surge --project ./site/.vuepress/dist --domain pie-website.surge.sh",
     "deployNext": "surge --project ./site/.vuepress/dist --domain pie-website-next.surge.sh",
-    "commitChanges": "node ./scripts/commitChanges.js"
+    "commitChanges": "node ./scripts/commitChanges.js",
+    "pullLatest": "node ./scripts/pullLatest.js"
   },
   "resolutions": {
     "webpack-dev-middleware": "3.6.0"
