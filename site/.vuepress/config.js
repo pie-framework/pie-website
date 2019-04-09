@@ -85,6 +85,8 @@ if (process.env.PIE_JSON_FILE) {
   elements = require(process.env.PIE_JSON_FILE);
 }
 
+console.log('Elements', elements);
+
 module.exports = {
   title: '',
   head: [
