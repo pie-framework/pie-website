@@ -6,6 +6,32 @@ sidebarDepth: 2
 ---
 ## 04/09/2019
 
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 04/09/2019 18:27:20
+
+Version: '1.1.4'
+
+fix: prevent default model.updated event [ch498]
+
+### Placement Ordering
+
+#### Features
+
+Commit Date: 04/09/2019 18:17:42
+
+Version: '4.0.0'
+
+feat: partial scoring logic updated to use pairwise combinations [ch440]
+
+Commit Date: 04/09/2019 18:14:32
+
+Version: '4.0.0'
+
+feat: UI and model updates [ch423]
+
 ### Select Text
 
 #### Features
@@ -15,39 +41,23 @@ Commit Date: 04/09/2019 13:08:36
 Version: '3.10.0'
 
 feat: partial scoring - use @pie-lib/controller-utils
-## 04/09/2019
+## 04/08/2019
 
-### Select Text
+### EBSR
 
-#### Features
+#### Bug Fixes
 
-Commit Date: 04/09/2019 13:08:36
+Commit Date: 04/08/2019 13:12:56
 
-Version: '3.10.0'
+Version: '1.1.1'
 
-feat: partial scoring - use @pie-lib/controller-utils
-## 04/09/2019
+fix: set model after multiple-choice is defined
 
-### Select Text
+Commit Date: 04/08/2019 15:06:13
 
-#### Features
+Version: '1.1.2'
 
-Commit Date: 04/09/2019 13:08:36
-
-Version: '3.10.0'
-
-feat: partial scoring - use @pie-lib/controller-utils
-## 04/09/2019
-
-### Select Text
-
-#### Features
-
-Commit Date: 04/09/2019 13:08:36
-
-Version: '3.10.0'
-
-feat: partial scoring - use @pie-lib/controller-utils
+fix: scope multiple-choice config constructor
 ## 04/05/2019
 
 ### Select Text
