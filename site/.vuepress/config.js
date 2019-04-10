@@ -20,11 +20,6 @@ var elements = [
     "label": "Extended Text"
   },
   {
-    "name": "graph-lines",
-    "version": "1.3.1",
-    "label": "Graph Lines"
-  },
-  {
     "name": "inline-choice",
     "version": "2.3.1",
     "label": "Inline Choice"
@@ -53,11 +48,6 @@ var elements = [
     "name": "placement-ordering",
     "version": "3.4.3",
     "label": "Placement Ordering"
-  },
-  {
-    "name": "point-intercept",
-    "version": "3.3.1",
-    "label": "Point Intercept"
   },
   {
     "name": "x-protractor",
@@ -121,10 +111,8 @@ module.exports = {
                 '/examples/pie-select-text',
                 '/examples/pie-text-entry',
                 '/examples/pie-extended-text-entry',
-                '/examples/pie-graph-lines',
                 '/examples/pie-match',
                 '/examples/pie-placement-ordering',
-                '/examples/pie-point-intercept',
                 '/examples/pie-ebsr'
               ]
             },
