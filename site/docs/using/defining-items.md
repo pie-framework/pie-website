@@ -1,5 +1,10 @@
 ---
+title: "Introduction"
 layout: DefaultLayout
+sidebar: false
+pageClass: customDefaultPage
+noSearchBox: true
+sidebarDepth: 2
 ---
 
 # Defining Items

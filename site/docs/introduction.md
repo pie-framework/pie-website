@@ -1,7 +1,10 @@
 ---
-title: Introduction
-sidebar: false
+title: "Introduction"
 layout: DefaultLayout
+sidebar: false
+pageClass: customDefaultPage
+noSearchBox: true
+sidebarDepth: 2
 ---
 
 # PIE: Portable Interactions and Elements

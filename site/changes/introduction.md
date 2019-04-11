@@ -1,6 +1,9 @@
 ---
 title: "Changes"
 layout: DefaultLayout
+sidebar: false
+# navbar: false
+pageClass: customDefaultPage
 noSearchBox: true
 sidebarDepth: 2
 ---

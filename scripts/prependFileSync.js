@@ -11,8 +11,8 @@ module.exports = (fileName, text) => {
 
   if (data) {
     if (existsSync(fileName)) {
-      writeSync(fd, data, 0, data.length >= 81 ? 81 : 0, 0);
-      delimiter = 81;
+      writeSync(fd, data, 0, data.length >= 136 ? 136 : 0, 0);
+      delimiter = 136;
     }
 
     writeSync(fd, insert, 0, insert.length, delimiter);

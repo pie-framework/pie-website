@@ -1,0 +1,55 @@
+.pie-demo
+  height 100%
+  .custom-nav-menu
+    .nav-menu
+      position initial
+  .element-container
+    box-sizing border-box
+    height calc(100% - 65px)
+    overflow scroll
+    padding 0 0 0 220px
+    width 100%
+  .pie-side-menu
+    background #fff
+    right initial
+    top 65px
+    width 220px
+    .pie-menu-content
+      position relative
+      width 220px
+      .menu-header
+        display none
+      & > .nav-links
+        display none
+      .search-box-container
+        display flex
+        justify-content flex-start
+        .search-box
+          width 100%
+          input
+            margin 0 20px
+            width calc(100% - 40px)
+          .suggestions
+            z-index 99
+      .sidebar
+        display block !important
+        .sidebar-group-items
+          li
+            display flex
+            align-items center
+            justify-content space-between
+            height 36px
+            a
+              margin-left 20px
+              height auto !important
+              padding 0 !important
+              width auto
+            .version
+              color rgba(0, 0, 0, 0.4)
+              font-size 10px
+              margin-right 10px
+
+        .nav-links
+          display none
+        .sidebar-links
+          display block

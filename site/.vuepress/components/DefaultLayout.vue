@@ -1,46 +1,14 @@
 <template>
     <div
-            class="theme-container"
-            :class="pageClasses"
+            class="pie-demo pie-changes"
             @touchstart="onTouchStart"
             @touchend="onTouchEnd"
     >
-        <div
-                class="sidebar-mask"
-                @click="toggleSidebar(false)"
-        ></div>
-
-        <div
-                class="sidebar-container"
-        >
-            <div v-if="shouldShowSearchBox" class="search-box-container">
-                <SearchBox placeholder="Search" />
-            </div>
-            <Sidebar
-                    :items="sidebarItems"
-                    @toggle-sidebar="toggleSidebar"
-            >
-                <slot
-                        name="sidebar-top"
-                        slot="top"
-                />
-                <slot
-                        name="sidebar-bottom"
-                        slot="bottom"
-                />
-            </Sidebar>
-            <div class="download-pdf-container">
-                <i class="fa fa-download" />
-                <div class="text-container">
-                    <div class="title">
-                        Download PDF
-                    </div>
-                    <div class="info">
-                        <span>{{ pdfVersion }}</span>  •  Last Update: <span>{{ lastUpdatePDF }}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <CustomNavMenu :onMenuIconClick="toggleSideMenu" />
+        <SideMenu
+                :open="shouldShowSideMenu"
+                :closeSideMenu="toggleSideMenu"
+        />
 
         <Page
                 :sidebar-items="sidebarItems"
@@ -59,6 +27,8 @@
 
 <script>
   import Vue from 'vue'
+  import CustomNavMenu from './Utils/CustomNavMenu.vue'
+  import SideMenu from './Utils/SideMenu.vue'
   import nprogress from 'nprogress'
   import Home from '../../../node_modules/vuepress/lib/default-theme/Home.vue'
   import SearchBox from './SearchBox.vue'
@@ -69,7 +39,7 @@
   import dateformat from 'dateformat';
 
   export default {
-    components: { Home, Page, Sidebar, SearchBox, SWUpdatePopup },
+    components: { CustomNavMenu, SideMenu, Home, Page, Sidebar, SearchBox, SWUpdatePopup },
 
     data () {
       return {
@@ -124,18 +94,22 @@
         const userPageClass = this.$page.frontmatter.pageClass
         return [
           {
-            'no-navbar': !this.shouldShowNavbar,
             'sidebar-open': this.isSidebarOpen,
             'force-sidebar': this.shouldShowSidebar
           },
           userPageClass
         ]
       },
+
       lastUpdatePDF () {
         const date = new Date();
 
         return dateformat(date, "mmm dd, yyyy");
-      }
+      },
+
+      shouldShowSideMenu() {
+        return this.sideMenuVisible;
+      },
     },
 
     mounted () { 
@@ -162,6 +136,10 @@
     methods: {
       toggleSidebar (to) {
         this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+      },
+
+      toggleSideMenu() {
+        this.sideMenuVisible = !this.sideMenuVisible;
       },
 
       // side swipe
@@ -191,6 +169,33 @@
   }
 </script>
 
-<style src="prismjs/themes/prism-tomorrow.css"></style>
-<style lang="stylus" src="./DefaultLayout/style.styl"></style>
+
+<style src="prismjs/themes/prism-tomorrow.css" lang="css"></style>
+<style lang="stylus">
+    @import "./DefaultLayout/style.styl";
+    @import "./DefaultLayout/pie-demo.styl";
+    @import "../navMenu.styl";
+
+    .customDefaultPage
+        & > .navbar
+            display none
+        .custom-layout
+            padding-top 3em
+        .pie-changes
+            .custom-nav-menu
+                left 0
+                position fixed
+                right 0
+                top 0
+
+            .page
+                .content
+                    padding 0
+
+            .pie-side-menu
+                .pie-menu-content
+                    .sidebar
+                        height calc(100% - 75px)
+                        top 0
+</style>
 <style src="../../../node_modules/vuepress/lib/default-theme/styles/theme.styl" lang="stylus"></style>

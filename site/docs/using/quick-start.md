@@ -1,5 +1,10 @@
 ---
+title: "Quick Start"
 layout: DefaultLayout
+sidebar: false
+pageClass: customDefaultPage
+noSearchBox: true
+sidebarDepth: 2
 ---
 
 # Quick Start

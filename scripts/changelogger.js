@@ -228,9 +228,9 @@ promises.then(results => {
       });
       const totalData = formattedData.join('\n');
 
-      prependFileSync(`./site/changes/${type}_introduction.md`, totalData);
+      prependFileSync(`./site/changes/${type}_introduction`, totalData);
 
-      const allData = readFileSync(`./site/changes/${type}_introduction.md`);
+      const allData = readFileSync(`./site/changes/${type}_introduction`);
 
       writeFileSync('./site/changes/introduction.md', allData);
       writeFileSync(deployFile,
