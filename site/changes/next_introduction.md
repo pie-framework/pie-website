@@ -4,6 +4,241 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/16/2019
+
+### Match
+
+#### Features
+
+Commit Date: 04/16/2019 14:45:08
+
+Version: '1.12.0'
+
+feat(match): Renamed model and configure properties using naming conventions and integrated settings panel.
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 04/16/2019 08:26:29
+
+Version: '1.2.2'
+
+fix(package): updated the version for the pie-ui/ebsr package
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 04/16/2019 11:46:15
+
+Version: '4.2.1'
+
+fix(placement-ordering): Updated defaults values.
+
+Commit Date: 04/16/2019 10:52:21
+
+Version: '4.2.1'
+
+fix: Fixed test.
+
+Commit Date: 04/16/2019 10:37:35
+
+Version: '4.2.1'
+
+fix: Updated controller test.
+
+Commit Date: 04/16/2019 10:27:08
+
+Version: '4.2.1'
+
+fix: Removed unnecessary file and refactored.
+
+Commit Date: 04/16/2019 10:03:52
+
+Version: '4.2.1'
+
+fix(placement-ordering): Fixed tests after renaming model properties using naming conventions and using settings panel.
+## 04/15/2019
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 04/15/2019 11:43:37
+
+Version: '1.12.0'
+
+fix(placement-ordering): renaming model properties with naming conventions.
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 04/15/2019 19:16:13
+
+Version: '4.2.1'
+
+fix(placement-ordering): Finished renaming model properties using new established naming conventions and integrated settings panel.
+
+Commit Date: 04/15/2019 12:22:19
+
+Version: '4.2.1'
+
+fix(placement-ordering): Finished renaming model properties using naming conventions.
+
+Commit Date: 04/15/2019 11:43:37
+
+Version: '4.2.1'
+
+fix(placement-ordering): renaming model properties with naming conventions.
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 04/15/2019 11:43:37
+
+Version: '3.10.2'
+
+fix(placement-ordering): renaming model properties with naming conventions.
+## 04/12/2019
+
+### Placement Ordering
+
+#### Features
+
+Commit Date: 04/12/2019 11:27:47
+
+Version: '4.2.0'
+
+feat(scoring): `orderMustBeComplete` defaults to false
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@9.0.1
+
+###### Bug Fixes
+
+Commit Date: 04/12/2019 23:12:47
+
+Version: '9.0.1'
+
+fix: bump version
+
+###### Features
+
+Commit Date: 04/12/2019 22:06:18
+
+Version: '8.0.0'
+
+feat: new config layout component
+
+Commit Date: 04/12/2019 20:52:03
+
+Version: '8.0.0'
+
+feat: New component Settings panel for rendering the settings ui.
+
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@9.0.1
+
+###### Bug Fixes
+
+Commit Date: 04/12/2019 23:12:47
+
+Version: '9.0.1'
+
+fix: bump version
+
+###### Features
+
+Commit Date: 04/12/2019 22:06:18
+
+Version: '8.0.0'
+
+feat: new config layout component
+
+Commit Date: 04/12/2019 20:52:03
+
+Version: '8.0.0'
+
+feat: New component Settings panel for rendering the settings ui.
+## 04/10/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 04/10/2019 16:53:07
+
+Version: '0.7.0'
+
+fix: minor adjustments
+
+#### Features
+
+Commit Date: 04/10/2019 12:31:51
+
+Version: '0.7.0'
+
+feat(math-inline): decimal support and partial scoring
+
+### EBSR
+
+#### Features
+
+Commit Date: 04/10/2019 16:40:02
+
+Version: '1.2.0'
+
+feat: update scoring [ch1199]
+## 04/09/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 04/09/2019 18:27:20
+
+Version: '1.1.4'
+
+fix: prevent default model.updated event [ch498]
+
+### Placement Ordering
+
+#### Features
+
+Commit Date: 04/09/2019 18:17:42
+
+Version: '4.0.0'
+
+feat: partial scoring logic updated to use pairwise combinations [ch440]
+
+Commit Date: 04/09/2019 18:14:32
+
+Version: '4.0.0'
+
+feat: UI and model updates [ch423]
+
+Commit Date: 04/09/2019 20:18:34
+
+Version: '4.1.0'
+
+feat: scoring change [ch440]
+
+### Select Text
+
+#### Features
+
+Commit Date: 04/09/2019 13:08:36
+
+Version: '3.10.0'
+
+feat: partial scoring - use @pie-lib/controller-utils
 ## 04/09/2019
 
 ### EBSR
