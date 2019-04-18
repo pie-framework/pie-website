@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/18/2019
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 04/18/2019 16:43:33
+
+Version: '2.12.0'
+
+feat: Updated @pie-ui/multiple-choice version.
 ## 04/16/2019
 
 ### Match
