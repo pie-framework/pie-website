@@ -71,6 +71,16 @@ Version: '1.12.0'
 
 fix(placement-ordering): renaming model properties with naming conventions.
 
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 04/15/2019 11:43:37
+
+Version: ''
+
+fix(placement-ordering): renaming model properties with naming conventions.
+
 ### Placement Ordering
 
 #### Bug Fixes

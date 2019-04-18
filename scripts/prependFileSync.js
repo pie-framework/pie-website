@@ -7,9 +7,10 @@ module.exports = (fileName, text) => {
   const data = readFileSync(fileName, readOptions);
   const fd = openSync(fileName, 'w+');
   const insert = Buffer.from(text);
-  let delimiter = 0;
 
   if (data) {
+    let delimiter = 0;
+
     if (existsSync(fileName)) {
       writeSync(fd, data, 0, data.length >= 81 ? 81 : 0, 0);
       delimiter = 81;
