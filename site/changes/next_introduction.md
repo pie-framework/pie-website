@@ -4,6 +4,77 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/23/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
+
+### Inline Choice
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
+
+### Short Text
+
+#### Bug Fixes
+
+Commit Date: 04/23/2019 09:12:02
+
+Version: ''
+
+fix(calculator): Updated @pie-lib/config-ui version. (#177)
 ## 04/18/2019
 
 ### Multiple Choice
