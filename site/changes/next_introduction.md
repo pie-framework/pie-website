@@ -4,6 +4,37 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/24/2019
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 04/24/2019 08:52:49
+
+Version: ''
+
+chore: math-inline dependency bumps (#179)
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 04/24/2019 06:19:37
+
+Version: ''
+
+fix(ebsr): revert `itemStem` to `prompt`.
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 04/24/2019 06:19:37
+
+Version: ''
+
+fix(ebsr): revert `itemStem` to `prompt`.
 ## 04/23/2019
 
 ### Calculator
