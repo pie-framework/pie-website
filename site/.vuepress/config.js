@@ -30,6 +30,11 @@ var elements = [
     "label": "Match"
   },
   {
+    "name": "match-list",
+    "version": "1.1.0",
+    "label": "Match List"
+  },
+  {
     "name": "math-inline",
     "version": "0.3.3",
     "label": "Equation Response"
@@ -80,7 +85,7 @@ console.log('Elements', elements);
 module.exports = {
   title: '',
   head: [
-    ['script', { src: 'https://unpkg.com/pie-demo@1.17.0/dist/pie-demo.js' }]
+    ['script', { src: 'https://unpkg.com/pie-demo@1.18.0/dist/pie-demo.js' }]
   ],
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
@@ -112,6 +117,7 @@ module.exports = {
                 '/examples/pie-text-entry',
                 '/examples/pie-extended-text-entry',
                 '/examples/pie-match',
+                '/examples/pie-match-list',
                 '/examples/pie-placement-ordering',
                 '/examples/pie-ebsr'
               ]
