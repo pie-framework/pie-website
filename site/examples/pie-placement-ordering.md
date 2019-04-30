@@ -5,6 +5,8 @@ sidebar: false
 navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/placement-ordering@3.4.3"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/placement-ordering/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/placement-ordering/docs/config-schema.json"
 model:
     id: '1'
     element: 'placement-ordering'

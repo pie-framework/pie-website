@@ -5,6 +5,8 @@ sidebar: false
 navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/select-text@3.6.4"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/select-text/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/select-text/docs/config-schema.json"
 model:
     id: '1'
     element: select-text

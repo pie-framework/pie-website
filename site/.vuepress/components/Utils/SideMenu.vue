@@ -114,7 +114,7 @@
         right 0
         position fixed
         top 0
-        z-index 9
+        z-index 999
         .pie-menu-content
             background-color #ffffff
             bottom 0

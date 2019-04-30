@@ -5,6 +5,8 @@ sidebar: false
 navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/match@1.8.3"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/match/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/match/docs/config-schema.json"
 model:
     id: '1'
     element: 'match-element'

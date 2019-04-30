@@ -5,6 +5,8 @@ sidebar: false
 navbar: false
 pageClass: customDemoPage
 pie: "@pie-element/ebsr@1.1.0"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/ebsr/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/ebsr/docs/config-schema.json"
 model:
     id: '1'
     element: pie-element-ebsr

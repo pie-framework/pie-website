@@ -18,7 +18,7 @@
   import ResizeObserver from 'resize-observer-polyfill';
   const Sentry = require('@sentry/browser');
 
-  function setupPie(elements, model, schemaJSONURI, configure, index, multiplePies) {
+  function setupPie(elements, model, schemas, configure, index, multiplePies) {
     const pieDemo = document.getElementById(`demo${index}`);
 
     if (pieDemo) {
@@ -162,7 +162,8 @@
           "favoriteFruit": "banana"
         }
       ];
-      pieDemo.schemaJSONURI = schemaJSONURI;
+      pieDemo.modelSchemaJSONURI = schemas.model;
+      pieDemo.configureSchemaJSONURI = schemas.configure;
       pieDemo.configure = configure;
 
       if (pieDemo.loadPies) {
@@ -177,7 +178,7 @@
           });
         }
       } else {
-        setTimeout(() => setupPie(elements, model, schemaJSONURI, configure, index), 200);
+        setTimeout(() => setupPie(elements, model, schemas, configure, index), 200);
       }
     }
   }
@@ -269,11 +270,19 @@
       }
       const models = getModels(this.$page.frontmatter);
       const configure = this.$page.frontmatter.configure;
-      const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
+      const modelSchemaJSONURI = this.$page.frontmatter.modelSchemaJSONURI;
+      const configureSchemaJSONURI = this.$page.frontmatter.configureSchemaJSONURI;
 
       window.addEventListener('scroll', this.onScroll);
 
-      models.forEach((model, index) => setupPie(themeConfig.elements, model, schemaJSONURI, configure, index, models.length > 1));
+      models.forEach((model, index) => setupPie(
+        themeConfig.elements,
+        model,
+        { model: modelSchemaJSONURI, configure: configureSchemaJSONURI },
+        configure,
+        index,
+        models.length > 1
+      ));
 
       this.observer = new ResizeObserver(() => {
         if (this.navRef.offsetWidth > 750) {
@@ -298,9 +307,17 @@
       const { themeConfig } = this.$site;
       const models = getModels(this.$page.frontmatter);
       const configure = this.$page.frontmatter.configure;
-      const schemaJSONURI = this.$page.frontmatter.schemaJSONURI;
+      const modelSchemaJSONURI = this.$page.frontmatter.modelSchemaJSONURI;
+      const configureSchemaJSONURI = this.$page.frontmatter.configureSchemaJSONURI;
 
-      models.forEach((model, index) => setupPie(themeConfig.elements, model, schemaJSONURI, configure, index, models.length > 1));
+      models.forEach((model, index) => setupPie(
+        themeConfig.elements,
+        model,
+        { model: modelSchemaJSONURI, configure: configureSchemaJSONURI },
+        configure,
+        index,
+        models.length > 1
+      ));
 
       renderVersions(themeConfig.elements);
     },
