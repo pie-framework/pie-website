@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/02/2019
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 05/02/2019 11:31:55
+
+Version: '2.12.5'
+
+fix: Removed usage of state and updated tests.
 ## 04/29/2019
 
 ### Match List
