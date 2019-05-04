@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/03/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 05/03/2019 13:42:03
+
+Version: '1.0.7'
+
+fix(math-inline): vital null checks and onFocus for editable-html
 ## 05/02/2019
 
 ### Multiple Choice
