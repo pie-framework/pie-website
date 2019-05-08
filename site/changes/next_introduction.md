@@ -4,6 +4,27 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/07/2019
+
+### Match
+
+#### Features
+
+Commit Date: 05/07/2019 17:33:06
+
+Version: ''
+
+feat: Updated with new version of @pie-ui/match.
+
+### EBSR
+
+#### Features
+
+Commit Date: 05/07/2019 17:16:38
+
+Version: ''
+
+feat: Updated with new version of @pie-lib-config-ui. Renamed `configure` with `configuration`.
 ## 05/03/2019
 
 ### Equation Response
