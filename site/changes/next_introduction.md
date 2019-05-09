@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/08/2019
+
+### Short Text
+
+#### Features
+
+Commit Date: 05/08/2019 16:33:18
+
+Version: ''
+
+feat: Transformed defaults into an object that has model and configuration property.
 ## 05/07/2019
 
 ### Match
