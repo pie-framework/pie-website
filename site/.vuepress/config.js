@@ -20,6 +20,11 @@ var elements = [
     "label": "Extended Text"
   },
   {
+    "name": "x-hotspot",
+    "version": "1.0.5",
+    "label": "Hotspot"
+  },
+  {
     "name": "inline-choice",
     "version": "2.3.1",
     "label": "Inline Choice"
@@ -119,7 +124,8 @@ module.exports = {
                 '/examples/pie-match',
                 '/examples/pie-match-list',
                 '/examples/pie-placement-ordering',
-                '/examples/pie-ebsr'
+                '/examples/pie-ebsr',
+                '/examples/pie-hotspot'
               ]
             },
             {

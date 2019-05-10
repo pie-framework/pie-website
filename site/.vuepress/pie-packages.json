@@ -10,9 +10,19 @@
     "label": "Categorize"
   },
   {
+    "name": "@pie-element/ebsr",
+    "version": "^1.1.0",
+    "label": "EBSR"
+  },
+  {
     "name": "@pie-element/extended-text-entry",
     "version": "^3.6.3",
     "label": "Extended Text"
+  },
+  {
+    "name": "@pie-element/hotspot",
+    "version": "^1.0.5",
+    "label": "Hotspot"
   },
   {
     "name": "@pie-element/inline-choice",
@@ -38,11 +48,6 @@
     "name": "@pie-element/multiple-choice",
     "version": "^2.7.3",
     "label": "Multiple Choice"
-  },
-  {
-    "name": "@pie-element/ebsr",
-    "version": "^1.1.0",
-    "label": "EBSR"
   },
   {
     "name": "@pie-element/number-line",
