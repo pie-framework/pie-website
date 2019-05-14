@@ -4,6 +4,23 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/14/2019
+
+### Equation Response
+
+#### Features
+
+Commit Date: 05/14/2019 13:23:32
+
+Version: '2.1.0'
+
+feat: Sending rationale for `instructor` role only in 'view' or 'evaluate' mode.
+
+Commit Date: 05/14/2019 11:49:31
+
+Version: '2.1.0'
+
+feat: Sending rationale for `instructor` mode.
 ## 04/25/2019
 
 ### Match List
