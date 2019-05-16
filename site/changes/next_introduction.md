@@ -4,6 +4,101 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/15/2019
+
+### Hotspot
+
+#### Features
+
+Commit Date: 05/15/2019 13:04:28
+
+Version: ''
+
+feat: Updated with new version of @pie-lib-config-ui. Renamed `configure` with `configuration`. Removed usage of state (root.jsx) and updated tests. (#225)
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Bug Fixes
+
+Commit Date: 05/15/2019 14:38:51
+
+Version: '1.1.0'
+
+fix: Updated pie-lib/render-ui version (to use className property). Added snapshot test for rationale.
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 05/15/2019 10:00:02
+
+Version: ''
+
+fix: Updated version of pie-ui/match-list. (#231)
+
+### Categorize
+
+#### Dependencies 
+
+##### Categorize
+
+###### Bug Fixes
+
+Commit Date: 05/15/2019 15:41:33
+
+Version: '1.1.0'
+
+fix: Added snapshot test for rationale.
+
+Commit Date: 05/15/2019 15:12:58
+
+Version: '1.1.0'
+
+fix: Updated pie-lib/render-ui version (to use className property). Added snapshot test for rationale.
+
+### Multiple Choice
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Bug Fixes
+
+Commit Date: 05/15/2019 14:59:10
+
+Version: '4.8.0'
+
+fix: Added snapshot test for rationale.
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### Placement Ordering
+
+###### Bug Fixes
+
+Commit Date: 05/15/2019 14:18:56
+
+Version: '4.7.0'
+
+fix: Updated pie-lib/render-ui version (to use className property). Added snapshot test for rationale.
+
+### Select Text
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 05/15/2019 14:50:42
+
+Version: '1.6.0'
+
+fix: Updated pie-lib/render-ui version (to use className property). Added snapshot test for rationale.
 ## 05/14/2019
 
 ### Equation Response
