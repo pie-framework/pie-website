@@ -1,97 +1,97 @@
 [
   {
     "name": "x-calculator",
-    "version": "2.6.10",
+    "version": "2.6.11-next.196",
     "label": "Calculator",
     "packageName": "@pie-element/calculator"
   },
   {
     "name": "x-categorize",
-    "version": "4.0.0",
+    "version": "4.0.1-next.30",
     "label": "Categorize",
     "packageName": "@pie-element/categorize"
   },
   {
     "name": "x-ebsr",
-    "version": "2.0.1",
+    "version": "2.0.2-next.172",
     "label": "EBSR",
     "packageName": "@pie-element/ebsr"
   },
   {
     "name": "extended-text-entry",
-    "version": "4.0.1",
+    "version": "4.0.2-next.172",
     "label": "Extended Text",
     "packageName": "@pie-element/extended-text-entry"
   },
   {
     "name": "x-hotspot",
-    "version": "2.0.0",
+    "version": "2.0.1-next.30",
     "label": "Hotspot",
     "packageName": "@pie-element/hotspot"
   },
   {
     "name": "inline-choice",
-    "version": "2.5.10",
+    "version": "2.5.11-next.196",
     "label": "Inline Choice",
     "packageName": "@pie-element/inline-choice"
   },
   {
     "name": "x-match",
-    "version": "2.1.1",
+    "version": "2.1.2-next.91",
     "label": "Match",
     "packageName": "@pie-element/match"
   },
   {
     "name": "match-list",
-    "version": "1.2.4",
+    "version": "1.2.5-next.30",
     "label": "Match List",
     "packageName": "@pie-element/match-list"
   },
   {
     "name": "math-inline",
-    "version": "2.1.1",
+    "version": "2.1.2-next.30",
     "label": "Equation Response",
     "packageName": "@pie-element/math-inline"
   },
   {
     "name": "multiple-choice",
-    "version": "3.1.0",
+    "version": "3.1.1-next.30",
     "label": "Multiple Choice",
     "packageName": "@pie-element/multiple-choice"
   },
   {
     "name": "number-line",
-    "version": "4.1.1",
+    "version": "4.1.2-next.91",
     "label": "Number Line",
     "packageName": "@pie-element/number-line"
   },
   {
     "name": "placement-ordering",
-    "version": "5.1.0",
+    "version": "5.1.1-next.30",
     "label": "Placement Ordering",
     "packageName": "@pie-element/placement-ordering"
   },
   {
     "name": "x-protractor",
-    "version": "2.3.4",
+    "version": "2.3.5-next.612",
     "label": "Protractor",
     "packageName": "@pie-element/protractor"
   },
   {
     "name": "x-ruler",
-    "version": "3.4.10",
+    "version": "3.4.11-next.196",
     "label": "Ruler",
     "packageName": "@pie-element/ruler"
   },
   {
     "name": "select-text",
-    "version": "4.1.0",
+    "version": "4.1.1-next.30",
     "label": "Select Text",
     "packageName": "@pie-element/select-text"
   },
   {
     "name": "text-entry",
-    "version": "3.6.1",
+    "version": "3.6.2-next.125",
     "label": "Short Text",
     "packageName": "@pie-element/text-entry"
   }
