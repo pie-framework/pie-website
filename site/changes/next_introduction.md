@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/21/2019
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 05/21/2019 12:19:56
+
+Version: ''
+
+chore(math-inline): bump dependency versions
 ## 05/15/2019
 
 ### Hotspot
