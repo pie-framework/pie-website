@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 05/31/2019
+
+### Hotspot
+
+#### Features
+
+Commit Date: 05/31/2019 14:03:05
+
+Version: ''
+
+feat: add support for polygons  (#246)
 ## 05/21/2019
 
 ### Equation Response
