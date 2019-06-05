@@ -169,9 +169,8 @@
       if (pieDemo.loadPies) {
         if (!window['pie']) {
           const packages = elements.map(el => `${el.name}@${el.version}`);
-          const elementNumber = 15;
-          const names = packages.slice(0, elementNumber).join('+');
-          const packagesName = `@pie-element/${packages.slice(0, elementNumber).join('+@pie-element/')}`.replace(/x-/g, '');
+          const names = packages.join('+');
+          const packagesName = `@pie-element/${packages.join('+@pie-element/')}`.replace(/x-/g, '');
 
           pieDemo.loadPies({
             [names]: packagesName
