@@ -20,6 +20,21 @@ var elements = [
     "label": "Extended Text"
   },
   {
+    "name": "drag-in-the-blank",
+    "version": "1.1.0",
+    "label": "Drag In The Blank"
+  },
+  {
+    "name": "explicit-constructed-response",
+    "version": "1.1.0",
+    "label": "Explicit Constructed Response"
+  },
+  {
+    "name": "inline-dropdown",
+    "version": "1.3.0",
+    "label": "Inline Dropdown"
+  },
+  {
     "name": "x-hotspot",
     "version": "1.0.5",
     "label": "Hotspot"
@@ -114,8 +129,11 @@ module.exports = {
               collapsable: false,
               children: [
                 '/examples/pie-categorize',
+                '/examples/pie-drag-in-the-blank',
+                '/examples/pie-explicit-constructed-response',
                 '/examples/pie-math-inline',
                 '/examples/pie-inline-choice',
+                '/examples/pie-inline-dropdown',
                 '/examples/pie-multiple-choice',
                 '/examples/pie-number-line',
                 '/examples/pie-select-text',

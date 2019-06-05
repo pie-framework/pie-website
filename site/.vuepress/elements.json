@@ -42,6 +42,24 @@
     "packageName": "@pie-element/match"
   },
   {
+    "name": "drag-in-the-blank",
+    "version": "1.1.0",
+    "label": "Drag In The Blank",
+    "packageName": "@pie-element/drag-in-the-blank"
+  },
+  {
+    "name": "explicit-constructed-response",
+    "version": "1.1.0",
+    "label": "Explicit Constructed Response",
+    "packageName": "@pie-element/explicit-constructed-response"
+  },
+  {
+    "name": "inline-dropdown",
+    "version": "1.3.0",
+    "label": "Inline Dropdown",
+    "packageName": "@pie-element/inline-dropdown"
+  },
+  {
     "name": "match-list",
     "version": "1.2.7",
     "label": "Match List",
