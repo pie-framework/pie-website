@@ -4,6 +4,1216 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/06/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Categorize
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### EBSR
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 06/06/2019 00:07:42
+
+Version: '2.5.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:03:28
+
+Version: '2.5.0'
+
+chore(version): bumped the versions
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Chores
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '1.2.1'
+
+chore(version-bump): updated packages
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Match
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Chores
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '1.2.1'
+
+chore(version-bump): updated packages
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Match List
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 06/06/2019 00:07:42
+
+Version: '4.9.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:03:28
+
+Version: '4.9.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '4.9.0'
+
+chore(version-bump): updated packages
+
+### Number Line
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Protractor
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Ruler
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Select Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+
+### Short Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: ''
+
+chore(version): bumped the versions
+## 06/05/2019
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 06/05/2019 17:45:57
+
+Version: ''
+
+feat(mask-markup-elements): major changes to all 3 elements
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Features
+
+Commit Date: 06/05/2019 17:42:52
+
+Version: '1.2.0'
+
+feat(correct-toggle): added show correct answer
+
+###### Chores
+
+Commit Date: 06/05/2019 21:36:48
+
+Version: '1.2.0'
+
+chore(merge): merged develop into master
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 06/05/2019 17:45:57
+
+Version: ''
+
+feat(mask-markup-elements): major changes to all 3 elements
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+### Inline Dropdown
+
+#### Features
+
+Commit Date: 06/05/2019 17:45:57
+
+Version: ''
+
+feat(mask-markup-elements): major changes to all 3 elements
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+### Calculator
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+### EBSR
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+### Extended Text
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Features
+
+Commit Date: 06/05/2019 23:50:57
+
+Version: '2.5.0'
+
+feat(version): bumped the versions
+
+###### Chores
+
+Commit Date: 06/05/2019 23:39:24
+
+Version: '2.5.0'
+
+chore(editable-html): version bump
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+### Hotspot
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Chores
+
+Commit Date: 06/05/2019 21:36:48
+
+Version: '1.2.0'
+
+chore(merge): merged develop into master
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+##### @pie-lib/scoring-config@3.4.12
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '3.4.9'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:32:53
+
+Version: '3.4.12'
+
+chore(version): bumped the version
+
+### Inline Choice
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/scoring-config@3.4.12
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '3.4.9'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:32:53
+
+Version: '3.4.12'
+
+chore(version): bumped the version
+
+### Multiple Choice
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Features
+
+Commit Date: 06/05/2019 23:50:57
+
+Version: '4.9.0'
+
+feat(version): bumped the versions
+
+###### Chores
+
+Commit Date: 06/05/2019 23:39:24
+
+Version: '4.9.0'
+
+chore(editable-html): version bump
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+##### @pie-lib/scoring-config@3.4.12
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '3.4.9'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:32:53
+
+Version: '3.4.12'
+
+chore(version): bumped the version
+
+### Equation Response
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+### Number Line
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+##### @pie-lib/scoring-config@3.4.12
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '3.4.9'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:32:53
+
+Version: '3.4.12'
+
+chore(version): bumped the version
+
+### Short Text
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+### Select Text
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.3.0
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '10.2.2'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:10:07
+
+Version: '10.3.0'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 22:49:11
+
+Version: '10.3.0'
+
+chore(editable-html): version bump
+
+###### Features
+
+Commit Date: 06/05/2019 23:01:55
+
+Version: '10.3.0'
+
+feat(editable-html): made some changes in order to publish packages with the editable-html bump
+
+##### @pie-lib/editable-html@7.6.0
+
+###### Features
+
+Commit Date: 06/05/2019 22:28:43
+
+Version: '7.6.0'
+
+feat(response-area): commiting some changes in order for the packages to be published
+
+Commit Date: 06/05/2019 17:40:32
+
+Version: '7.6.0'
+
+feat(response-area): changes to make the response-areas work
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '7.6.0'
+
+chore(merge): merged with develop
+
+##### @pie-lib/scoring-config@3.4.12
+
+###### Chores
+
+Commit Date: 06/05/2019 21:55:26
+
+Version: '3.4.9'
+
+chore(merge): merged with develop
+
+Commit Date: 06/05/2019 23:32:53
+
+Version: '3.4.12'
+
+chore(version): bumped the version
 ## 06/05/2019
 
 ### Drag In The Blank
