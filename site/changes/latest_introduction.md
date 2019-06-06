@@ -16,6 +16,561 @@ Version: '2.6.12'
 
 chore(version): bumped the versions
 
+Commit Date: 06/06/2019 13:16:05
+
+Version: '2.6.13'
+
+chore(version): bumped the packages that depend on the editable-html
+
+### Categorize
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '4.0.3'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.0.3'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '4.0.4'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### EBSR
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '2.1.2'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.1.2'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '2.1.3'
+
+chore(version): bumped the packages that depend on the editable-html
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '4.0.4'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.0.4'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '4.0.5'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 06/06/2019 00:07:42
+
+Version: '2.5.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:03:28
+
+Version: '2.5.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 12:58:00
+
+Version: '2.5.2'
+
+chore(version): bumped the packages the version of the packages that depend on editable-html
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '2.1.0'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.1.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '2.1.1'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Chores
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '1.2.1'
+
+chore(version-bump): updated packages
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '2.5.13'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.5.13'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '2.5.14'
+
+chore(version): bumped the packages that depend on the editable-html
+
+### Match
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '2.2.2'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.2.2'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '2.2.3'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.1.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '1.1.1'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Chores
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '1.2.1'
+
+chore(version-bump): updated packages
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.1.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '1.1.1'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '1.3.0'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.3.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '1.3.1'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Match List
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '1.2.7'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.2.7'
+
+chore(version): bumped the versions
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '2.2.2'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.2.2'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '2.2.3'
+
+chore(version): bumped the packages that depend on the editable-html
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '3.1.3'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '3.1.3'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '3.1.4'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 06/06/2019 00:07:42
+
+Version: '4.9.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:03:28
+
+Version: '4.9.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '4.9.0'
+
+chore(version-bump): updated packages
+
+Commit Date: 06/06/2019 12:58:00
+
+Version: '4.9.2'
+
+chore(version): bumped the packages the version of the packages that depend on editable-html
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Number Line
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '4.1.4'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.1.4'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '4.1.5'
+
+chore(version): bumped the packages that depend on the editable-html
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '5.1.3'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '5.1.3'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '5.1.4'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Protractor
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.3.6'
+
+chore(version): bumped the versions
+
+### Ruler
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '3.4.12'
+
+chore(version): bumped the versions
+
+### Select Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:31:17
+
+Version: '4.1.3'
+
+chore(latest-version): pushing to release
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.1.3'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '4.1.4'
+
+chore(version): bumped the packages that depend on the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.6.1
+
+###### Bug Fixes
+
+Commit Date: 06/06/2019 12:50:27
+
+Version: '7.6.1'
+
+fix(drag-in-the-blank): made it possible to drop choices in newly created response areas
+
+### Short Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '3.6.3'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 13:16:05
+
+Version: '3.6.4'
+
+chore(version): bumped the packages that depend on the editable-html
+## 06/06/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.6.12'
+
+chore(version): bumped the versions
+
 ### Categorize
 
 #### Chores
