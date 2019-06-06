@@ -12,6 +12,263 @@ sidebarDepth: 2
 
 Commit Date: 06/06/2019 01:15:50
 
+Version: '2.6.12'
+
+chore(version): bumped the versions
+
+### Categorize
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.0.3'
+
+chore(version): bumped the versions
+
+### EBSR
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.1.2'
+
+chore(version): bumped the versions
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.0.4'
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 06/06/2019 00:07:42
+
+Version: '2.5.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:03:28
+
+Version: '2.5.0'
+
+chore(version): bumped the versions
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.1.0'
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Chores
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '1.2.1'
+
+chore(version-bump): updated packages
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.5.13'
+
+chore(version): bumped the versions
+
+### Match
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.2.2'
+
+chore(version): bumped the versions
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.1.0'
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Chores
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '1.2.1'
+
+chore(version-bump): updated packages
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.1.0'
+
+chore(version): bumped the versions
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.3.0'
+
+chore(version): bumped the versions
+
+### Match List
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '1.2.7'
+
+chore(version): bumped the versions
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.2.2'
+
+chore(version): bumped the versions
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '3.1.3'
+
+chore(version): bumped the versions
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 06/06/2019 00:07:42
+
+Version: '4.9.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:03:28
+
+Version: '4.9.0'
+
+chore(version): bumped the versions
+
+Commit Date: 06/06/2019 00:02:58
+
+Version: '4.9.0'
+
+chore(version-bump): updated packages
+
+### Number Line
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.1.4'
+
+chore(version): bumped the versions
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '5.1.3'
+
+chore(version): bumped the versions
+
+### Protractor
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '2.3.6'
+
+chore(version): bumped the versions
+
+### Ruler
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '3.4.12'
+
+chore(version): bumped the versions
+
+### Select Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '4.1.3'
+
+chore(version): bumped the versions
+
+### Short Text
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
+Version: '3.6.3'
+
+chore(version): bumped the versions
+## 06/06/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 06/06/2019 01:15:50
+
 Version: ''
 
 chore(version): bumped the versions
