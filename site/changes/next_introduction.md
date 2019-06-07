@@ -75,6 +75,77 @@ Commit Date: 06/07/2019 22:13:49
 Version: '1.2.2'
 
 fix(issues): fixed some issues that were blocking qa
+## 06/07/2019
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: ''
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: ''
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+### Inline Dropdown
+
+#### Features
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: ''
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+### Match List
+
+#### Features
+
+Commit Date: 06/07/2019 23:12:10
+
+Version: ''
+
+feat(tests): removed match-list tests
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: ''
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+#### Dependencies 
+
+##### Match List
+
+###### Bug Fixes
+
+Commit Date: 06/07/2019 22:50:58
+
+Version: '1.2.2'
+
+fix(tests): fixed tests
+
+Commit Date: 06/07/2019 22:48:22
+
+Version: '1.2.2'
+
+fix(tests): fixed tests
+
+Commit Date: 06/07/2019 22:13:49
+
+Version: '1.2.2'
+
+fix(issues): fixed some issues that were blocking qa
 ## 06/06/2019
 
 ### Calculator
