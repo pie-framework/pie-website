@@ -237,6 +237,239 @@ Commit Date: 06/07/2019 23:29:44
 Version: '3.6.5'
 
 chore(merge): merged develop into master
+## 06/07/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '2.6.14'
+
+chore(merge): merged develop into master
+
+### Categorize
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '4.0.5'
+
+chore(merge): merged develop into master
+
+### EBSR
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '2.1.4'
+
+chore(merge): merged develop into master
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '4.0.6'
+
+chore(merge): merged develop into master
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '2.1.2'
+
+chore(merge): merged develop into master
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '2.5.15'
+
+chore(merge): merged develop into master
+
+### Match
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '2.2.4'
+
+chore(merge): merged develop into master
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '1.2.0'
+
+chore(merge): merged develop into master
+
+#### Features
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: '1.2.0'
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '1.2.0'
+
+chore(merge): merged develop into master
+
+#### Features
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: '1.2.0'
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '1.4.0'
+
+chore(merge): merged develop into master
+
+#### Features
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: '1.4.0'
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+### Match List
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '1.3.0'
+
+chore(merge): merged develop into master
+
+#### Features
+
+Commit Date: 06/07/2019 23:12:10
+
+Version: '1.3.0'
+
+feat(tests): removed match-list tests
+
+Commit Date: 06/07/2019 23:05:19
+
+Version: '1.3.0'
+
+feat(mask-markup-elements): enabled partial scoring for the 3 elements and added a controller to the match-list
+
+#### Dependencies 
+
+##### Match List
+
+###### Bug Fixes
+
+Commit Date: 06/07/2019 22:50:58
+
+Version: '1.2.2'
+
+fix(tests): fixed tests
+
+Commit Date: 06/07/2019 22:48:22
+
+Version: '1.2.2'
+
+fix(tests): fixed tests
+
+Commit Date: 06/07/2019 22:13:49
+
+Version: '1.2.2'
+
+fix(issues): fixed some issues that were blocking qa
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '2.2.4'
+
+chore(merge): merged develop into master
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '3.1.5'
+
+chore(merge): merged develop into master
+
+### Number Line
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '4.1.6'
+
+chore(merge): merged develop into master
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '5.1.5'
+
+chore(merge): merged develop into master
+
+### Select Text
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '4.1.5'
+
+chore(merge): merged develop into master
+
+### Short Text
+
+#### Chores
+
+Commit Date: 06/07/2019 23:29:44
+
+Version: '3.6.5'
+
+chore(merge): merged develop into master
 ## 06/06/2019
 
 ### Calculator
