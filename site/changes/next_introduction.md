@@ -4,6 +4,73 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/12/2019
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 06/12/2019 19:51:23
+
+Version: ''
+
+feat(correct-responses): updated elements with showing correct responses when needed
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Features
+
+Commit Date: 06/12/2019 19:39:27
+
+Version: '1.3.0'
+
+feat(correct-response): added correct response to the mask markup elements
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 06/12/2019 19:51:23
+
+Version: ''
+
+feat(correct-responses): updated elements with showing correct responses when needed
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Features
+
+Commit Date: 06/12/2019 19:39:27
+
+Version: '1.2.0'
+
+feat(correct-response): added correct response to the mask markup elements
+
+### Inline Dropdown
+
+#### Features
+
+Commit Date: 06/12/2019 19:51:23
+
+Version: ''
+
+feat(correct-responses): updated elements with showing correct responses when needed
+
+#### Dependencies 
+
+##### Inline Dropdown
+
+###### Features
+
+Commit Date: 06/12/2019 19:39:27
+
+Version: '1.3.0'
+
+feat(correct-response): added correct response to the mask markup elements
 ## 06/07/2019
 
 ### Drag In The Blank
