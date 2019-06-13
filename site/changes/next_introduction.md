@@ -4,6 +4,123 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/13/2019
+
+### Categorize
+
+#### Features
+
+Commit Date: 06/13/2019 16:19:13
+
+Version: ''
+
+feat(ui): updated the ui
+
+#### Dependencies 
+
+##### Categorize
+
+###### Chores
+
+Commit Date: 06/13/2019 16:11:02
+
+Version: '1.2.0'
+
+chore(merged): merged with master
+
+Commit Date: 06/13/2019 16:07:50
+
+Version: '1.2.0'
+
+chore(version): version bump
+
+###### Features
+
+Commit Date: 06/13/2019 15:59:32
+
+Version: '1.2.0'
+
+feat(version): bumped the version
+
+Commit Date: 06/13/2019 15:42:14
+
+Version: '1.2.0'
+
+feat(update-ui): updated ui for match-list and categorize
+
+### Match
+
+#### Features
+
+Commit Date: 06/13/2019 16:19:13
+
+Version: ''
+
+feat(ui): updated the ui
+
+#### Dependencies 
+
+##### Match
+
+###### Chores
+
+Commit Date: 06/13/2019 16:11:02
+
+Version: '2.3.1'
+
+chore(merged): merged with master
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 06/13/2019 16:19:13
+
+Version: ''
+
+feat(ui): updated the ui
+
+### Match List
+
+#### Features
+
+Commit Date: 06/13/2019 16:19:13
+
+Version: ''
+
+feat(ui): updated the ui
+
+#### Dependencies 
+
+##### Match List
+
+###### Chores
+
+Commit Date: 06/13/2019 16:11:02
+
+Version: '1.3.0'
+
+chore(merged): merged with master
+
+Commit Date: 06/13/2019 16:07:50
+
+Version: '1.3.0'
+
+chore(version): version bump
+
+###### Features
+
+Commit Date: 06/13/2019 15:59:32
+
+Version: '1.3.0'
+
+feat(version): bumped the version
+
+Commit Date: 06/13/2019 15:42:14
+
+Version: '1.3.0'
+
+feat(update-ui): updated ui for match-list and categorize
 ## 06/12/2019
 
 ### Hotspot
