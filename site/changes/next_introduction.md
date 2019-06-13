@@ -6,13 +6,23 @@ sidebarDepth: 2
 ---
 ## 06/12/2019
 
+### Hotspot
+
+#### Features
+
+Commit Date: 06/12/2019 17:31:35
+
+Version: ''
+
+feat: implement rendering support for legacy content with correct answers defined as polygon [ch1616]
+
 ### Drag In The Blank
 
 #### Features
 
 Commit Date: 06/12/2019 19:51:23
 
-Version: ''
+Version: '1.3.0'
 
 feat(correct-responses): updated elements with showing correct responses when needed
 
@@ -34,7 +44,7 @@ feat(correct-response): added correct response to the mask markup elements
 
 Commit Date: 06/12/2019 19:51:23
 
-Version: ''
+Version: '1.3.0'
 
 feat(correct-responses): updated elements with showing correct responses when needed
 
@@ -56,7 +66,7 @@ feat(correct-response): added correct response to the mask markup elements
 
 Commit Date: 06/12/2019 19:51:23
 
-Version: ''
+Version: '1.5.0'
 
 feat(correct-responses): updated elements with showing correct responses when needed
 
@@ -71,6 +81,22 @@ Commit Date: 06/12/2019 19:39:27
 Version: '1.3.0'
 
 feat(correct-response): added correct response to the mask markup elements
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 06/12/2019 17:50:29
+
+Version: ''
+
+chore: fix test
+
+Commit Date: 06/12/2019 19:06:02
+
+Version: ''
+
+chore(math-inline): bump mathquill dependency version
 ## 06/07/2019
 
 ### Drag In The Blank
