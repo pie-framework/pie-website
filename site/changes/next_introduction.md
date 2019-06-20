@@ -4,6 +4,165 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/19/2019
+
+### Categorize
+
+#### Features
+
+Commit Date: 06/19/2019 09:05:29
+
+Version: '4.2.0'
+
+feat(extras): added row labels support and alternate responses
+
+#### Bug Fixes
+
+Commit Date: 06/19/2019 10:16:41
+
+Version: '4.2.1'
+
+fix(scoring-and-feedback): fixed scoring and added alternate responses
+
+#### Dependencies 
+
+##### Categorize
+
+###### Chores
+
+Commit Date: 06/19/2019 08:20:35
+
+Version: '1.3.0'
+
+chore(version): version bumped the package
+
+Commit Date: 06/19/2019 08:10:17
+
+Version: '1.3.0'
+
+chore(yarn): updated yarn lock and version bumped
+
+###### Bug Fixes
+
+Commit Date: 06/19/2019 08:15:31
+
+Version: '1.3.0'
+
+fix(lint): fixed lint error and version bumped
+
+###### Features
+
+Commit Date: 06/19/2019 08:03:28
+
+Version: '1.3.0'
+
+feat(design): added row labels to the categories
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 06/19/2019 17:57:41
+
+Version: ''
+
+fix(general): fixed some general issues
+
+Commit Date: 06/19/2019 10:16:41
+
+Version: '1.4.3'
+
+fix(scoring-and-feedback): fixed scoring and added alternate responses
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Features
+
+Commit Date: 06/19/2019 17:49:14
+
+Version: '1.4.0'
+
+feat(version): bumped mask markup elements version
+
+Commit Date: 06/19/2019 17:39:56
+
+Version: '1.4.0'
+
+feat(design): updated mask markup package version
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 06/19/2019 17:57:41
+
+Version: ''
+
+fix(general): fixed some general issues
+
+#### Chores
+
+Commit Date: 06/19/2019 14:20:15
+
+Version: ''
+
+chore: add missing docs (#255)
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Features
+
+Commit Date: 06/19/2019 17:49:14
+
+Version: '1.3.0'
+
+feat(version): bumped mask markup elements version
+
+Commit Date: 06/19/2019 17:39:56
+
+Version: '1.3.0'
+
+feat(design): updated mask markup package version
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 06/19/2019 17:57:41
+
+Version: ''
+
+fix(general): fixed some general issues
+
+#### Chores
+
+Commit Date: 06/19/2019 14:20:15
+
+Version: ''
+
+chore: add missing docs (#255)
+
+#### Dependencies 
+
+##### Inline Dropdown
+
+###### Features
+
+Commit Date: 06/19/2019 17:49:14
+
+Version: '1.4.0'
+
+feat(version): bumped mask markup elements version
+
+Commit Date: 06/19/2019 17:39:56
+
+Version: '1.4.0'
+
+feat(design): updated mask markup package version
 ## 06/13/2019
 
 ### Categorize
