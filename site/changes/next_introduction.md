@@ -4,6 +4,49 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/20/2019
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 06/20/2019 08:37:40
+
+Version: ''
+
+feat(general): added choice position select to ditb, fixed ecr markup processing
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 06/20/2019 08:37:40
+
+Version: ''
+
+feat(general): added choice position select to ditb, fixed ecr markup processing
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 06/20/2019 09:32:15
+
+Version: '4.1.8'
+
+fix: bump config-ui to 10.4.3
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.4.3
+
+###### Bug Fixes
+
+Commit Date: 06/20/2019 09:23:59
+
+Version: '10.4.3'
+
+fix: fix variant name
 ## 06/19/2019
 
 ### Categorize
