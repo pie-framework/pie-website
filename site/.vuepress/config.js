@@ -105,7 +105,7 @@ console.log('Elements', elements);
 module.exports = {
   title: '',
   head: [
-    ['script', { src: 'https://unpkg.com/pie-demo@1.20.0/dist/pie-demo.js' }]
+    ['script', { src: 'https://unpkg.com/pie-demo@1.21.0/dist/pie-demo.js' }]
   ],
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
