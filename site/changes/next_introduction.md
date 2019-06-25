@@ -4,6 +4,31 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/24/2019
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 06/24/2019 11:36:08
+
+Version: ''
+
+fix: set graph prop as default model
+
+Commit Date: 06/24/2019 11:25:22
+
+Version: ''
+
+fix: bump @pie-ui/number-line to ^7.1.0
+
+#### Features
+
+Commit Date: 06/24/2019 11:06:21
+
+Version: '5.1.0'
+
+feat: update pie-ui/number-line
 ## 06/23/2019
 
 ### Number Line
