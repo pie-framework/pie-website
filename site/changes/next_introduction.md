@@ -4,6 +4,47 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/26/2019
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 06/26/2019 13:02:43
+
+Version: ''
+
+fix(rendering): made sure all the items are rendered properly [c1935]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 06/26/2019 13:02:43
+
+Version: ''
+
+fix(rendering): made sure all the items are rendered properly [c1935]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 06/26/2019 13:02:43
+
+Version: ''
+
+fix(rendering): made sure all the items are rendered properly [c1935]
+
+### Number Line
+
+#### Features
+
+Commit Date: 06/26/2019 10:24:01
+
+Version: '5.3.0'
+
+feat: add deductions to outcome calculation
 ## 06/25/2019
 
 ### Number Line
