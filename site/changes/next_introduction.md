@@ -4,6 +4,29 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 06/25/2019
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 06/25/2019 13:00:39
+
+Version: ''
+
+fix: bump @pie-ui/number-line
+
+#### Dependencies 
+
+##### Number Line
+
+###### Bug Fixes
+
+Commit Date: 06/25/2019 11:57:30
+
+Version: '7.1.1'
+
+fix: fix tick calculation
 ## 06/24/2019
 
 ### Number Line
