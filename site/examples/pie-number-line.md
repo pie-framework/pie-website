@@ -35,7 +35,7 @@ model:
     - numberOfCorrect: 1
       scorePercentage: 35
     graph:
-      title: "The plot",
+      title: "The plot"
       width: 500
       height: 400
       domain:
