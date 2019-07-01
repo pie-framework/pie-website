@@ -29,25 +29,27 @@ model:
       incorrect:
         type: custom
         custom: "<h1>Incorrect</h1>"
-    allowPartialScoring: true
+    allowPartialScoring: true,
+    prompt: "Plot point at 2-1 and line of size 2 starting at 3 - 1."
+
     partialScoring:
     - numberOfCorrect: 1
       scorePercentage: 35
-    config:
+    graph:
+      title: "The plot",
       width: 500
       height: 400
       domain:
-      - -5
-      - 5
+        min: -5
+        max: 5
+      ticks: 
+        minor: 1
+        major: 2
       initialElements:
       - type: point
         pointType: empty
         domainPosition: -1
       maxNumberOfPoints: 20
-      tickFrequency: 6
-      showMinorTicks: true
-      snapPerTick: 1
-      tickLabelOverrides: []
       initialType: PF
       exhibitOnly: false
       availableTypes:
