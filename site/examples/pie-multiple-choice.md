@@ -4,7 +4,9 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/multiple-choice@2.4.6"
+pie: "@pie-element/multiple-choice@2.7.2"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/multiple-choice/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/multiple-choice/docs/config-schema.json"
 model:
     id: '1'
     element: multiple-choice

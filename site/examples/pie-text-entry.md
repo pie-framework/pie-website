@@ -4,7 +4,9 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/text-entry@3.1.1"
+pie: "@pie-element/text-entry@3.3.1"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/text-entry/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/text-entry/docs/config-schema.json"
 model:
     id: '1'
     element: text-entry

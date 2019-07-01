@@ -9,6 +9,14 @@
             <div class="search-box-container">
                 <SearchBox placeholder="Search" :boxAlignment="'left'" />
             </div>
+            <div
+                    class="sidebar-title"
+                    v-if="shouldShowSidebarTitle"
+            >
+                <span class="text">
+                    {{ sideBarTitle }}
+                </span>
+            </div>
             <Sidebar
                     :items="sidebarItems"
             >
@@ -44,10 +52,17 @@
       },
       closeSideMenu: {
         required: true
+      },
+      sideBarTitle: {
+        required: false
       }
     },
 
     computed: {
+      shouldShowSidebarTitle() {
+        return !!this.sideBarTitle;
+      },
+
       shouldShowSideMenu() {
         return this.open;
       },
@@ -99,10 +114,11 @@
         right 0
         position fixed
         top 0
-        z-index 9
+        z-index 999
         .pie-menu-content
             background-color #ffffff
             bottom 0
+            height 100%
             position absolute
             right 0
             top 0
@@ -133,8 +149,19 @@
                     input
                         box-sizing border-box
                         width 100%
+            .sidebar-title
+                border-bottom 4px solid #3f51b5
+                height 47px
+                line-height 47px
+                .text
+                    color: #000000;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-left 20px
             .sidebar
                 display none
+                height calc(100% - 127px)
+                overflow scroll
                 position relative
                 transform none
                 width 100%
@@ -153,14 +180,26 @@
                     padding 0
                     .sidebar-group
                         .sidebar-heading
-                            border-bottom 4px solid rgba(0, 0, 0, 0.12)
+                            background-color: rgba(63, 81, 181, 0.1);
+                            border none
                             box-sizing border-box
-                            height 70px
+                            height 38px
+                            line-height 38px
                             margin 0
-                            padding 20px 25px
+                            padding 0
+                            span
+                                font-size 12px
+                                font-weight normal
+                                margin-left 20px
                         .sidebar-group-items
                             li
                                 border-bottom 1px solid rgba(0, 0, 0, 0.12);
+
+                                &:after
+                                    color rgba(0, 0, 0, 0.4)
+                                    font-size 10px
+                                    text-align right
+
                                 .sidebar-link
                                     border none !important
                                     font-size 14px

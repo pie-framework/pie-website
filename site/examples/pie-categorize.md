@@ -4,7 +4,9 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/categorize@2.7.2"
+pie: "@pie-element/categorize@2.10.3"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/categorize/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/categorize/docs/config-schema.json"
 model:
     id: '1'
     element: categorize-element

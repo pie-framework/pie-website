@@ -4,7 +4,9 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/number-line@3.0.4"
+pie: "@pie-element/number-line@3.2.1"
+modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/number-line/docs/pie-schema.json"
+configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/number-line/docs/config-schema.json"
 model:
     id: '1'
     element: number-line
