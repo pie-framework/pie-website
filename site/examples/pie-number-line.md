@@ -31,7 +31,6 @@ model:
         custom: "<h1>Incorrect</h1>"
     allowPartialScoring: true,
     prompt: "Plot point at 2-1 and line of size 2 starting at 3 - 1."
-
     partialScoring:
     - numberOfCorrect: 1
       scorePercentage: 35
