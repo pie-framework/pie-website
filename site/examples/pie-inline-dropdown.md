@@ -48,5 +48,5 @@ model:
         correct: false
     alternateResponse:
       '2':
-      - '3'
+      - '2'
 ---

@@ -90,7 +90,10 @@ query {
 
                 process.exit(1);
               }
-            });
+            })
+            .catch(() => {
+              statusPoll(bundleData);
+            })
         };
 
         statusPoll(data);
