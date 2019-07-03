@@ -4,6 +4,329 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/03/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '2.9.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+### Categorize
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '4.5.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### EBSR
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '2.4.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '4.3.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/03/2019 15:27:29
+
+Version: '2.5.9'
+
+chore(version): version bumped editable-html dependent packages
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 07/03/2019 16:05:09
+
+Version: '2.6.2'
+
+chore(merge): merged develop into master
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '2.6.2'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '2.8.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+### Match
+
+#### Chores
+
+Commit Date: 07/03/2019 16:05:09
+
+Version: '2.7.2'
+
+chore(merge): merged develop into master
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '2.7.2'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '1.7.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '1.6.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '1.8.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '2.5.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '3.4.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/03/2019 15:27:29
+
+Version: '4.10.11'
+
+chore(version): version bumped editable-html dependent packages
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Number Line
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '5.4.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '5.4.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Ruler
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '3.7.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+### Select Text
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '4.4.3'
+
+chore(version): version bumped the editable-html dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.7
+
+###### Bug Fixes
+
+Commit Date: 07/03/2019 14:46:50
+
+Version: '7.7.7'
+
+fix(editable-html): removed autoFocus prop that was added to the slate editor, causing issues with rendering when the editor is used on a element thats not yet added in the dom
+
+### Short Text
+
+#### Chores
+
+Commit Date: 07/03/2019 15:57:58
+
+Version: '3.9.3'
+
+chore(version): version bumped the editable-html dependent packages
 ## 07/02/2019
 
 ### Calculator
