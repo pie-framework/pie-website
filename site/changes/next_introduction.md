@@ -2258,6 +2258,1131 @@ chore(merge): merged master into this branch
 
 ### Calculator
 
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '2.9.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+### Categorize
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '4.5.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### EBSR
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '2.4.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '4.3.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '2.5.5'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '2.5.5'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '2.5.5'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '2.5.5'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 15:01:38
+
+Version: '2.5.7'
+
+chore(editable-html): version bumped the dependant packages
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '2.5.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '2.8.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+### Match
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '2.6.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '1.7.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Chores
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '1.6.1'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '1.6.1'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '1.6.1'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '1.6.1'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '1.6.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Chores
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '1.5.1'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '1.5.1'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '1.5.1'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '1.5.1'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '1.8.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### Inline Dropdown
+
+###### Chores
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '1.6.1'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '1.6.1'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '1.6.1'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '1.6.1'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '2.5.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '3.4.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '4.10.7'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '4.10.7'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 13:06:53
+
+Version: '4.10.7'
+
+chore(version): version bumped the packages that depend on editable-html
+
+Commit Date: 07/02/2019 12:59:39
+
+Version: '4.10.7'
+
+chore(version): version bumped and rendered math in inline-dropdown
+
+Commit Date: 07/02/2019 15:01:38
+
+Version: '4.10.9'
+
+chore(editable-html): version bumped the dependant packages
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Number Line
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '5.4.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '5.4.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Ruler
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '3.7.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+### Select Text
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '4.4.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+
+##### @pie-lib/editable-html@7.7.6
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '7.7.5'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '7.7.5'
+
+chore(merge): merged master into this branch
+
+###### Bug Fixes
+
+Commit Date: 07/02/2019 11:47:49
+
+Version: '7.7.5'
+
+fix(editor): changed setTimeout to a promise resolve statement
+
+Commit Date: 07/02/2019 11:40:14
+
+Version: '7.7.5'
+
+fix(tests): added back the commented tests
+
+Commit Date: 07/02/2019 14:35:31
+
+Version: '7.7.6'
+
+fix(editor): added sanity check for editor reference in editor
+
+### Short Text
+
+#### Chores
+
+Commit Date: 07/02/2019 15:13:55
+
+Version: ''
+
+chore(editable-html): version bumped the necessary packages
+
+#### Features
+
+Commit Date: 07/02/2019 13:38:48
+
+Version: '3.9.0'
+
+feat(mask-markup-elements): refactored the elements and version bumped the necessary files
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.5
+
+###### Chores
+
+Commit Date: 07/02/2019 12:48:43
+
+Version: '10.7.4'
+
+chore(version): version bumped the elements that need update
+
+Commit Date: 07/02/2019 11:29:52
+
+Version: '10.7.4'
+
+chore(merge): merged master into this branch
+## 07/02/2019
+
+### Calculator
+
 #### Features
 
 Commit Date: 07/02/2019 13:38:48
