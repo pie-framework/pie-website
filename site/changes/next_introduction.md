@@ -463,6 +463,465 @@ Commit Date: 07/04/2019 11:45:23
 Version: ''
 
 fix(template-els): fixed some ditb issues
+## 07/04/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+### Categorize
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### EBSR
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/04/2019 11:26:36
+
+Version: '2.5.10'
+
+chore(version): editable-html dependent version bump
+
+Commit Date: 07/04/2019 11:23:02
+
+Version: '2.5.10'
+
+chore(version): editable-html dependent version bump
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+### Match
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/04/2019 11:26:36
+
+Version: '4.10.12'
+
+chore(version): editable-html dependent version bump
+
+Commit Date: 07/04/2019 11:23:02
+
+Version: '4.10.12'
+
+chore(version): editable-html dependent version bump
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Number Line
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Ruler
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+### Select Text
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.7.8
+
+###### Bug Fixes
+
+Commit Date: 07/04/2019 11:11:47
+
+Version: '7.7.8'
+
+fix(editable-html): made it possible to add response area when there's no focus and the markup is empty, removed response area from the table when it is not active in the main editor
+
+### Short Text
+
+#### Chores
+
+Commit Date: 07/04/2019 12:21:53
+
+Version: ''
+
+chore(editable-html): version bumped
+
+#### Bug Fixes
+
+Commit Date: 07/04/2019 11:45:23
+
+Version: ''
+
+fix(template-els): fixed some ditb issues
 ## 07/03/2019
 
 ### Calculator
