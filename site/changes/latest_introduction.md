@@ -16,6 +16,677 @@ Version: '2.9.6'
 
 fix(editable-html): fixed lots of stuff regarding the editable-html
 
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '2.9.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '4.5.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '4.5.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '2.4.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '4.3.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '4.3.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/07/2019 10:34:55
+
+Version: '3.0.1'
+
+chore(merge): merged with master
+
+Commit Date: 07/07/2019 10:31:21
+
+Version: '3.0.1'
+
+chore(editable-html): version bumped the dependent packages
+
+Commit Date: 07/07/2019 10:31:21
+
+Version: '3.0.1'
+
+chore(editable-html): version bumped the dependent packages
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.6.5'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '2.6.6'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Inline Choice
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.8.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '2.8.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.7.5'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '2.7.6'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.7.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '1.7.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.6.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '1.6.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.8.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '1.8.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.5.1'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.5.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '2.5.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '3.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '3.4.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/07/2019 10:34:55
+
+Version: '4.10.14'
+
+chore(merge): merged with master
+
+Commit Date: 07/07/2019 10:31:21
+
+Version: '4.10.14'
+
+chore(editable-html): version bumped the dependent packages
+
+Commit Date: 07/07/2019 10:31:21
+
+Version: '4.10.14'
+
+chore(editable-html): version bumped the dependent packages
+
+Commit Date: 07/07/2019 15:30:19
+
+Version: '4.10.15'
+
+chore(config-ui): updated dependant packages
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '5.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '5.4.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '5.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '5.4.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '3.7.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '3.7.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '4.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '4.4.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Short Text
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '3.9.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Chores
+
+Commit Date: 07/07/2019 15:44:44
+
+Version: '3.9.7'
+
+chore(config-ui): bumped dependent packages
+
+#### Dependencies 
+
+##### @pie-lib/config-ui@10.7.12
+
+###### Bug Fixes
+
+Commit Date: 07/07/2019 15:15:42
+
+Version: '10.7.12'
+
+fix(settings): made the design changes requested [ch2396]
+## 07/07/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.9.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
 ### Categorize
 
 #### Bug Fixes
