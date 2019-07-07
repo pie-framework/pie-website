@@ -4,6 +4,339 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/07/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.9.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '4.5.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '4.3.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/07/2019 10:34:55
+
+Version: '3.0.1'
+
+chore(merge): merged with master
+
+Commit Date: 07/07/2019 10:31:21
+
+Version: '3.0.1'
+
+chore(editable-html): version bumped the dependent packages
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.6.5'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Inline Choice
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.8.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.7.5'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.7.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.6.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.8.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '1.5.1'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '2.5.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '3.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/07/2019 10:34:55
+
+Version: '4.10.14'
+
+chore(merge): merged with master
+
+Commit Date: 07/07/2019 10:31:21
+
+Version: '4.10.14'
+
+chore(editable-html): version bumped the dependent packages
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '5.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '5.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '3.7.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '4.4.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.0
+
+###### Features
+
+Commit Date: 07/07/2019 08:25:19
+
+Version: '7.10.0'
+
+feat(serialization): removed the space after the response area, rendered some items from the legacy content [ch2464], [ch1915], [ch1935]
+
+### Short Text
+
+#### Bug Fixes
+
+Commit Date: 07/07/2019 14:16:34
+
+Version: '3.9.6'
+
+fix(editable-html): fixed lots of stuff regarding the editable-html
 ## 07/04/2019
 
 ### Calculator
