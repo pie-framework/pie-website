@@ -4,6 +4,227 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/09/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Categorize
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### EBSR
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Extended Text
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/09/2019 13:11:05
+
+Version: '3.0.3'
+
+chore(version): version bumped some editable-html dependent packages
+
+Commit Date: 07/09/2019 13:11:05
+
+Version: '3.0.3'
+
+chore(version): version bumped some editable-html dependent packages
+
+Commit Date: 07/09/2019 13:25:21
+
+Version: '3.0.4'
+
+chore(editable-html): version bumped the dependent packages
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Match
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Inline Dropdown
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+#### Bug Fixes
+
+Commit Date: 07/09/2019 13:27:29
+
+Version: ''
+
+fix: The text when adding a new choice should be empty.
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/09/2019 13:11:05
+
+Version: '4.10.16'
+
+chore(version): version bumped some editable-html dependent packages
+
+Commit Date: 07/09/2019 13:25:21
+
+Version: '4.10.17'
+
+chore(editable-html): version bumped the dependent packages
+
+### Number Line
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Placement Ordering
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Ruler
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Select Text
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
+
+### Short Text
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: ''
+
+chore(editable-html): version bumped some dependant packages
 ## 07/07/2019
 
 ### Calculator
