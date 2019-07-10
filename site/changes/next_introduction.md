@@ -12,6 +12,271 @@ sidebarDepth: 2
 
 Commit Date: 07/09/2019 13:38:59
 
+Version: '2.9.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Categorize
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '4.5.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### EBSR
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '2.4.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 07/09/2019 18:02:42
+
+Version: ''
+
+fix(behaviour): added alternate scoring for placement-ordering [ch1304], rendered math in extended-text-entry [ch1016], moved the toolbar above the editor for [ch2493]
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '4.3.8'
+
+chore(editable-html): version bumped some dependant packages
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Chores
+
+Commit Date: 07/09/2019 13:11:05
+
+Version: '3.0.3'
+
+chore(version): version bumped some editable-html dependent packages
+
+Commit Date: 07/09/2019 13:11:05
+
+Version: '3.0.3'
+
+chore(version): version bumped some editable-html dependent packages
+
+Commit Date: 07/09/2019 13:25:21
+
+Version: '3.0.4'
+
+chore(editable-html): version bumped the dependent packages
+
+###### Features
+
+Commit Date: 07/09/2019 17:36:18
+
+Version: '3.1.0'
+
+feat(math): displayed math for extended-text-entry [ch1016]
+
+### Hotspot
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '2.6.7'
+
+chore(editable-html): version bumped some dependant packages
+
+### Inline Choice
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '2.8.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Match
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '2.7.7'
+
+chore(editable-html): version bumped some dependant packages
+
+### Drag In The Blank
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '1.7.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Explicit Constructed Response
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '1.6.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 07/09/2019 18:02:42
+
+Version: ''
+
+fix(behaviour): added alternate scoring for placement-ordering [ch1304], rendered math in extended-text-entry [ch1016], moved the toolbar above the editor for [ch2493]
+
+Commit Date: 07/09/2019 17:33:00
+
+Version: ''
+
+fix(behaviour): added alternate scoring for placement-ordering [ch1304], rendered math in extended-text-entry [ch1016], moved the toolbar above the editor for [ch2493]
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '1.8.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Equation Response
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '2.5.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Multiple Choice
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '3.4.8'
+
+chore(editable-html): version bumped some dependant packages
+
+#### Bug Fixes
+
+Commit Date: 07/09/2019 13:27:29
+
+Version: '3.4.8'
+
+fix: The text when adding a new choice should be empty.
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Chores
+
+Commit Date: 07/09/2019 13:11:05
+
+Version: '4.10.16'
+
+chore(version): version bumped some editable-html dependent packages
+
+Commit Date: 07/09/2019 13:25:21
+
+Version: '4.10.17'
+
+chore(editable-html): version bumped the dependent packages
+
+### Number Line
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '5.4.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 07/09/2019 18:02:42
+
+Version: ''
+
+fix(behaviour): added alternate scoring for placement-ordering [ch1304], rendered math in extended-text-entry [ch1016], moved the toolbar above the editor for [ch2493]
+
+Commit Date: 07/09/2019 17:33:00
+
+Version: ''
+
+fix(behaviour): added alternate scoring for placement-ordering [ch1304], rendered math in extended-text-entry [ch1016], moved the toolbar above the editor for [ch2493]
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '5.4.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Ruler
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '3.7.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Select Text
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '4.4.8'
+
+chore(editable-html): version bumped some dependant packages
+
+### Short Text
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
+Version: '3.9.8'
+
+chore(editable-html): version bumped some dependant packages
+## 07/09/2019
+
+### Calculator
+
+#### Chores
+
+Commit Date: 07/09/2019 13:38:59
+
 Version: ''
 
 chore(editable-html): version bumped some dependant packages
