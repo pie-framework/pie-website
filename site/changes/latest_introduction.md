@@ -4,6 +4,297 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/11/2019
+
+### Calculator
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '2.10.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+### Categorize
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '4.6.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### EBSR
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '2.5.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+### Extended Text
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '4.5.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Hotspot
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '2.7.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Inline Choice
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '2.9.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+### Match
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '2.8.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '1.8.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '1.7.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Inline Dropdown
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '1.9.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Equation Response
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '2.6.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '3.5.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Number Line
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '5.5.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+### Placement Ordering
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '5.5.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Ruler
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '3.8.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+### Select Text
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '4.5.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.5
+
+###### Bug Fixes
+
+Commit Date: 07/11/2019 16:10:22
+
+Version: '7.10.5'
+
+fix(editor): added possibility to hide the done button and added a onKeyDown prop [ch2489]
+
+### Short Text
+
+#### Features
+
+Commit Date: 07/11/2019 16:57:13
+
+Version: '3.10.0'
+
+feat(template-elements): updated the dependent packages that use editable-html and fixed [ch2564], [ch2565], [ch2538], [ch2489], [ch2557], [ch2593], [ch2490], [ch2527]
 ## 07/09/2019
 
 ### Calculator
