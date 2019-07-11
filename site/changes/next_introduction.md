@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/10/2019
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 07/10/2019 13:18:39
+
+Version: ''
+
+fix: use empty defaults for select text, not lorem (#272)
 ## 07/09/2019
 
 ### Calculator
