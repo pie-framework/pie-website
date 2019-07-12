@@ -4,6 +4,495 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/12/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.10.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.10.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '4.6.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '4.6.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.5.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '4.5.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.7.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Inline Choice
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.9.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.8.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '1.8.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 16:47:44
+
+Version: '1.8.3'
+
+fix(package): updated ui packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '1.7.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 16:47:44
+
+Version: '1.7.3'
+
+fix(package): updated ui packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '1.9.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 16:47:44
+
+Version: '1.9.3'
+
+fix(package): updated ui packages
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.6.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '3.5.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '5.5.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '5.5.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '3.8.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '4.5.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
+
+### Short Text
+
+#### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '3.10.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.8
+
+###### Bug Fixes
+
+Commit Date: 07/12/2019 10:45:20
+
+Version: '7.10.6'
+
+fix(editor): removed the timeout in the onBlur function, instead i checked if the user clicked on the check mark button and prevented the action if it did
+
+Commit Date: 07/12/2019 14:13:14
+
+Version: '7.10.7'
+
+fix(editor): added serialization for other elements in order to grab the styles for them [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 15:16:55
+
+Version: '7.10.8'
+
+fix(editor): changed the style for the drag-in-the-blank choice and removed unnecessary statement [ch1915]
 ## 07/11/2019
 
 ### Calculator
