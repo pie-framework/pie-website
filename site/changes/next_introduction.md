@@ -16,9 +16,21 @@ Version: '2.10.2'
 
 fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
 
+Commit Date: 07/12/2019 15:45:27
+
+Version: '2.10.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
 ### Categorize
 
 #### Bug Fixes
+
+Commit Date: 07/12/2019 15:45:27
+
+Version: '4.6.2'
+
+fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
 
 Commit Date: 07/12/2019 15:45:27
 
@@ -176,17 +188,17 @@ fix(editor): changed the style for the drag-in-the-blank choice and removed unne
 
 #### Bug Fixes
 
-Commit Date: 07/12/2019 16:47:44
-
-Version: ''
-
-fix(package): updated ui packages
-
 Commit Date: 07/12/2019 15:45:27
 
 Version: '1.8.2'
 
 fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 16:47:44
+
+Version: '1.8.3'
+
+fix(package): updated ui packages
 
 #### Dependencies 
 
@@ -216,17 +228,23 @@ fix(editor): changed the style for the drag-in-the-blank choice and removed unne
 
 #### Bug Fixes
 
-Commit Date: 07/12/2019 16:47:44
-
-Version: ''
-
-fix(package): updated ui packages
-
 Commit Date: 07/12/2019 15:45:27
 
 Version: '1.7.2'
 
 fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 16:47:44
+
+Version: '1.7.3'
+
+fix(package): updated ui packages
+
+Commit Date: 07/12/2019 20:26:57
+
+Version: '1.7.5'
+
+fix: evaluate mode works if session empty
 
 #### Dependencies 
 
@@ -256,17 +274,23 @@ fix(editor): changed the style for the drag-in-the-blank choice and removed unne
 
 #### Bug Fixes
 
-Commit Date: 07/12/2019 16:47:44
-
-Version: ''
-
-fix(package): updated ui packages
-
 Commit Date: 07/12/2019 15:45:27
 
 Version: '1.9.2'
 
 fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 16:47:44
+
+Version: '1.9.3'
+
+fix(package): updated ui packages
+
+Commit Date: 07/12/2019 20:36:57
+
+Version: '1.9.5'
+
+fix: model is ok if session is empty and alternateResponses is null
 
 #### Dependencies 
 
@@ -423,6 +447,12 @@ Commit Date: 07/12/2019 15:45:27
 Version: '4.5.2'
 
 fix(rendering): implemented rendering for math elements [ch1915], [ch1935]
+
+Commit Date: 07/12/2019 20:41:37
+
+Version: '4.5.4'
+
+fix: model is ok if selectedTokens is null in evaluate mode
 
 #### Dependencies 
 
