@@ -4,6 +4,101 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/13/2019
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 07/13/2019 12:07:08
+
+Version: ''
+
+fix: ch2363 focus issue bump config ui (#274)
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.9
+
+###### Bug Fixes
+
+Commit Date: 07/13/2019 17:05:23
+
+Version: '7.10.9'
+
+fix(editor): added a way of saving the editable content when the user blures the component [ch2363], [ch1912], [ch2565], [ch2557], fixed some math rendering issue
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 07/13/2019 21:48:38
+
+Version: ''
+
+fix(template-areas): fixed the remaining issues with the inline-dropdown and ecr [ch2797], [ch2802]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.9
+
+###### Bug Fixes
+
+Commit Date: 07/13/2019 17:05:23
+
+Version: '7.10.9'
+
+fix(editor): added a way of saving the editable content when the user blures the component [ch2363], [ch1912], [ch2565], [ch2557], fixed some math rendering issue
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 07/13/2019 21:48:38
+
+Version: ''
+
+fix(template-areas): fixed the remaining issues with the inline-dropdown and ecr [ch2797], [ch2802]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.9
+
+###### Bug Fixes
+
+Commit Date: 07/13/2019 17:05:23
+
+Version: '7.10.9'
+
+fix(editor): added a way of saving the editable content when the user blures the component [ch2363], [ch1912], [ch2565], [ch2557], fixed some math rendering issue
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.9
+
+###### Bug Fixes
+
+Commit Date: 07/13/2019 17:05:23
+
+Version: '7.10.9'
+
+fix(editor): added a way of saving the editable content when the user blures the component [ch2363], [ch1912], [ch2565], [ch2557], fixed some math rendering issue
+
+### Multiple Choice
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.9
+
+###### Bug Fixes
+
+Commit Date: 07/13/2019 17:05:23
+
+Version: '7.10.9'
+
+fix(editor): added a way of saving the editable content when the user blures the component [ch2363], [ch1912], [ch2565], [ch2557], fixed some math rendering issue
 ## 07/12/2019
 
 ### Calculator
