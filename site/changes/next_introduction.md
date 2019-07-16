@@ -4,6 +4,47 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/15/2019
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 07/15/2019 18:55:06
+
+Version: ''
+
+fix: support rationale
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 07/15/2019 18:39:10
+
+Version: ''
+
+fix: support rationale
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 07/15/2019 19:07:02
+
+Version: ''
+
+fix: support rationale
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 07/15/2019 11:55:38
+
+Version: '3.8.5'
+
+fix: bump ruler version
 ## 07/13/2019
 
 ### Extended Text
