@@ -4,6 +4,33 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/16/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 07/16/2019 15:34:01
+
+Version: ''
+
+fix(template-areas): fixed ebsr not disabling issue in controller when it should [ch2192]
+
+Commit Date: 07/16/2019 15:27:58
+
+Version: ''
+
+fix(template-areas): fixed ebsr not disabling issue in controller when it should [ch2192]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 07/16/2019 15:34:01
+
+Version: ''
+
+fix(template-areas): fixed ebsr not disabling issue in controller when it should [ch2192]
 ## 07/15/2019
 
 ### Drag In The Blank
