@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/18/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 07/18/2019 17:04:03
+
+Version: ''
+
+fix: config settings
 ## 07/16/2019
 
 ### EBSR
