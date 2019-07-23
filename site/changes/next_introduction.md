@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/22/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 07/22/2019 13:10:16
+
+Version: ''
+
+fix(math-inline): hyphen and minus sign should be equivalent in literal validation
 ## 07/18/2019
 
 ### EBSR
