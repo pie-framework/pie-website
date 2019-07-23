@@ -25,11 +25,6 @@
     "label": "Hotspot"
   },
   {
-    "name": "@pie-element/inline-choice",
-    "version": "^2.3.1",
-    "label": "Inline Choice"
-  },
-  {
     "name": "@pie-element/match",
     "version": "^1.8.3",
     "label": "Match"
@@ -38,6 +33,11 @@
     "name": "@pie-element/drag-in-the-blank",
     "version": "^1.1.0",
     "label": "Drag In The Blank"
+  },
+  {
+    "name": "@pie-element/drawing-response",
+    "version": "^1.4.3",
+    "label": "Drawing Response"
   },
   {
     "name": "@pie-element/explicit-constructed-response",
@@ -88,10 +88,5 @@
     "name": "@pie-element/select-text",
     "version": "^3.6.4",
     "label": "Select Text"
-  },
-  {
-    "name": "@pie-element/text-entry",
-    "version": "^3.3.1",
-    "label": "Short Text"
   }
 ]

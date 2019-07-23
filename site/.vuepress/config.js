@@ -25,6 +25,11 @@ var elements = [
     "label": "Drag In The Blank"
   },
   {
+    "name": "drawing-response",
+    "version": "1.4.3",
+    "label": "Drawing Response"
+  },
+  {
     "name": "explicit-constructed-response",
     "version": "1.1.0",
     "label": "Explicit Constructed Response"
@@ -38,11 +43,6 @@ var elements = [
     "name": "x-hotspot",
     "version": "1.0.5",
     "label": "Hotspot"
-  },
-  {
-    "name": "inline-choice",
-    "version": "2.3.1",
-    "label": "Inline Choice"
   },
   {
     "name": "x-match",
@@ -88,11 +88,6 @@ var elements = [
     "name": "select-text",
     "version": "3.6.4",
     "label": "Select Text"
-  },
-  {
-    "name": "text-entry",
-    "version": "3.3.1",
-    "label": "Short Text"
   }
 ];
 
@@ -130,14 +125,13 @@ module.exports = {
               children: [
                 '/examples/pie-categorize',
                 '/examples/pie-drag-in-the-blank',
+                '/examples/pie-drawing-response',
                 '/examples/pie-explicit-constructed-response',
                 '/examples/pie-math-inline',
-                '/examples/pie-inline-choice',
                 '/examples/pie-inline-dropdown',
                 '/examples/pie-multiple-choice',
                 '/examples/pie-number-line',
                 '/examples/pie-select-text',
-                '/examples/pie-text-entry',
                 '/examples/pie-extended-text-entry',
                 '/examples/pie-match',
                 '/examples/pie-match-list',

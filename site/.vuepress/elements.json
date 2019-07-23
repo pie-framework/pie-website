@@ -30,12 +30,6 @@
     "packageName": "@pie-element/hotspot"
   },
   {
-    "name": "inline-choice",
-    "version": "2.9.3",
-    "label": "Inline Choice",
-    "packageName": "@pie-element/inline-choice"
-  },
-  {
     "name": "x-match",
     "version": "2.8.5",
     "label": "Match",
@@ -46,6 +40,12 @@
     "version": "1.8.8",
     "label": "Drag In The Blank",
     "packageName": "@pie-element/drag-in-the-blank"
+  },
+  {
+    "name": "drawing-response",
+    "version": "1.4.3",
+    "label": "Drawing Response",
+    "packageName": "@pie-element/drawing-response"
   },
   {
     "name": "explicit-constructed-response",
@@ -106,11 +106,5 @@
     "version": "4.5.5",
     "label": "Select Text",
     "packageName": "@pie-element/select-text"
-  },
-  {
-    "name": "text-entry",
-    "version": "3.10.3",
-    "label": "Short Text",
-    "packageName": "@pie-element/text-entry"
   }
 ]
