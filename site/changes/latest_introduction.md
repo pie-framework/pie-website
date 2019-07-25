@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/25/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 07/25/2019 09:46:42
+
+Version: '4.6.4'
+
+fix(categories): implemented alternate responses for authoring in the categorize element [ch1255]
 ## 07/12/2019
 
 ### Calculator
