@@ -12,7 +12,7 @@ sidebarDepth: 2
 
 Commit Date: 07/25/2019 09:46:42
 
-Version: ''
+Version: '4.6.4'
 
 fix(categories): implemented alternate responses for authoring in the categorize element [ch1255]
 ## 07/24/2019
