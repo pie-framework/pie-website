@@ -4,6 +4,32 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 07/25/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 07/25/2019 09:46:42
+
+Version: ''
+
+fix(categories): implemented alternate responses for authoring in the categorize element [ch1255]
+## 07/24/2019
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/categorize@0.6.2
+
+###### Bug Fixes
+
+Commit Date: 07/24/2019 14:56:57
+
+Version: '0.6.2'
+
+fix(editor): fixed the alternate response issue [ch1255]
 ## 07/22/2019
 
 ### Equation Response
