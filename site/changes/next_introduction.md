@@ -4,6 +4,127 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/01/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 08/01/2019 12:43:53
+
+Version: ''
+
+fix(elements): fixed some feedback config issues and the prompt issue on categorize [ch2192], [ch1770]
 ## 07/25/2019
 
 ### Categorize
