@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/02/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 08/02/2019 08:03:20
+
+Version: ''
+
+fix(math-inline): controller outcome function output adjusted to 0-1
 ## 08/01/2019
 
 ### Categorize
