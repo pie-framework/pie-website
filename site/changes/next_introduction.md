@@ -4,6 +4,311 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/08/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 08/08/2019 08:40:11
+
+Version: ''
+
+fix(elements): version bumped the editable-html packages [ch1738]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.17
+
+###### Bug Fixes
+
+Commit Date: 08/08/2019 07:57:18
+
+Version: '7.10.17'
+
+fix(resparea): moved the button for the response area functionality [ch1738]
 ## 08/02/2019
 
 ### Equation Response
