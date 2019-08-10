@@ -15,6 +15,17 @@ Commit Date: 08/09/2019 14:04:57
 Version: ''
 
 fix(elements): fixed the outcome functions for the element [ch3150]
+## 08/09/2019
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 08/09/2019 14:04:57
+
+Version: ''
+
+fix(elements): fixed the outcome functions for the element [ch3150]
 ## 08/08/2019
 
 ### Calculator
