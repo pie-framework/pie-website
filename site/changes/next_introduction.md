@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/12/2019
+
+### Equation Response
+
+#### Features
+
+Commit Date: 08/12/2019 11:37:50
+
+Version: ''
+
+feat: Added pie-model.
 ## 08/09/2019
 
 ### Inline Dropdown
