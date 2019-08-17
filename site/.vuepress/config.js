@@ -100,7 +100,7 @@ console.log('Elements', elements);
 module.exports = {
   title: '',
   head: [
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/pie-demo@1.24.0/dist/pie-demo.js' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/pie-demo@1.25.0/dist/pie-demo.js' }],
   ],
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
