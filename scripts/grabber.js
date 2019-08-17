@@ -1,9 +1,10 @@
 const args = require("minimist")(process.argv.slice(2));
 const jsonBeautify = require("json-beautify");
-const { request: graphQlRequest } = require("graphql-request");
 const { resolve } = require("path");
 const { readJsonSync, writeFile } = require("fs-extra");
 const pacote = require("pacote");
+const request = require('request');
+
 const file = args._[0];
 const type = args._[1] || 'latest';
 
@@ -26,79 +27,46 @@ const handlePromises = (elementPromises) => {
   let checks = 0;
 
   elementPromises.then((results) => {
-    const query = `mutation { 
-  createBundle(deps: [
-    ${results.reduce((str, json, index) => {
-      return `${str}{ name: "${json.packageName}", version: "${json.version}" }${index === results.length - 1 ? '' : ',\n'}`;
-    }, '')}
-  ], overwrite: {
-          controllers: false
-          srcViews:false
-          bundles: true
-      }) {
-    id
-        hash
-        deps {
-          name
-          version
+    const packages = results.map((json, index) => `${json.packageName}@${json.version}`);
+    const url = `https://pits-dot-pie-dev-221718.appspot.com/bundles/${packages.join('+')}/editor.js`;
+
+    console.log(packages);
+    console.log(url);
+
+    const statusPoll = () => {
+      checks += 1;
+      console.log(checks);
+
+      request(url, (err, res) => {
+        if (err) {
+          if (tries === 1) {
+            console.log('Rechecking');
+
+            tries += 1;
+            handlePromises(elementPromises);
+          } else {
+            console.error('Failed to grab elements');
+
+            process.exit(1);
+          }
         }
-      }
-}`;
 
-    console.log(query);
+        if (res.statusCode === 503) {
+          return setTimeout(() => {
+            statusPoll();
+          }, 30000);
+        }
 
-    graphQlRequest('http://pits-dot-pie-dev-221718.appspot.com/graphql?', query).then((data) => {
-      if (data && data.createBundle) {
-        const statusPoll = (bundleData) => {
-          const statusQuery = `
-query {
-  build(id:"${bundleData.createBundle.id}"){
-    deps{
-      name 
-      version 
-    }
-    scope{
-      controllers
-    }
-    
-    status 
-  }
-}`;
-          checks += 1;
-          console.log(checks);
+        console.log('Done building');
 
-          graphQlRequest('http://pits-dot-pie-dev-221718.appspot.com/graphql?', statusQuery)
-            .then((data) => {
-              if (data && data.build.status === 'started') {
-                setTimeout(() => {
-                  statusPoll(bundleData);
-                }, 30000);
-              } else if (data.build.status !== 'failed') {
-                console.log('Done building');
+        writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {
+          if (err) throw err;
+          console.log('Saved!');
+        });
+      });
+    };
 
-                writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {
-                  if (err) throw err;
-                  console.log('Saved!');
-                });
-              } else if (tries === 1) {
-                console.log('Rechecking');
-
-                tries += 1;
-                handlePromises(elementPromises);
-              } else {
-                console.error('Failed to grab elements');
-
-                process.exit(1);
-              }
-            })
-            .catch(() => {
-              statusPoll(bundleData);
-            })
-        };
-
-        statusPoll(data);
-      }
-    });
+    statusPoll();
   });
 };
 
