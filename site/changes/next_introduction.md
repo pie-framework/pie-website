@@ -4,6 +4,221 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/16/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+#### Dependencies 
+
+##### @pie-lib/math-rendering@1.3.6
+
+###### Bug Fixes
+
+Commit Date: 08/16/2019 17:44:00
+
+Version: '1.3.5'
+
+fix(renderMath): fixed the math rendering all over the app [ch3365], and [ch1915]
+
+Commit Date: 08/16/2019 20:48:24
+
+Version: '1.3.6'
+
+fix(renderMath): added an if for elements that already have math rendered [ch3365], and [ch1915]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+#### Dependencies 
+
+##### @pie-lib/math-rendering@1.3.6
+
+###### Bug Fixes
+
+Commit Date: 08/16/2019 17:44:00
+
+Version: '1.3.5'
+
+fix(renderMath): fixed the math rendering all over the app [ch3365], and [ch1915]
+
+Commit Date: 08/16/2019 20:48:24
+
+Version: '1.3.6'
+
+fix(renderMath): added an if for elements that already have math rendered [ch3365], and [ch1915]
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+#### Dependencies 
+
+##### @pie-lib/math-rendering@1.3.6
+
+###### Bug Fixes
+
+Commit Date: 08/16/2019 17:44:00
+
+Version: '1.3.5'
+
+fix(renderMath): fixed the math rendering all over the app [ch3365], and [ch1915]
+
+Commit Date: 08/16/2019 20:48:24
+
+Version: '1.3.6'
+
+fix(renderMath): added an if for elements that already have math rendered [ch3365], and [ch1915]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 08/16/2019 23:04:42
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages [ch3365]
 ## 08/12/2019
 
 ### Equation Response
