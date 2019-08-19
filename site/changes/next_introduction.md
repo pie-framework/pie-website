@@ -4,6 +4,311 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/19/2019
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 08/19/2019 19:37:56
+
+Version: ''
+
+fix(math-rendering): updated all dependent packages for math rendering and for editable-html [ch3365], [ch1530]
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.21
+
+###### Bug Fixes
+
+Commit Date: 08/19/2019 17:25:00
+
+Version: '7.10.21'
+
+fix(serialization): fixed the issue with having more than a few new lines on after another [ch1530]
 ## 08/16/2019
 
 ### Calculator
