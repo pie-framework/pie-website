@@ -15,6 +15,16 @@ Commit Date: 08/21/2019 10:15:41
 Version: '2.6.7'
 
 fix(ebsr): fixed ebsr [ch3200]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 08/21/2019 11:47:22
+
+Version: '3.0.0'
+
+fix: Updated pie-ui version.
 ## 08/02/2019
 
 ### Equation Response
