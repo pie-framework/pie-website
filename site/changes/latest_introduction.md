@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/21/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 08/21/2019 10:15:41
+
+Version: '2.6.7'
+
+fix(ebsr): fixed ebsr [ch3200]
 ## 08/02/2019
 
 ### Equation Response
