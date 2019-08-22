@@ -4,6 +4,37 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/22/2019
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 08/22/2019 09:18:44
+
+Version: ''
+
+feat(mask-markup): made some fixes for mask markup elements: [ch1897], [ch2974], [ch2991], [ch2984], [ch2988], [ch2987], [ch2521]
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 08/22/2019 09:18:44
+
+Version: ''
+
+feat(mask-markup): made some fixes for mask markup elements: [ch1897], [ch2974], [ch2991], [ch2984], [ch2988], [ch2987], [ch2521]
+
+### Inline Dropdown
+
+#### Features
+
+Commit Date: 08/22/2019 09:18:44
+
+Version: ''
+
+feat(mask-markup): made some fixes for mask markup elements: [ch1897], [ch2974], [ch2991], [ch2984], [ch2988], [ch2987], [ch2521]
 ## 08/21/2019
 
 ### EBSR
