@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/26/2019
+
+### EBSR
+
+#### Features
+
+Commit Date: 08/26/2019 14:03:30
+
+Version: ''
+
+feat: return max in 'outcome'
 ## 08/22/2019
 
 ### Drag In The Blank
