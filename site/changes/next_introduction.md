@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 08/30/2019
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 08/30/2019 09:30:57
+
+Version: ''
+
+fix(hotspot): hotspotList prop type is array, not string (#315)
 ## 08/27/2019
 
 ### Match
