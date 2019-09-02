@@ -21,3 +21,7 @@ Build:
 Deploy:
 
 TODO - add github pages deploy script
+
+## clean up todos
+
+- rm either elements.json or pie-packages - they both have the same info.
