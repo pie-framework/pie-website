@@ -4,24 +4,14 @@ This is the public site and documentation site for the PIE Framework.
 
 It uses VuePress https://vuepress.vuejs.org
 
-Install:
+| cmd                    | description                    |
+| ---------------------- | ------------------------------ |
+| `npm install`          | install                        |
+| `npm run dev`          | dev server on localhost:8080   |
+| `npm run build`        | build                          |
+| `npm run deployNext`   | deploy next version to surge   |
+| `npm run deployLatest` | deploy latest version to surge |
 
-`npm install`
-
-Developing:
-
-`npm run dev`
-
-Starts a hot-reloading server on http://localhost:8080
-
-Build:
-
-`npm run build`
-
-Deploy:
-
-TODO - add github pages deploy script
-
-## clean up todos
+## clean up - todos
 
 - rm either elements.json or pie-packages - they both have the same info.
