@@ -1,16 +1,14 @@
 const elementsPath = process.env.PIE_JSON_FILE || "./elements.json";
-console.log("elementsPath:", elementsPath);
 const elements = require(elementsPath);
 
-console.log("Elements", elements);
+const pieDemoRoot =
+  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@2.1.1/dist";
 
 module.exports = {
   title: "",
   head: [
-    [
-      "script",
-      { src: "https://cdn.jsdelivr.net/npm/pie-demo@1.25.0/dist/pie-demo.js" }
-    ]
+    ["script", { src: `${pieDemoRoot}/esm/pie-demo.mjs`, type: "module" }],
+    ["script", { src: `${pieDemoRoot}/pie-demo.js`, nomodule: true }]
   ],
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
