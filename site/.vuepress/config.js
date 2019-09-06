@@ -2,7 +2,7 @@ const elementsPath = process.env.PIE_JSON_FILE || "./elements.json";
 const elements = require(elementsPath);
 
 const pieDemoRoot =
-  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@2.1.1/dist";
+  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@2.1.2/dist";
 
 module.exports = {
   title: "",
