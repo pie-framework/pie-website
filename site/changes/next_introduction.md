@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/12/2019
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 09/12/2019 10:28:57
+
+Version: ''
+
+feat: Added the possibility to disable Settings Panel (used for EBSR).
 ## 08/30/2019
 
 ### Hotspot
