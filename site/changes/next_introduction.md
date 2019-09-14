@@ -4,6 +4,41 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/13/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/13/2019 08:41:33
+
+Version: '3.0.0'
+
+fix: teacher instructions should be sent only for instructor
+
+Commit Date: 09/13/2019 11:12:30
+
+Version: '3.0.1'
+
+fix: Workaround for player, when trying to set config before the element was created
+
+#### Features
+
+Commit Date: 09/13/2019 08:40:01
+
+Version: '3.0.0'
+
+feat: Separated the model and the configuration values in 3 categories: for partA, for partB and for both.
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 09/13/2019 09:11:10
+
+Version: '1.11.3'
+
+fix: Prevent drag-in-the-blank crash if no alternate response is defined.
 ## 09/12/2019
 
 ### Multiple Choice
