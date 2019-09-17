@@ -4,6 +4,67 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/16/2019
+
+### Categorize
+
+#### Features
+
+Commit Date: 09/16/2019 19:12:33
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/16/2019 12:53:39
+
+Version: '3.0.2'
+
+fix: Shuffle choices only when sending them to pie-ui.
+
+### Extended Text
+
+#### Features
+
+Commit Date: 09/16/2019 19:17:27
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 09/16/2019 19:14:43
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### Drawing Response
+
+#### Features
+
+Commit Date: 09/16/2019 19:15:38
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 09/16/2019 19:16:32
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
 ## 09/13/2019
 
 ### EBSR
