@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/18/2019
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 09/18/2019 07:28:19
+
+Version: ''
+
+fix: State not updating at choice change + bug found when having 3 alternates, deleting the 2nd one and adding a new one (#332)
 ## 09/16/2019
 
 ### Categorize
