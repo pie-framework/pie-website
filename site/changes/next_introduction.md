@@ -4,6 +4,43 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/19/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/19/2019 20:22:49
+
+Version: ''
+
+fix: Stop resetting the model.
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 09/19/2019 11:09:03
+
+Version: '5.0.2'
+
+fix: Keep settings from defaults.configuration if they are not defined in the new configuration.
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 09/19/2019 10:20:44
+
+Version: '2.0.3'
+
+fix: State not updating.
+
+Commit Date: 09/19/2019 09:47:24
+
+Version: '2.0.2'
+
+fix: variables pointing to the same address issue
 ## 09/18/2019
 
 ### Explicit Constructed Response
