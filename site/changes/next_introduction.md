@@ -4,6 +4,29 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/23/2019
+
+### Hotspot
+
+#### Features
+
+Commit Date: 09/23/2019 12:34:44
+
+Version: ''
+
+feat(drawable): fixed the not rendering item preview [ch3629]
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Features
+
+Commit Date: 09/23/2019 12:25:01
+
+Version: '1.3.0'
+
+feat(hotspot): removed unnecessary if condition [ch3629]
 ## 09/19/2019
 
 ### EBSR
