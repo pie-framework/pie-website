@@ -7,85 +7,85 @@
   },
   {
     "name": "x-categorize",
-    "version": "4.7.0",
+    "version": "5.0.1",
     "label": "Categorize",
     "packageName": "@pie-element/categorize"
   },
   {
     "name": "x-ebsr",
-    "version": "2.7.0",
+    "version": "4.0.2",
     "label": "EBSR",
     "packageName": "@pie-element/ebsr"
   },
   {
     "name": "extended-text-entry",
-    "version": "4.6.6",
+    "version": "5.0.3",
     "label": "Extended Text",
     "packageName": "@pie-element/extended-text-entry"
   },
   {
     "name": "x-hotspot",
-    "version": "2.9.0",
+    "version": "3.0.0",
     "label": "Hotspot",
     "packageName": "@pie-element/hotspot"
   },
   {
     "name": "x-match",
-    "version": "2.9.0",
+    "version": "3.0.0",
     "label": "Match",
     "packageName": "@pie-element/match"
   },
   {
     "name": "drag-in-the-blank",
-    "version": "1.10.0",
+    "version": "2.0.1",
     "label": "Drag In The Blank",
     "packageName": "@pie-element/drag-in-the-blank"
   },
   {
     "name": "drawing-response",
-    "version": "1.4.12",
+    "version": "2.0.1",
     "label": "Drawing Response",
     "packageName": "@pie-element/drawing-response"
   },
   {
     "name": "explicit-constructed-response",
-    "version": "1.9.0",
+    "version": "2.0.2",
     "label": "Explicit Constructed Response",
     "packageName": "@pie-element/explicit-constructed-response"
   },
   {
     "name": "inline-dropdown",
-    "version": "1.11.0",
+    "version": "2.0.5",
     "label": "Inline Dropdown",
     "packageName": "@pie-element/inline-dropdown"
   },
   {
     "name": "match-list",
-    "version": "1.6.0",
+    "version": "1.7.1",
     "label": "Match List",
     "packageName": "@pie-element/match-list"
   },
   {
     "name": "math-inline",
-    "version": "3.1.0",
+    "version": "4.0.0",
     "label": "Equation Response",
     "packageName": "@pie-element/math-inline"
   },
   {
     "name": "multiple-choice",
-    "version": "3.7.0",
+    "version": "4.0.1",
     "label": "Multiple Choice",
     "packageName": "@pie-element/multiple-choice"
   },
   {
     "name": "number-line",
-    "version": "5.6.0",
+    "version": "5.6.1",
     "label": "Number Line",
     "packageName": "@pie-element/number-line"
   },
   {
     "name": "placement-ordering",
-    "version": "5.6.0",
+    "version": "6.0.0",
     "label": "Placement Ordering",
     "packageName": "@pie-element/placement-ordering"
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "select-text",
-    "version": "4.6.0",
+    "version": "5.0.0",
     "label": "Select Text",
     "packageName": "@pie-element/select-text"
   }

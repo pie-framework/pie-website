@@ -4,6 +4,184 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/23/2019
+
+### Hotspot
+
+#### Features
+
+Commit Date: 09/23/2019 12:34:44
+
+Version: ''
+
+feat(drawable): fixed the not rendering item preview [ch3629]
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Features
+
+Commit Date: 09/23/2019 12:25:01
+
+Version: '1.3.0'
+
+feat(hotspot): removed unnecessary if condition [ch3629]
+## 09/19/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/19/2019 20:22:49
+
+Version: ''
+
+fix: Stop resetting the model.
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 09/19/2019 11:09:03
+
+Version: '5.0.2'
+
+fix: Keep settings from defaults.configuration if they are not defined in the new configuration.
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 09/19/2019 10:20:44
+
+Version: '2.0.3'
+
+fix: State not updating.
+
+Commit Date: 09/19/2019 09:47:24
+
+Version: '2.0.2'
+
+fix: variables pointing to the same address issue
+## 09/18/2019
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 09/18/2019 07:28:19
+
+Version: ''
+
+fix: State not updating at choice change + bug found when having 3 alternates, deleting the 2nd one and adding a new one (#332)
+## 09/16/2019
+
+### Categorize
+
+#### Features
+
+Commit Date: 09/16/2019 19:12:33
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/16/2019 12:53:39
+
+Version: '3.0.2'
+
+fix: Shuffle choices only when sending them to pie-ui.
+
+### Extended Text
+
+#### Features
+
+Commit Date: 09/16/2019 19:17:27
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### Drag In The Blank
+
+#### Features
+
+Commit Date: 09/16/2019 19:14:43
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### Drawing Response
+
+#### Features
+
+Commit Date: 09/16/2019 19:15:38
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 09/16/2019 19:16:32
+
+Version: ''
+
+feat: Moved rationale, teacherInstructions and student instructions enabled flag in model because it's needed in controller.
+## 09/13/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/13/2019 08:41:33
+
+Version: '3.0.0'
+
+fix: teacher instructions should be sent only for instructor
+
+Commit Date: 09/13/2019 11:12:30
+
+Version: '3.0.1'
+
+fix: Workaround for player, when trying to set config before the element was created
+
+#### Features
+
+Commit Date: 09/13/2019 08:40:01
+
+Version: '3.0.0'
+
+feat: Separated the model and the configuration values in 3 categories: for partA, for partB and for both.
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 09/13/2019 09:11:10
+
+Version: '1.11.3'
+
+fix: Prevent drag-in-the-blank crash if no alternate response is defined.
+## 09/12/2019
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 09/12/2019 10:28:57
+
+Version: ''
+
+feat: Added the possibility to disable Settings Panel (used for EBSR).
 ## 08/30/2019
 
 ### Hotspot
