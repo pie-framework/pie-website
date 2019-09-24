@@ -4,6 +4,29 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/24/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/24/2019 11:28:10
+
+Version: ''
+
+fix: Do not use e.update if it is not defined. Added feedbackEnabled property on model.
+
+#### Dependencies 
+
+##### EBSR
+
+###### Bug Fixes
+
+Commit Date: 09/24/2019 11:14:42
+
+Version: '1.2.2'
+
+fix: Do not use e.update if it is not defined.
 ## 09/23/2019
 
 ### Hotspot
