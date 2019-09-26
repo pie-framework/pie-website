@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/25/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/25/2019 10:39:48
+
+Version: ''
+
+fix: Remove unnecessary usage of state (which also causes an error).
 ## 09/24/2019
 
 ### EBSR
