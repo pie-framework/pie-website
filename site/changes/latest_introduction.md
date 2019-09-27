@@ -4,6 +4,227 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 09/27/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:32:25
+
+Version: '4.1.0'
+
+fix: removed unused config property.
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:34:43
+
+Version: '5.1.0'
+
+fix: added feedbackEnabled property to model, removed usage on config.feedback.enabled and removed usage of allowFeedback (replaced with feedbackEnabled).
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:35:26
+
+Version: '4.1.0'
+
+fix: added feedbackEnabled property to model, removed usage on config.feedback.enabled and removed usage of allowFeedback (replaced with feedbackEnabled).
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 09:22:59
+
+Version: '4.1.0'
+
+fix: Show Correct Answer was not working properly: replaced allowFeedback (used to send data to pie-ui) with feedbackEnabled (can be changed in settings panel).
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 09:02:04
+
+Version: '4.11.2'
+
+fix: Show Correct Answer Toggle only if feedback is enabled.
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:35:59
+
+Version: '5.1.0'
+
+fix: added feedbackEnabled property to model, removed usage on config.feedback.enabled and removed usage of allowFeedback (replaced with feedbackEnabled).
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Hotspot
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Explicit Constructed Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Drawing Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Inline Dropdown
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
 ## 08/21/2019
 
 ### EBSR
