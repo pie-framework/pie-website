@@ -142,20 +142,6 @@ Version: '7.10.24'
 
 fix(toolbar): fixed delete image button not working [ch4162]
 
-### Match
-
-#### Dependencies 
-
-##### @pie-lib/editable-html@7.10.24
-
-###### Bug Fixes
-
-Commit Date: 09/27/2019 11:42:12
-
-Version: '7.10.24'
-
-fix(toolbar): fixed delete image button not working [ch4162]
-
 ### Drawing Response
 
 #### Dependencies 
@@ -170,7 +156,7 @@ Version: '7.10.24'
 
 fix(toolbar): fixed delete image button not working [ch4162]
 
-### Drag In The Blank
+### Explicit Constructed Response
 
 #### Dependencies 
 
@@ -184,7 +170,21 @@ Version: '7.10.24'
 
 fix(toolbar): fixed delete image button not working [ch4162]
 
-### Explicit Constructed Response
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Drag In The Blank
 
 #### Dependencies 
 
