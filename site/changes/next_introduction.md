@@ -4,6 +4,23 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/02/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 10/02/2019 09:25:55
+
+Version: ''
+
+fix(math-inline): cdot and times equivalence in evaluation fix (#348)
+
+Commit Date: 10/02/2019 09:15:33
+
+Version: ''
+
+fix(math-inline): simple mode literal evaluation fix for decimals and spaces (#349)
 ## 09/27/2019
 
 ### EBSR
