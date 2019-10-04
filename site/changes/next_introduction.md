@@ -4,6 +4,95 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/03/2019
+
+### EBSR
+
+#### Features
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 10/03/2019 10:53:44
+
+Version: '2.2.0'
+
+feat(controller): made sure that prepareVal works on environments that are not dom based [ch4599]
+
+Commit Date: 10/03/2019 10:53:44
+
+Version: '2.2.0'
+
+feat(controller): made sure that prepareVal works on environments that are not dom based [ch4599]
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '2.3.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '2.3.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Features
+
+Commit Date: 10/03/2019 14:14:53
+
+Version: '1.7.0'
+
+feat(main): debounced the onSessionChanged event
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+
+### Select Text
+
+#### Features
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '5.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '5.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
 ## 10/02/2019
 
 ### Equation Response
