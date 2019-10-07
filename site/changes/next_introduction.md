@@ -4,6 +4,390 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/03/2019
+
+### EBSR
+
+#### Features
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 10/03/2019 10:53:44
+
+Version: '2.2.0'
+
+feat(controller): made sure that prepareVal works on environments that are not dom based [ch4599]
+
+Commit Date: 10/03/2019 10:53:44
+
+Version: '2.2.0'
+
+feat(controller): made sure that prepareVal works on environments that are not dom based [ch4599]
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '2.3.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '2.3.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Features
+
+Commit Date: 10/03/2019 14:14:53
+
+Version: '1.7.0'
+
+feat(main): debounced the onSessionChanged event
+
+### Multiple Choice
+
+#### Features
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '4.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+
+### Select Text
+
+#### Features
+
+Commit Date: 10/03/2019 14:46:28
+
+Version: '5.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599], debounced some session changes in ecr [ch4387] and fixed select-text issue [ch4385]
+
+Commit Date: 10/03/2019 14:24:41
+
+Version: '5.2.0'
+
+feat(alternateSection): removed isBrowser function [ch4599] and debounced some session changes in ecr [ch4387]
+## 10/02/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 10/02/2019 09:25:55
+
+Version: ''
+
+fix(math-inline): cdot and times equivalence in evaluation fix (#348)
+
+Commit Date: 10/02/2019 09:15:33
+
+Version: ''
+
+fix(math-inline): simple mode literal evaluation fix for decimals and spaces (#349)
+## 09/27/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:32:25
+
+Version: ''
+
+fix: removed unused config property.
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:34:43
+
+Version: ''
+
+fix: added feedbackEnabled property to model, removed usage on config.feedback.enabled and removed usage of allowFeedback (replaced with feedbackEnabled).
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:35:26
+
+Version: ''
+
+fix: added feedbackEnabled property to model, removed usage on config.feedback.enabled and removed usage of allowFeedback (replaced with feedbackEnabled).
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 09:22:59
+
+Version: ''
+
+fix: Show Correct Answer was not working properly: replaced allowFeedback (used to send data to pie-ui) with feedbackEnabled (can be changed in settings panel).
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 09:02:04
+
+Version: '4.11.2'
+
+fix: Show Correct Answer Toggle only if feedback is enabled.
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 09/27/2019 11:35:59
+
+Version: ''
+
+fix: added feedbackEnabled property to model, removed usage on config.feedback.enabled and removed usage of allowFeedback (replaced with feedbackEnabled).
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Hotspot
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Drawing Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Explicit Constructed Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Inline Dropdown
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.24
+
+###### Bug Fixes
+
+Commit Date: 09/27/2019 11:42:12
+
+Version: '7.10.24'
+
+fix(toolbar): fixed delete image button not working [ch4162]
+## 09/26/2019
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 09/26/2019 12:13:23
+
+Version: ''
+
+fix: bump @pie-ui/number-line@^7.1.11
+
+#### Dependencies 
+
+##### Number Line
+
+###### Bug Fixes
+
+Commit Date: 09/26/2019 11:36:29
+
+Version: '7.1.11'
+
+fix: major tick normalizes to minor->10*minor
+## 09/25/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/25/2019 10:39:48
+
+Version: ''
+
+fix: Remove unnecessary usage of state (which also causes an error).
+## 09/24/2019
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 09/24/2019 11:28:10
+
+Version: ''
+
+fix: Do not use e.update if it is not defined. Added feedbackEnabled property on model.
+
+#### Dependencies 
+
+##### EBSR
+
+###### Bug Fixes
+
+Commit Date: 09/24/2019 11:14:42
+
+Version: '1.2.2'
+
+fix: Do not use e.update if it is not defined.
 ## 09/23/2019
 
 ### Hotspot
