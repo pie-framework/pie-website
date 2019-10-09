@@ -31,6 +31,33 @@ Commit Date: 10/08/2019 10:51:07
 Version: ''
 
 fix(math-inline): fix symbolic evaluation with text nodes - ch4709
+## 10/08/2019
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 10/08/2019 09:02:16
+
+Version: ''
+
+fix(hotspot): controller scoring function fix [ch3536]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 10/08/2019 09:40:41
+
+Version: ''
+
+fix(math-inline): fix controller logic safety net - ch3905 (#356)
+
+Commit Date: 10/08/2019 10:51:07
+
+Version: ''
+
+fix(math-inline): fix symbolic evaluation with text nodes - ch4709
 ## 10/03/2019
 
 ### EBSR
