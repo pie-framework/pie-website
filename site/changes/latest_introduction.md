@@ -4,6 +4,241 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/11/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '6.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '6.0.1'
+
+fix: Updated docs.
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '5.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '5.0.1'
+
+fix: Updated docs.
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '6.0.1'
+
+fix: Updated docs.
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '4.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '4.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '4.0.1'
+
+fix: Updated docs.
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '3.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '3.0.1'
+
+fix: Updated docs.
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '3.0.1'
+
+fix: Updated docs.
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '3.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:26:31
+
+Version: '3.0.1'
+
+fix: remove shuffling - redundant in this component [ch4723]
+
+Commit Date: 10/11/2019 12:25:42
+
+Version: '3.0.1'
+
+fix: item details disappear if we click correct answer button [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '3.0.1'
+
+fix: Updated docs.
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '3.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '3.0.1'
+
+fix: Updated docs.
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '1.7.3'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:55:16
+
+Version: '5.0.1'
+
+fix: bump @pie-ui/math-inline@^3.0.5 [ch4687]
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '5.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '5.0.1'
+
+fix: Updated docs.
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '5.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '5.0.1'
+
+fix: Updated docs.
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '5.6.6'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '5.6.6'
+
+fix: Updated docs.
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '7.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '7.0.1'
+
+fix: Updated docs.
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 10/11/2019 12:38:26
+
+Version: '6.0.1'
+
+fix: bump @pie-lib/controller-utils@^0.2.1 [ch4723]
+
+Commit Date: 10/11/2019 12:01:13
+
+Version: '6.0.1'
+
+fix: Updated docs.
 ## 09/27/2019
 
 ### EBSR
