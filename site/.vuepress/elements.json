@@ -1,109 +1,109 @@
 [
   {
     "name": "x-calculator",
-    "version": "2.10.13",
+    "version": "2.10.14-next.33",
     "label": "Calculator",
     "packageName": "@pie-element/calculator"
   },
   {
     "name": "x-categorize",
-    "version": "6.0.0",
+    "version": "6.0.1-next.13",
     "label": "Categorize",
     "packageName": "@pie-element/categorize"
   },
   {
     "name": "x-ebsr",
-    "version": "5.0.0",
+    "version": "5.0.1-next.13",
     "label": "EBSR",
     "packageName": "@pie-element/ebsr"
   },
   {
     "name": "extended-text-entry",
-    "version": "6.0.0",
+    "version": "6.0.1-next.13",
     "label": "Extended Text",
     "packageName": "@pie-element/extended-text-entry"
   },
   {
     "name": "x-hotspot",
-    "version": "4.0.0",
+    "version": "4.0.1-next.13",
     "label": "Hotspot",
     "packageName": "@pie-element/hotspot"
   },
   {
     "name": "x-match",
-    "version": "4.0.0",
+    "version": "4.0.1-next.13",
     "label": "Match",
     "packageName": "@pie-element/match"
   },
   {
     "name": "drag-in-the-blank",
-    "version": "3.0.0",
+    "version": "3.0.1-next.13",
     "label": "Drag In The Blank",
     "packageName": "@pie-element/drag-in-the-blank"
   },
   {
     "name": "drawing-response",
-    "version": "3.0.0",
+    "version": "3.0.1-next.13",
     "label": "Drawing Response",
     "packageName": "@pie-element/drawing-response"
   },
   {
     "name": "explicit-constructed-response",
-    "version": "3.0.0",
+    "version": "3.0.1-next.13",
     "label": "Explicit Constructed Response",
     "packageName": "@pie-element/explicit-constructed-response"
   },
   {
     "name": "inline-dropdown",
-    "version": "3.0.0",
+    "version": "3.0.1-next.13",
     "label": "Inline Dropdown",
     "packageName": "@pie-element/inline-dropdown"
   },
   {
     "name": "match-list",
-    "version": "1.7.2",
+    "version": "1.7.3-next.33",
     "label": "Match List",
     "packageName": "@pie-element/match-list"
   },
   {
     "name": "math-inline",
-    "version": "5.0.0",
+    "version": "5.0.1-next.13",
     "label": "Equation Response",
     "packageName": "@pie-element/math-inline"
   },
   {
     "name": "multiple-choice",
-    "version": "5.0.0",
+    "version": "5.0.1-next.13",
     "label": "Multiple Choice",
     "packageName": "@pie-element/multiple-choice"
   },
   {
     "name": "number-line",
-    "version": "5.6.5",
+    "version": "5.6.6-next.29",
     "label": "Number Line",
     "packageName": "@pie-element/number-line"
   },
   {
     "name": "placement-ordering",
-    "version": "7.0.0",
+    "version": "7.0.1-next.13",
     "label": "Placement Ordering",
     "packageName": "@pie-element/placement-ordering"
   },
   {
     "name": "x-protractor",
-    "version": "2.3.15",
+    "version": "2.3.16-next.304",
     "label": "Protractor",
     "packageName": "@pie-element/protractor"
   },
   {
     "name": "x-ruler",
-    "version": "3.8.16",
+    "version": "3.8.17-next.33",
     "label": "Ruler",
     "packageName": "@pie-element/ruler"
   },
   {
     "name": "select-text",
-    "version": "6.0.0",
+    "version": "6.0.1-next.13",
     "label": "Select Text",
     "packageName": "@pie-element/select-text"
   }
