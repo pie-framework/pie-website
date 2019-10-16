@@ -4,6 +4,160 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/16/2019
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 11:13:34
+
+Version: ''
+
+fix: upgrade ui elements [ch4802]
+## 10/15/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '6.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '5.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:09:33
+
+Version: '4.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2 [ch4859]
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '4.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+#### Dependencies 
+
+##### Match
+
+###### Bug Fixes
+
+Commit Date: 10/15/2019 19:39:29
+
+Version: '2.3.9'
+
+fix(match): session answer pre-population fix - ch4802
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '3.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '3.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '3.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '1.7.4'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '5.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '5.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '5.6.7'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '7.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 10/15/2019 12:11:16
+
+Version: '6.0.2'
+
+fix: bump @pie-lib/controller-utils@^0.2.2
 ## 10/11/2019
 
 ### Categorize
