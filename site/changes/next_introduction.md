@@ -6,15 +6,121 @@ sidebarDepth: 2
 ---
 ## 10/16/2019
 
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '6.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '5.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '4.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
 ### Match
 
 #### Bug Fixes
 
 Commit Date: 10/16/2019 11:13:34
 
-Version: ''
+Version: '4.0.3'
 
 fix: upgrade ui elements [ch4802]
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '4.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '3.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '3.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '3.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '1.7.6'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '5.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '5.0.4'
+
+fix: ch2766 fix unresolved promise (#366)
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 10/16/2019 15:50:55
+
+Version: '5.6.9'
+
+fix: ch2766 fix unresolved promise (#366)
 ## 10/15/2019
 
 ### Categorize
