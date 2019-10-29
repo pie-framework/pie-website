@@ -37,6 +37,13 @@ const handlePromises = (elementPromises) => {
       checks += 1;
       console.log(checks);
 
+      // sanity check
+      if (checks > 30) {
+        console.error('Failed to grab elements');
+
+        process.exit(1);
+      }
+
       request(url, (err, res) => {
         if (err) {
           if (tries === 1) {
