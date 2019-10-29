@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/29/2019
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 10/29/2019 11:18:35
+
+Version: '4.1.0'
+
+fix: upgrade @pie-ui/match@^2.3.10 [ch4390]
 ## 10/16/2019
 
 ### Match
