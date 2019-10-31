@@ -4,6 +4,21 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/30/2019
+
+### EBSR
+
+#### Dependencies 
+
+##### EBSR
+
+###### Bug Fixes
+
+Commit Date: 10/30/2019 20:12:56
+
+Version: '1.2.9'
+
+fix: set session object even if missing fixes: ch5165
 ## 10/29/2019
 
 ### Match
