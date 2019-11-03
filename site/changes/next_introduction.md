@@ -4,6 +4,51 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 11/01/2019
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 11/01/2019 15:58:08
+
+Version: '4.1.1'
+
+fix: use @pie-ui/match@^2.3.12 PIE-163
+
+#### Dependencies 
+
+##### Match
+
+###### Bug Fixes
+
+Commit Date: 11/01/2019 15:48:57
+
+Version: '2.3.12'
+
+fix: add pie-player-events dependency
+
+### Drawing Response
+
+#### Features
+
+Commit Date: 11/01/2019 10:54:21
+
+Version: '3.1.0'
+
+feat: upgrade @pie-ui/drawing-response@^1.5.0 [ch5017]
+
+#### Dependencies 
+
+##### Drawing Response
+
+###### Features
+
+Commit Date: 11/01/2019 11:15:46
+
+Version: '1.5.0'
+
+feat(drawing-response): made requested changes and fixed circle issue [ch5017]
 ## 10/30/2019
 
 ### EBSR
