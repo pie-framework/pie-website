@@ -4,6 +4,33 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 11/05/2019
+
+### Explicit Constructed Response
+
+#### Features
+
+Commit Date: 11/05/2019 12:24:52
+
+Version: ''
+
+feat(markupUtils): added tests for the new and old functionality [PIE-110]
+
+Commit Date: 11/05/2019 07:15:03
+
+Version: ''
+
+feat(markupUtils): removed brs from the markup [PIE-110]
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 11/05/2019 09:13:27
+
+Version: ''
+
+fix(select-text): disable partial scoring entirely for MVP
 ## 11/01/2019
 
 ### Match
