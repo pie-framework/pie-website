@@ -4,6 +4,125 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 11/06/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '6.0.6'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '5.0.7'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '4.0.6'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '4.1.2'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '3.1.2'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '3.2.0'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '3.0.6'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 12:27:29
+
+Version: '5.0.6'
+
+fix: PIE-140 - upgrade @pie-ui/math-inline@^3.0.8
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '5.0.6'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Bug Fixes
+
+Commit Date: 11/06/2019 13:12:32
+
+Version: '3.0.8'
+
+fix(math-inline): fix session value population for evaluate mode and small styling adjustment
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '5.0.6'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 11/06/2019 09:57:11
+
+Version: '7.0.5'
+
+fix: Hide Partial Scoring option from Settings Panel setting to false by default.
 ## 11/05/2019
 
 ### Explicit Constructed Response
