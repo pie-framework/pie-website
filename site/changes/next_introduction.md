@@ -4,6 +4,137 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 11/18/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 11/18/2019 20:35:06
+
+Version: ''
+
+fix: PIE-201 -  store prompts and answers in session, fix
 ## 11/06/2019
 
 ### Categorize
