@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 11/27/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 11/27/2019 10:20:58
+
+Version: '5.0.7'
+
+fix: PIE-188 - upgrade @pie-lib/math-evaluator@^0.6.0
 ## 11/18/2019
 
 ### Categorize
