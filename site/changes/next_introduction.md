@@ -4,6 +4,459 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 12/18/2019
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+Commit Date: 12/18/2019 11:52:42
+
+Version: ''
+
+fix: bump render-ui@^4.5.3
+
+#### Dependencies 
+
+##### Categorize
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:56
+
+Version: '1.3.15'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.3.15'
+
+fix: bump math-rendering
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:56
+
+Version: '3.2.9'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '3.2.9'
+
+fix: bump math-rendering
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:56
+
+Version: '1.3.4'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.3.4'
+
+fix: bump math-rendering
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Match
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '2.3.15'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '2.3.15'
+
+fix: bump math-rendering
+
+Commit Date: 12/18/2019 10:26:27
+
+Version: '2.3.15'
+
+fix: ch5496 - Math markup does not display properly for Match.
+
+Commit Date: 12/18/2019 10:25:56
+
+Version: '2.3.15'
+
+fix: Text layout problems in a Multiple Binary table with math markup [ch5793]
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:56
+
+Version: '1.7.8'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.7.8'
+
+fix: bump math-rendering
+
+Commit Date: 12/18/2019 10:07:28
+
+Version: '1.7.8'
+
+fix: bump mask-markup [ch5774]
+
+##### @pie-lib/math-rendering@2.1.0
+
+###### Features
+
+Commit Date: 12/18/2019 12:48:53
+
+Version: '2.1.0'
+
+feat(math): made sure there is only one instance of mathjax on the page [ch6048]
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Drawing Response
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:56
+
+Version: '1.6.2'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.6.2'
+
+fix: bump math-rendering
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:56
+
+Version: '1.7.6'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.7.6'
+
+fix: bump math-rendering
+
+Commit Date: 12/18/2019 10:07:46
+
+Version: '1.7.6'
+
+fix: bump mask-markup [ch5774]
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Inline Dropdown
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '1.7.8'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.7.8'
+
+fix: bump math-rendering
+
+Commit Date: 12/18/2019 10:07:57
+
+Version: '1.7.8'
+
+fix: bump mask-markup [ch5774]
+
+##### @pie-lib/math-rendering@2.1.0
+
+###### Features
+
+Commit Date: 12/18/2019 12:48:53
+
+Version: '2.1.0'
+
+feat(math): made sure there is only one instance of mathjax on the page [ch6048]
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Match List
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '1.4.9'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.4.9'
+
+fix: bump math-rendering
+
+Commit Date: 12/18/2019 10:23:09
+
+Version: '1.4.9'
+
+fix: ch5496 - Math markup does not display properly for Match List.
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '3.0.10'
+
+fix: bump render-ui@^4.5.3
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '4.11.12'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '4.11.12'
+
+fix: bump math-rendering
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Number Line
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '7.1.15'
+
+fix: bump math-rendering
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Placement Ordering
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '4.7.11'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '4.7.11'
+
+fix: bump math-rendering
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: ''
+
+fix: bump pie-ui version
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 11:57:57
+
+Version: '1.6.8'
+
+fix: bump render-ui@^4.5.3
+
+Commit Date: 12/18/2019 11:40:43
+
+Version: '1.6.8'
+
+fix: bump math-rendering
 ## 11/27/2019
 
 ### Equation Response
