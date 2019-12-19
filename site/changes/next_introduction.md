@@ -12,13 +12,13 @@ sidebarDepth: 2
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '6.1.0'
 
 fix: bump pie-ui version
 
 Commit Date: 12/18/2019 11:52:42
 
-Version: ''
+Version: '6.1.0'
 
 fix: bump render-ui@^4.5.3
 
@@ -46,7 +46,7 @@ fix: bump math-rendering
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '5.0.10'
 
 fix: bump pie-ui version
 
@@ -56,7 +56,7 @@ fix: bump pie-ui version
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '6.0.6'
 
 fix: bump pie-ui version
 
@@ -82,9 +82,15 @@ fix: bump math-rendering
 
 #### Bug Fixes
 
+Commit Date: 12/18/2019 12:27:29
+
+Version: '4.1.2'
+
+fix: version bump only to avoid conflict
+
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '4.1.0'
 
 fix: bump pie-ui version
 
@@ -112,7 +118,7 @@ fix: bump math-rendering
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '4.1.4'
 
 fix: bump pie-ui version
 
@@ -152,7 +158,7 @@ fix: Text layout problems in a Multiple Binary table with math markup [ch5793]
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '3.2.0'
 
 fix: bump pie-ui version
 
@@ -196,7 +202,7 @@ feat(math): made sure there is only one instance of mathjax on the page [ch6048]
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '3.1.3'
 
 fix: bump pie-ui version
 
@@ -224,7 +230,7 @@ fix: bump math-rendering
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '3.2.3'
 
 fix: bump pie-ui version
 
@@ -258,7 +264,7 @@ fix: bump mask-markup [ch5774]
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '3.1.0'
 
 fix: bump pie-ui version
 
@@ -302,7 +308,7 @@ feat(math): made sure there is only one instance of mathjax on the page [ch6048]
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '1.7.11'
 
 fix: bump pie-ui version
 
@@ -334,9 +340,21 @@ fix: ch5496 - Math markup does not display properly for Match List.
 
 #### Bug Fixes
 
-Commit Date: 12/18/2019 12:08:39
+Commit Date: 12/18/2019 20:21:48
 
 Version: ''
+
+fix: bump @pie-ui/math-inline@^6.3.7 ch5653
+
+Commit Date: 12/18/2019 20:12:25
+
+Version: ''
+
+fix: bump @pie-lib/math-input@^6.3.7 ch5653
+
+Commit Date: 12/18/2019 12:08:39
+
+Version: '5.0.8'
 
 fix: bump pie-ui version
 
@@ -352,13 +370,29 @@ Version: '3.0.10'
 
 fix: bump render-ui@^4.5.3
 
+Commit Date: 12/18/2019 20:10:20
+
+Version: '3.0.11'
+
+fix: bump @pie-lib/math-input@^6.3.7 ch5653
+
+##### @pie-lib/math-input@6.3.7
+
+###### Bug Fixes
+
+Commit Date: 12/18/2019 14:39:04
+
+Version: '6.3.7'
+
+fix: do not add keys if they already exist in keyset [ch5653]
+
 ### Multiple Choice
 
 #### Bug Fixes
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '5.0.8'
 
 fix: bump pie-ui version
 
@@ -386,7 +420,7 @@ fix: bump math-rendering
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '5.6.13'
 
 fix: bump pie-ui version
 
@@ -408,7 +442,7 @@ fix: bump math-rendering
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '7.0.7'
 
 fix: bump pie-ui version
 
@@ -436,7 +470,7 @@ fix: bump math-rendering
 
 Commit Date: 12/18/2019 12:08:39
 
-Version: ''
+Version: '6.0.7'
 
 fix: bump pie-ui version
 
