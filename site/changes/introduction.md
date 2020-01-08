@@ -4,6 +4,78 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 01/08/2020
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 01/08/2020 10:24:11
+
+Version: ''
+
+fix: bump pie-ui/hotspot@^1.3.5 - ch2880
+## 12/19/2019
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 12/19/2019 12:17:00
+
+Version: ''
+
+fix: ch2880: For some hotspot items, the distinction between selected and not selected areas is quite subtle (increased border width)
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Bug Fixes
+
+Commit Date: 12/19/2019 12:02:15
+
+Version: '1.3.5'
+
+fix: ch2880: For some hotspot items, the distinction between selected and not selected areas is quite subtle (increased border width)
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 12/19/2019 09:31:46
+
+Version: ''
+
+fix: bump @pie-ui/math-inline@^3.0.12
+
+Commit Date: 12/19/2019 09:26:55
+
+Version: ''
+
+fix: update math-input@6.3.8
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Bug Fixes
+
+Commit Date: 12/19/2019 09:25:51
+
+Version: '3.0.12'
+
+fix: rm bad version of math-input
+
+##### @pie-lib/math-input@6.3.8
+
+###### Bug Fixes
+
+Commit Date: 12/19/2019 09:21:29
+
+Version: '6.3.8'
+
+fix: rm bad import
 ## 12/18/2019
 
 ### Categorize
