@@ -15,6 +15,17 @@ Commit Date: 01/08/2020 10:24:11
 Version: ''
 
 fix: bump pie-ui/hotspot@^1.3.5 - ch2880
+## 01/08/2020
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 01/08/2020 10:24:11
+
+Version: ''
+
+fix: bump pie-ui/hotspot@^1.3.5 - ch2880
 ## 12/19/2019
 
 ### Hotspot
