@@ -4,6 +4,38 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 01/29/2020
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 01/29/2020 16:38:15
+
+Version: ''
+
+fix(docs): fix match-list shuffle related property config
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 01/29/2020 11:04:16
+
+Version: ''
+
+fix: createCorrectResponseSession returns correctly [ch7165]
+## 11/27/2019
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 11/27/2019 10:20:58
+
+Version: ''
+
+fix: PIE-188 - upgrade @pie-lib/math-evaluator@^0.6.0
 ## 11/18/2019
 
 ### Categorize
