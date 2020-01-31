@@ -4,13 +4,13 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/placement-ordering@3.4.3"
+pie: "@pie-element/placement-ordering"
 modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/placement-ordering/docs/pie-schema.json"
 configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/placement-ordering/docs/config-schema.json"
 model:
-    id: '1'
-    element: 'placement-ordering'
-    correctResponse:
+  id: "1"
+  element: "placement-ordering"
+  correctResponse:
     - id: c1
       weight: 0.2
     - id: c4
@@ -19,8 +19,8 @@ model:
       weight: 0.3
     - id: c2
       weight: 0.3
-    prompt: Arrange the fruits alphabetically
-    choices:
+  prompt: Arrange the fruits alphabetically
+  choices:
     - id: c2
       label: Lemon
       shuffle: false
@@ -34,21 +34,21 @@ model:
     - id: c4
       label: Pear
       moveOnDrag: false
-    shuffle: false
-    placementType: none
-    choiceAreaLayout: vertical
-    choiceAreaLabel: 'choices: '
-    answerAreaLabel: Answer Area Label
-    showOrdering: true
-    feedback:
-      correct:
-        type: custom
-        custom: foo
-      incorrect:
-        type: custom
-        custom: 'no'
-      partial:
-        type: custom
-        custom: nearly
-    configure: {}
+  shuffle: false
+  placementType: none
+  choiceAreaLayout: vertical
+  choiceAreaLabel: "choices: "
+  answerAreaLabel: Answer Area Label
+  showOrdering: true
+  feedback:
+    correct:
+      type: custom
+      custom: foo
+    incorrect:
+      type: custom
+      custom: "no"
+    partial:
+      type: custom
+      custom: nearly
+  configure: {}
 ---

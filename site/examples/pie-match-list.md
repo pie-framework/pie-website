@@ -4,14 +4,14 @@ layout: DemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage
-pie: "@pie-element/match-list@1.1.0"
+pie: "@pie-element/match-list"
 modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/match-list/docs/pie-schema.json"
 configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/match-list/docs/config-schema.json"
 model:
-    id: '1'
-    element: match-list
-    prompt: Your prompt goes here
-    prompts:
+  id: "1"
+  element: match-list
+  prompt: Your prompt goes here
+  prompts:
     - id: 1
       title: Prompt 1
       relatedAnswer: 1
@@ -24,7 +24,7 @@ model:
     - id: 2
       title: Prompt 2
       relatedAnswer: 2
-    answers:
+  answers:
     - id: 1
       title: Answer 1
     - id: 2
@@ -37,15 +37,15 @@ model:
       title: Answer 5
     - id: 6
       title: Answer 6
-    shuffled: false
-    feedback:
-      correct:
-        type: default
-        default: Correct
-      partial:
-        type: default
-        default: Nearly
-      incorrect:
-        type: default
-        default: Incorrect
+  shuffled: false
+  feedback:
+    correct:
+      type: default
+      default: Correct
+    partial:
+      type: default
+      default: Nearly
+    incorrect:
+      type: default
+      default: Incorrect
 ---
