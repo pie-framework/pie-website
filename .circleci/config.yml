@@ -18,45 +18,45 @@ save_cache: &save_cache
 
 jobs:
   buildNext:
-      <<: *defaults
-      steps:
-        - checkout
-        # Download and cache dependencies
-        - restore_cache: *restore_cache
-        - run: npm install
-        - save_cache: *save_cache
-        - run:
-            name: Pulling latest
-            command: npm run pullLatest
-        - run:
-            name: Building The Next Site
-            command: npm run buildNext
-        - run:
-            name: Deploying to pie-website-next.surge.sh
-            command: npm run deployNext
-        - run:
-            name: Commiting the changes
-            command: npm run commitChanges
+    <<: *defaults
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache: *restore_cache
+      - run: npm install
+      - save_cache: *save_cache
+      - run:
+          name: Pulling latest
+          command: npm run pullLatest
+      - run:
+          name: Building The Next Site
+          command: npm run buildNext
+      - run:
+          name: Deploying to pie-website-next.surge.sh
+          command: npm run deployNext
+      - run:
+          name: Commiting the changes
+          command: npm run commitChanges
   buildLatest:
-      <<: *defaults
-      steps:
-        - checkout
-        # Download and cache dependencies
-        - restore_cache: *restore_cache
-        - run: npm install
-        - save_cache: *save_cache
-        - run:
-            name: Pulling latest
-            command: npm run pullLatest
-        - run:
-            name: Building The Latest Site
-            command: npm run buildLatest
-        - run:
-            name: Deploying to pie-website.surge.sh
-            command: npm run deployLatest
-        - run:
-            name: Commiting the changes
-            command: npm run commitChanges
+    <<: *defaults
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache: *restore_cache
+      - run: npm install
+      - save_cache: *save_cache
+      - run:
+          name: Pulling latest
+          command: npm run pullLatest
+      - run:
+          name: Building The Latest Site
+          command: npm run buildLatest
+      - run:
+          name: Deploying to pie-website.surge.sh
+          command: npm run deployLatest
+      - run:
+          name: Commiting the changes
+          command: npm run commitChanges
 
 workflows:
   version: 2
@@ -68,18 +68,18 @@ workflows:
             branches:
               only:
                 - master
-      - buildLatest:
-          requires:
-            - buildNext
-          filters:
-            branches:
-              only:
-                - master
+      # - buildLatest:
+      #     requires:
+      #       - buildNext
+      #     filters:
+      #       branches:
+      #         only:
+      #           - master
 
   nightly:
     triggers:
       - schedule:
-          cron: '0 0 * * *'
+          cron: "0 0 * * *"
           filters:
             branches:
               only:
