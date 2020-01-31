@@ -3,10 +3,10 @@ const jsonBeautify = require("json-beautify");
 const { resolve } = require("path");
 const { readJsonSync, writeFile } = require("fs-extra");
 const pacote = require("pacote");
-const request = require('request');
+const request = require("request");
 
 const file = args._[0];
-const type = args._[1] || 'latest';
+const type = args._[1] || "latest";
 
 const json = readJsonSync(resolve(file));
 
@@ -14,21 +14,33 @@ const promises = Promise.all(
   json.map(nv => {
     return pacote.manifest(`${nv.name}@${type}`).then(r => {
       const elementName = nv.name.slice(13);
-      const formattedName = elementName.indexOf('-') > 0 ? elementName : `x-${elementName}`;
+      const formattedName =
+        elementName.indexOf("-") > 0 ? elementName : `x-${elementName}`;
 
-      return { ...nv, name: formattedName, packageName: nv.name, version: r.version };
+      return {
+        ...nv,
+        name: formattedName,
+        packageName: nv.name,
+        version: r.version
+      };
     });
   })
 );
 
 let tries = 1;
+const pitsHost =
+  args.host ||
+  process.env.PITS_HOST ||
+  "https://pits-dot-pie-dev-221718.appspot.com";
 
-const handlePromises = (elementPromises) => {
+const handlePromises = elementPromises => {
   let checks = 0;
 
-  elementPromises.then((results) => {
-    const packages = results.map((json, index) => `${json.packageName}@${json.version}`);
-    const url = `https://pits-dot-pie-dev-221718.appspot.com/bundles/${packages.join('+')}/editor.js`;
+  elementPromises.then(results => {
+    const packages = results.map(
+      (json, index) => `${json.packageName}@${json.version}`
+    );
+    const url = `${pitsHost}/bundles/${packages.join("+")}/editor.js`;
 
     console.log(packages);
     console.log(url);
@@ -39,7 +51,7 @@ const handlePromises = (elementPromises) => {
 
       // sanity check
       if (checks > 30) {
-        console.error('Failed to grab elements');
+        console.error("Failed to grab elements");
 
         process.exit(1);
       }
@@ -47,12 +59,12 @@ const handlePromises = (elementPromises) => {
       request(url, (err, res) => {
         if (err) {
           if (tries === 1) {
-            console.log('Rechecking');
+            console.log("Rechecking");
 
             tries += 1;
             handlePromises(elementPromises);
           } else {
-            console.error('Failed to grab elements');
+            console.error("Failed to grab elements");
 
             process.exit(1);
           }
@@ -64,12 +76,16 @@ const handlePromises = (elementPromises) => {
           }, 30000);
         }
 
-        console.log('Done building');
+        console.log("Done building");
 
-        writeFile('./site/.vuepress/elements.json', jsonBeautify(results, null, 2, 30), function (err) {
-          if (err) throw err;
-          console.log('Saved!');
-        });
+        writeFile(
+          "./site/.vuepress/elements.json",
+          jsonBeautify(results, null, 2, 30),
+          function(err) {
+            if (err) throw err;
+            console.log("Saved!");
+          }
+        );
       });
     };
 

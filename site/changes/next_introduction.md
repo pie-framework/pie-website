@@ -4,6 +4,40 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 01/31/2020
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 01/31/2020 11:52:20
+
+Version: '3.1.8'
+
+fix: bump pie-ui/drawing-response
+## 01/21/2020
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 01/21/2020 12:03:50
+
+Version: '3.1.5'
+
+fix: bump @pie-ui/drawing-response [ch6084]
+
+#### Dependencies 
+
+##### Drawing Response
+
+###### Bug Fixes
+
+Commit Date: 01/21/2020 12:01:09
+
+Version: '1.6.3'
+
+fix: render value first, fallback to label [ch6084]
 ## 01/08/2020
 
 ### Hotspot
