@@ -4,6 +4,185 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 02/05/2020
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Extended Text
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Hotspot
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Drawing Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Explicit Constructed Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Inline Dropdown
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Equation Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+##### @pie-lib/math-input@6.3.10
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 11:31:44
+
+Version: '6.3.10'
+
+fix: 6287: Setting equation editor as a string (eg: '6') works as well (In OT, a math editor for an Equation Response item is missing a critical button as well as many other expected buttons)
+
+### Multiple Choice
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
+
+### Select Text
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.10.39
+
+###### Bug Fixes
+
+Commit Date: 02/05/2020 08:39:09
+
+Version: '7.10.39'
+
+fix: 5590: Force the image to keep its shape (IBX rendering of images in MC answer choices stretches them vertically (or squeezes them horizontally), causing distortion that invalidates some items)
 ## 01/31/2020
 
 ### Drawing Response
