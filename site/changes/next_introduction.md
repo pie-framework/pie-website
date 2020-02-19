@@ -4,6 +4,17 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 02/06/2020
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 02/06/2020 15:31:22
+
+Version: ''
+
+fix(math-inline): no responses on controller object unless mode is evaluate
 ## 02/05/2020
 
 ### Hotspot
