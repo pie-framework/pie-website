@@ -4,6 +4,21 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 03/18/2020
+
+### Equation Response
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Bug Fixes
+
+Commit Date: 03/18/2020 15:48:27
+
+Version: '3.0.25'
+
+fix: bump render-ui@^4.6.3
 ## 02/06/2020
 
 ### Equation Response
