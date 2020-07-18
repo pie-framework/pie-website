@@ -26,7 +26,7 @@
     "dateformat": "^3.0.3",
     "gunzip-maybe": "^1.4.1",
     "json-beautify": "^1.0.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "logrocket": "^0.6.19",
     "moment": "^2.24.0",
     "pacote": "^9.5.0",
