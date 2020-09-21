@@ -11,6 +11,7 @@ model:
     id: '1'
     element: drawing-response
     prompt: This is the question prompt
+    promptEnabled: true
     imageUrl: ''
     imageDimensions:
       height: 0

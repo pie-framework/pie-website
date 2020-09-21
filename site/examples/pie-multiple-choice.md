@@ -10,9 +10,8 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: multiple-choice
-    prompt: Which of these northern European countries are EU members?
     choiceMode: checkbox
-    keyMode: numbers
+    choicePrefix: numbers
     choices:
     - correct: true
       value: sweden
@@ -25,23 +24,22 @@ model:
       feedback:
         type: none
         value: ''
+      rationale: Rationale for Iceland
     - value: norway
       label: Norway
       feedback:
         type: none
         value: ''
+      rationale: Rationale for Norway
     - correct: true
       value: finland
       label: Finland
       feedback:
         type: none
         value: ''
-    partialScoring: false
-    partialScoringLabel: |-
-      Each correct response that is correctly checked and each incorrect response
-                that is correctly unchecked will be worth 1 point.
-                The maximum points is the total number of answer choices.
-    configure: {}
+      rationale: Rationale for Finland
+    prompt: Which of these northern European countries are EU members?
+    promptEnabled: true
 configure:
     promptLabel: Promptare
     addChoiceButtonLabel: Add a choice

@@ -10,6 +10,25 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: 'match-element'
+    enableImages: true
+    feedback:
+      correct:
+        type: none
+        default: Correct
+      partial:
+        type: none
+        default: Nearly
+      incorrect:
+        type: none
+        default: Incorrect
+    headers:
+    - Column 1
+    - Column 2
+    - Column 3
+    layout: 3
+    lockChoiceOrder: true
+    partialScoring: false
+    choiceMode: radio
     rows:
     - id: 1
       title: Question Text 1
@@ -31,22 +50,6 @@ model:
       values:
       - false
       - false
-    shuffled: false
-    partialScoring: false
-    layout: 3
-    headers:
-    - Column 1
-    - Column 2
-    - Column 3
-    responseType: radio
-    feedback:
-      correct:
-        type: none
-        default: Correct
-      partial:
-        type: none
-        default: Nearly
-      incorrect:
-        type: none
-        default: Incorrect
+    promptEnabled: true
+    prompt: Select correct answers.
 ---

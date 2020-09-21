@@ -24,7 +24,9 @@ model:
     partialScoring: false
     maxSelections: 2
     mode: sentence
+    rationale: Rationale goes here.
     prompt: What sentences contain the character 6 in them?
+    promptEnabled: true
     text: Rachel cut out 8 stars in 6 minutes. Lovelle cut out 6 stars in 4 minutes. Rachel
       cut out 4 more stars than Lovelle. Lovelle and Rachel cut the same number of stars
       in 6 minutes.

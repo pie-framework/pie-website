@@ -4,6 +4,667 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 04/10/2020
+
+### Calculator
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '2.11.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '2.11.1'
+
+fix: bump all packages to avoid tag conflict
+
+### Categorize
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '6.3.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '6.3.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '6.3.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Categorize
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.4.10'
+
+fix: bump libs
+
+### EBSR
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '6.2.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 18:27:09
+
+Version: '6.2.1'
+
+fix: PD-90 Part Labels don't show up when multiple ebsr-elements are on the same page.
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '6.2.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '6.2.1'
+
+fix: bump version to avoid tag conflict
+
+### Extended Text
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '6.2.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '6.2.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '6.2.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '6.2.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '3.2.27'
+
+fix: bump libs
+
+### Hotspot
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '4.6.0'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '4.6.0'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '4.6.0'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:29:44
+
+Version: '4.6.0'
+
+fix: bump version
+
+Commit Date: 04/10/2020 16:44:22
+
+Version: '4.6.0'
+
+fix: bump hotspot
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.3.23'
+
+fix: bump libs
+
+### Match
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '4.4.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '4.4.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '4.4.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '4.4.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Match
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '2.3.33'
+
+fix: bump libs
+
+### Drag In The Blank
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '3.5.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '3.5.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '3.5.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '3.5.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.7.24'
+
+fix: bump libs
+
+### Drawing Response
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '3.3.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '3.3.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '3.3.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '3.3.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Drawing Response
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.6.23'
+
+fix: bump libs
+
+### Explicit Constructed Response
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '3.6.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '3.6.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '3.6.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '3.6.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.7.22'
+
+fix: bump libs
+
+### Inline Dropdown
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '3.4.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '3.4.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '3.4.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '3.4.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Inline Dropdown
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.8.15'
+
+fix: bump libs
+
+### Match List
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '1.10.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '1.10.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '1.10.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Match List
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.4.27'
+
+fix: bump libs
+
+### Equation Response
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '5.3.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '5.3.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '5.3.1'
+
+fix: bump all packages to avoid tag conflict
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '3.0.37'
+
+fix: bump libs
+
+### Multiple Choice
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '5.3.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '5.3.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '5.3.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '5.3.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '4.12.16'
+
+fix: bump libs
+
+### Number Line
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '5.8.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '5.8.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '5.8.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '5.8.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Number Line
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '7.1.37'
+
+fix: bump libs
+
+### Placement Ordering
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '7.2.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '7.2.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '7.2.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '7.2.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Placement Ordering
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '4.7.29'
+
+fix: bump libs
+
+### Protractor
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '2.5.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '2.5.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '2.5.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Protractor
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '2.2.20'
+
+fix: bump libs
+
+### Ruler
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '3.10.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '3.10.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '3.10.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Ruler
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '2.2.20'
+
+fix: bump libs
+
+### Select Text
+
+#### Bug Fixes
+
+Commit Date: 04/10/2020 17:14:19
+
+Version: '6.2.1'
+
+fix: bump version
+
+Commit Date: 04/10/2020 17:13:24
+
+Version: '6.2.1'
+
+fix: bump lib and ui versions
+
+Commit Date: 04/10/2020 20:01:37
+
+Version: '6.2.1'
+
+fix: bump all packages to avoid tag conflict
+
+Commit Date: 04/10/2020 17:39:16
+
+Version: '6.2.1'
+
+fix: bump version to avoid tag conflict
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 04/10/2020 16:46:33
+
+Version: '1.6.24'
+
+fix: bump libs
 ## 12/18/2019
 
 ### Categorize

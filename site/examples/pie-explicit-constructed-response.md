@@ -10,11 +10,8 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: explicit-constructed-response
-    disabled: false
-    mode: gather
-    prompt: Use the inputs to complete the sentence
-    shuffle: true
     markup: "<p>The {{0}} jumped {{1}} the {{2}}</p>"
+    disabled: false
     choices:
       '0':
       - label: cow
@@ -23,7 +20,6 @@ model:
         value: '1'
       - label: calf
         value: '2'
-        correct: false
       '1':
       - label: over
         value: '0'
@@ -34,8 +30,6 @@ model:
       '2':
       - label: moon
         value: '0'
-      - label: satellite
-        value: '2'
-      - label: 'house '
-        value: '3'
+    prompt: Complete the sentence
+    promptEnabled: true
 ---

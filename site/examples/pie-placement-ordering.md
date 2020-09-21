@@ -10,36 +10,27 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: 'placement-ordering'
-    correctResponse:
-    - id: c1
-      weight: 0.2
-    - id: c4
-      weight: 0.2
-    - id: c3
-      weight: 0.3
-    - id: c2
-      weight: 0.3
-    prompt: Arrange the fruits alphabetically
+    choiceLabel: Choices
     choices:
-    - id: c2
-      label: Lemon
-      shuffle: false
-      moveOnDrag: true
-    - id: c3
-      label: Melon
-      moveOnDrag: true
     - id: c1
       label: Blueberry
-      moveOnDrag: false
+    - id: c2
+      label: Lemon
+    - id: c3
+      label: Melon
     - id: c4
       label: Pear
-      moveOnDrag: false
-    shuffle: false
-    placementType: none
-    choiceAreaLayout: vertical
-    choiceAreaLabel: 'choices: '
-    answerAreaLabel: Answer Area Label
-    showOrdering: true
+    correctResponse:
+    - c1
+    - c2
+    - c3
+    - c4
+    alternateResponses:
+    - - c4
+      - c3
+      - c2
+      - c1
+    enableImages: false
     feedback:
       correct:
         type: custom
@@ -50,5 +41,14 @@ model:
       partial:
         type: custom
         custom: nearly
-    configure: {}
+    feedbackEnabled: true
+    prompt: Arrange the fruits alphabetically
+    promptEnabled: true
+    lockChoiceOrder: false
+    numberedGuides: false
+    orientation: vertical
+    partialScoring: false
+    placementArea: false
+    scoringType: auto
+    targetLabel: Answers
 ---

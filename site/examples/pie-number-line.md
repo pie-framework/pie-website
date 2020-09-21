@@ -29,31 +29,32 @@ model:
       incorrect:
         type: custom
         custom: "<h1>Incorrect</h1>"
-    allowPartialScoring: true,
-    prompt: "Plot point at 2-1 and line of size 2 starting at 3 - 1."
-    partialScoring:
-    - numberOfCorrect: 1
-      scorePercentage: 35
+    prompt: Set correct answer.
     graph:
-      title: "The plot"
+      title: This is the title <span data-latex="">\frac{1}{2}</span>
+      arrows:
+        left: true
+        right: true
       width: 500
       height: 400
       domain:
         min: -5
         max: 5
-      ticks: 
+      ticks:
         minor: 1
         major: 2
       initialElements:
       - type: point
-        pointType: empty
+        pointType: full
         domainPosition: -1
       maxNumberOfPoints: 20
+      showMinorTicks: true
+      snapPerTick: 1
+      tickLabelOverrides: []
       initialType: PF
       exhibitOnly: false
       availableTypes:
         PF: true
-        PE: true
         LFF: true
         LEF: true
         LFE: true

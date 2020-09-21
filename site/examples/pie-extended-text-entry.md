@@ -13,8 +13,7 @@ model:
     feedback:
       type: default
       default: this is default feedback
-    width: 500px
-    height: 100px
     prompt: This is the question prompt
-    showMathInput: false
+    promptEnabled: true
+    mathInput: false
 ---

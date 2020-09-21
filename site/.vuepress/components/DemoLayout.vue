@@ -24,11 +24,10 @@
     if (pieDemo) {
       pieDemo.model = model;
       pieDemo.justElement = index > 0;
-      pieDemo.multiplePies = multiplePies;
       pieDemo.modelSchemaJSONURI = schemas.model;
       pieDemo.configureSchemaJSONURI = schemas.configure;
 
-      if (pieDemo.loadPies) {
+      /*if (pieDemo.loadPies) {
         if (!window['pie']) {
           const packages = elements.map(el => `${el.name}@${el.version}`);
           const names = packages.join('+');
@@ -40,7 +39,7 @@
         }
       } else {
         setTimeout(() => setupPie(elements, model, schemas, configure, index), 200);
-      }
+      }*/
     }
   }
 
@@ -99,10 +98,16 @@
       rawHtml() {
         const text = [];
         const pies = getPies(this.$page.frontmatter);
+        const { themeConfig } = this.$site;
+        const { elements } = themeConfig;
+        const packageName = pies[0].replace(/@[0-9]{1}\..*/g, '');
+        const element = elements.find(el => el.packageName === packageName);
 
-        pies.forEach((pie, index) => text.push(
-          `<pie-demo id="demo${index}" load="false" editor="true" pie="${pie}"></pie-demo>`
-        ));
+        if (element) {
+          pies.forEach((pie, index) => text.push(
+            `<pie-demo id="demo${index}" load="true" editor="true" pie="${element.packageName}@${element.version}"></pie-demo>`
+          ));
+        }
 
         return text.join('\n')
       },

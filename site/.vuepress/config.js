@@ -2,12 +2,15 @@ const elementsPath = process.env.PIE_JSON_FILE || "./elements.json";
 const elements = require(elementsPath);
 
 const pieDemoRoot =
-  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@2.3.0/dist";
+  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@2.4.0/dist";
+/*const pieDemoRoot =
+  "http://localhost:3333/build";*/
 
 module.exports = {
   title: "",
   head: [
     ["script", { src: `${pieDemoRoot}/esm/pie-demo.mjs`, type: "module" }],
+    // ["script", { src: `${pieDemoRoot}/pie-demo.esm.js`, type: "module" }],
     ["script", { src: `${pieDemoRoot}/pie-demo.js`, nomodule: true }]
   ],
   themeConfig: {

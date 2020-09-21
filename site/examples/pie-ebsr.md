@@ -10,35 +10,25 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: pie-element-ebsr
-    partA: 
-      prompt: What color is the sky?
+    partA:
       choiceMode: radio
-      keyMode: numbers
       choices:
       - value: yellow
         label: Yellow
-        correct: false
       - value: green
         label: Green
-        correct: false
       - correct: true
         value: blue
         label: Blue
+      choicePrefix: numbers
       partialScoring: false
-      partialScoringLabel: |-
-        Each correct response that is correctly checked and each incorrect response
-                  that is correctly unchecked will be worth 1 point.
-                  The maximum points is the total number of answer choices.
-      shuffle: false
-      showCorrect: false
-    partB: 
-      prompt: What color do you get when you mix Red with your answer in Part 1?
+      prompt: What color is the sky?
+      promptEnabled: true
+    partB:
       choiceMode: radio
-      keyMode: numbers
-      choices: 
+      choices:
       - value: orange
         label: Orange
-        correct: false
       - correct: true
         value: purple
         label: Purple
@@ -46,10 +36,8 @@ model:
         label: Pink
       - value: green
         label: Green
+      choicePrefix: numbers
       partialScoring: false
-      partialScoringLabel: |-
-        Each correct response that is correctly checked and each incorrect response
-                  that is correctly unchecked will be worth 1 point.
-                  The maximum points is the total number of answer choices.
-      shuffle: false
+      prompt: What color do you get when you mix Red with your answer in Part 1?
+      promptEnabled: true
 ---

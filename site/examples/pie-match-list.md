@@ -10,42 +10,35 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: match-list
-    prompt: Your prompt goes here
-    prompts:
+    answers:
+    - title: All right angles
+      id: 0
     - id: 1
-      title: Prompt 1
+      title: All acute angles
+    - id: 2
+      title: Two obtuse angles
+    - id: 3
+      title: One pair of perpendicular lines
+    - title: One pair of parallel lines
+      id: 4
+    prompt: <p>Look at the shapes below.</p><p><img alt="image 8c7d142a9af94abf80b021426879a815"
+      id="8c7d142a9af94abf80b021426879a815" src="https://storage.googleapis.com/pie-staging-221718-assets/image/4ec622c1-51d0-4c4b-8282-cd9b7eb9ca22"></p><p></p><p>Each
+      property describes one of the shapes. Drag and drop the property&nbsp;to its shape.</p>
+    shuffled: false
+    prompts:
+    - id: 0
+      title: Shape A
+      relatedAnswer: 3
+    - id: 1
+      title: Shape B
+      relatedAnswer: 2
+    - id: 2
+      title: Shape C
       relatedAnswer: 1
     - id: 3
-      title: Prompt 3
-      relatedAnswer: 3
-    - id: 4
-      title: Prompt 4
+      title: Shape D
       relatedAnswer: 4
-    - id: 2
-      title: Prompt 2
-      relatedAnswer: 2
-    answers:
-    - id: 1
-      title: Answer 1
-    - id: 2
-      title: Answer 2
-    - id: 3
-      title: Answer 3
     - id: 4
-      title: Answer 4
-    - id: 5
-      title: Answer 5
-    - id: 6
-      title: Answer 6
-    shuffled: false
-    feedback:
-      correct:
-        type: default
-        default: Correct
-      partial:
-        type: default
-        default: Nearly
-      incorrect:
-        type: default
-        default: Incorrect
+      title: Shape E
+      relatedAnswer: 0
 ---

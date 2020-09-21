@@ -10,32 +10,25 @@ configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-ele
 model:
     id: '1'
     element: drag-in-the-blank
+    markup: "{{0}} + {{1}} = 15"
     disabled: false
     mode: gather
-    prompt: Use the inputs to complete the sentence
+    prompt: "<p>Solve the equation below.</p>"
+    promptEnabled: true
     shuffle: true
-    markup: "<div><p>The {{0}} jumped {{1}} the {{2}}</p></div>"
     choices:
-    - value: cow
+    - value: "<div>6</div>"
       id: '0'
-    - value: over
+    - value: "<div>9</div>"
       id: '1'
-    - value: moon
-      id: '2'
-    - value: cattle
-      id: '3'
-    - value: calf
-      id: '4'
-    - value: past
-      id: '5'
-    - value: beyond
-      id: '6'
-    - value: satellite
-      id: '7'
     choicesPosition: below
     correctResponse:
       '0': '0'
       '1': '1'
-      '2': '2'
     duplicates: true
+    alternateResponses:
+    - - '1'
+    - - '0'
+    rationale: "<p>A correct response is shown below:</p><ul><li>2/6 = 1/3</li><li>4/8
+      = 1/2</li><li>6/10 = 3/5</li><li>9/12 = 3/4</li></ul>"
 ---

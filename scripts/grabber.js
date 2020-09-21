@@ -38,12 +38,23 @@ const handlePromises = elementPromises => {
 
   elementPromises.then(results => {
     const packages = results.map(
-      (json, index) => `${json.packageName}@${json.version}`
+      (json) => `${json.packageName}@${json.version}`
     );
     const url = `${pitsHost}/bundles/${packages.join("+")}/editor.js`;
 
     console.log(packages);
     console.log(url);
+
+    const writeFiles = () => {
+      writeFile(
+        "./site/.vuepress/elements.json",
+        jsonBeautify(results, null, 2, 30),
+        function(err) {
+          if (err) throw err;
+          console.log("Saved!");
+        }
+      );
+    };
 
     const statusPoll = () => {
       checks += 1;
@@ -78,18 +89,12 @@ const handlePromises = elementPromises => {
 
         console.log("Done building");
 
-        writeFile(
-          "./site/.vuepress/elements.json",
-          jsonBeautify(results, null, 2, 30),
-          function(err) {
-            if (err) throw err;
-            console.log("Saved!");
-          }
-        );
+        writeFiles();
       });
     };
 
-    statusPoll();
+    // statusPoll();
+    writeFiles();
   });
 };
 
