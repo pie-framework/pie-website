@@ -2,3 +2,4 @@ node_modules
 site/.vuepress/dist
 .yalc
 yalc.lock
+.idea
