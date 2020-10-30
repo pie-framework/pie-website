@@ -4,6 +4,231 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 10/29/2020
+
+### Extended Text
+
+#### Dependencies 
+
+##### Extended Text
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '3.3.1'
+
+fix: bump lib versions
+
+### Hotspot
+
+#### Dependencies 
+
+##### Hotspot
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.5.2'
+
+fix: bump lib versions
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### Drag In The Blank
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.8.2'
+
+fix: bump lib versions
+
+### Categorize
+
+#### Dependencies 
+
+##### Categorize
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.5.1'
+
+fix: bump lib versions
+
+##### @pie-lib/render-ui@4.9.4
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:32:37
+
+Version: '4.9.4'
+
+fix: formatting
+
+Commit Date: 10/29/2020 10:27:04
+
+Version: '4.9.4'
+
+fix: typo
+
+### Explicit Constructed Response
+
+#### Dependencies 
+
+##### Explicit Constructed Response
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.9.1'
+
+fix: bump lib versions
+
+### Inline Dropdown
+
+#### Dependencies 
+
+##### Inline Dropdown
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.9.2'
+
+fix: bump lib versions
+
+### Match
+
+#### Dependencies 
+
+##### Match
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '2.6.1'
+
+fix: bump lib versions
+
+### Match List
+
+#### Dependencies 
+
+##### Match List
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.6.1'
+
+fix: bump lib versions
+
+### Multiple Choice
+
+#### Dependencies 
+
+##### Multiple Choice
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 11:01:19
+
+Version: '4.15.1'
+
+fix: snapshot test
+
+Commit Date: 10/29/2020 10:57:52
+
+Version: '4.15.1'
+
+fix: lint error
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '4.15.1'
+
+fix: bump lib versions
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### Placement Ordering
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '4.8.1'
+
+fix: bump lib versions
+
+### Select Text
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.7.1'
+
+fix: bump lib versions
+
+### Number Line
+
+#### Dependencies 
+
+##### Number Line
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '7.4.1'
+
+fix: bump lib versions
+
+### Drawing Response
+
+#### Dependencies 
+
+##### Drawing Response
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '1.6.34'
+
+fix: bump lib versions
+
+### Equation Response
+
+#### Dependencies 
+
+##### Equation Response
+
+###### Bug Fixes
+
+Commit Date: 10/29/2020 10:52:23
+
+Version: '3.2.1'
+
+fix: bump lib versions
 ## 03/28/2020
 
 ### Number Line
