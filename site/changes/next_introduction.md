@@ -4,6 +4,49 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 01/28/2021
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/render-ui@4.10.3
+
+###### Bug Fixes
+
+Commit Date: 01/28/2021 15:00:54
+
+Version: '4.10.3'
+
+fix(render-ui): make sure prompt replace has a value
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### @pie-lib/math-rendering@2.3.1
+
+###### Bug Fixes
+
+Commit Date: 01/28/2021 10:33:05
+
+Version: '2.3.1'
+
+fix: add lodash dependency
+
+### Inline Dropdown
+
+#### Dependencies 
+
+##### @pie-lib/math-rendering@2.3.1
+
+###### Bug Fixes
+
+Commit Date: 01/28/2021 10:33:05
+
+Version: '2.3.1'
+
+fix: add lodash dependency
 ## 10/29/2020
 
 ### Extended Text
