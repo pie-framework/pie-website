@@ -4,6 +4,21 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 02/01/2021
+
+### Equation Response
+
+#### Dependencies 
+
+##### @pie-lib/math-toolbar@1.7.1
+
+###### Bug Fixes
+
+Commit Date: 02/01/2021 21:26:34
+
+Version: '1.7.1'
+
+fix: dont import InputContainer from config-ui
 ## 01/28/2021
 
 ### Categorize
