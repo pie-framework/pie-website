@@ -4,6 +4,21 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 03/03/2021
+
+### Select Text
+
+#### Dependencies 
+
+##### Select Text
+
+###### Bug Fixes
+
+Commit Date: 03/03/2021 17:22:28
+
+Version: '1.7.10'
+
+fix(select-text): fix whitespace line wrapping
 ## 02/01/2021
 
 ### Equation Response
