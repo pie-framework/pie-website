@@ -8,8 +8,8 @@ pie: "@pie-element/hotspot@1.0.4"
 modelSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/hotspot/docs/pie-schema.json"
 configureSchemaJSONURI: "https://raw.githubusercontent.com/pie-framework/pie-elements/develop/packages/hotspot/docs/config-schema.json"
 model:
-    id: 1
-    element: pie-element-ebsr
+    id: '1'
+    element: pie-element-hotspot
     disabled: false
     mode: gather
     dimensions:
