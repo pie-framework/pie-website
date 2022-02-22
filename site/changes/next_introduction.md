@@ -4,6 +4,189 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 02/21/2022
+
+### Hotspot
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Number Line
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Extended Text
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Drawing Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Explicit Constructed Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Inline Dropdown
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Drag In The Blank
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Placement Ordering
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Equation Response
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Match
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Multiple Choice
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
+
+### Select Text
+
+#### Dependencies 
+
+##### @pie-lib/editable-html@7.18.0
+
+###### Bug Fixes
+
+Commit Date: 02/21/2022 12:39:01
+
+Version: '7.18.0'
+
+fix(editor): made sure space is added after table even when there is a div wrapper [PD-1614]
 ## 03/03/2021
 
 ### Select Text
