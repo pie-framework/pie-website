@@ -28,7 +28,7 @@
     "json-beautify": "^1.0.1",
     "lodash": "^4.17.11",
     "logrocket": "^0.6.19",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "pacote": "^9.5.0",
     "resize-observer-polyfill": "^1.5.1",
     "tar-stream": "^2.0.1"
