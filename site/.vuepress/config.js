@@ -47,7 +47,9 @@ module.exports = {
                 "/examples/pie-match-list",
                 "/examples/pie-placement-ordering",
                 "/examples/pie-ebsr",
-                "/examples/pie-hotspot"
+                "/examples/pie-hotspot",
+                "/examples/pie-charting",
+                "/examples/pie-graphing"
               ]
             },
             {
