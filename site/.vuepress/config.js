@@ -24,8 +24,9 @@ module.exports = {
       "/": {
         title: "PIE framework",
         nav: [
+          { text: "Get Started", link: "/docs/using/quick-start" },
           { text: "Examples", link: "/examples/pie-categorize" },
-          { text: "About", link: "https://github.com/pie-framework" }
+          { text: "Github", link: "https://github.com/pie-framework" },
         ],
         sidebar: {
           "/examples/": [

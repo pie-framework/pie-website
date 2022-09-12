@@ -2,10 +2,10 @@
     <div class="pie-home">
         <Header></Header>
         <Details></Details>
-        <CoreSpring></CoreSpring>
-        <Community></Community>
-        <Illuminate></Illuminate>
-        <Contact></Contact>
+        <!--CoreSpring></CoreSpring-->
+        <!--Community></Community-->
+        <!--Renaissance></Renaissance-->
+        <!--Contact></Contact-->
         <img src="../public/homepage/footer/wave_footer.svg" class="wave-footer" />
         <PieFooter></PieFooter>
     </div>
@@ -16,12 +16,12 @@
   import Details from './PieHome/Details.vue'
   import CoreSpring from './PieHome/CoreSpring.vue'
   import Community from './PieHome/Community.vue'
-  import Illuminate from './PieHome/Illuminate.vue'
+  import Renaissance from './PieHome/Renaissance.vue'
   import Contact from './PieHome/Contact.vue'
   import PieFooter from './PieHome/PieFooter.vue'
 
   export default {
-    components: { Header, Details, CoreSpring, Community, Illuminate, Contact, PieFooter },
+    components: { Header, Details, CoreSpring, Community, Renaissance, Contact, PieFooter },
 
     computed: {
       data () {

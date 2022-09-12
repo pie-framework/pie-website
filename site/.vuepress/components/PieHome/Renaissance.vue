@@ -1,6 +1,6 @@
 <template>
-    <div class="illuminate">
-        <img src="/homepage/illuminate/illuminate_education_logo.svg" />
+    <div class="renaissance">
+        <img src="/homepage/renaissance/renaissance_learning_logo.svg" />
         <div class="partner-button">
                 <span>
                     Become a partner
@@ -10,7 +10,7 @@
 </template>
 
 <style lang="stylus">
-    .illuminate
+    .renaissance
         align-items center
         background-color #15257e
         display flex
@@ -39,13 +39,13 @@
                 text-transform uppercase
 
     @media (max-width: 1250px)
-        .illuminate
+        .renaissance
             .partner-button
                 height 69px
                 width 252px
 
     @media (max-width: 750px)
-        .illuminate
+        .renaissance
             flex-direction column
             height 262px
             img

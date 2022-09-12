@@ -1,12 +1,16 @@
 <template>
     <div class="pie-footer">
         <div class="copyright-area">
-            <img src="/homepage/header/pie_logo.svg" />
+            <img src="/homepage/header/pie_logo.svg" alt="PIE framework" />
             <span>
-                Copyright @ 2019
+                Copyright @ 2022
             </span>
         </div>
-        <div class="footer-sections">
+        <div>
+          Sponsored by
+          <img src="/homepage/renaissance/renaissance_learning_logo.svg" alt="Renaissance Learning" />
+        </div>
+        <!--div class="footer-sections">
             <div class="footer-section">
                     <span class="title">
                         Navigate
@@ -101,7 +105,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
 </template>
 
