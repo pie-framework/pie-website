@@ -12,6 +12,12 @@
     "packageName": "@pie-element/categorize"
   },
   {
+    "name": "x-charting",
+    "version": "5.3.1-next.5",
+    "label": "Charting",
+    "packageName": "@pie-element/charting"
+  },
+  {
     "name": "x-ebsr",
     "version": "8.2.5-next.3",
     "label": "EBSR",
@@ -22,6 +28,12 @@
     "version": "7.3.4-next.5",
     "label": "Extended Text",
     "packageName": "@pie-element/extended-text-entry"
+  },
+  {
+    "name": "x-graphing",
+    "version": "4.4.4-next.5",
+    "label": "Graphing",
+    "packageName": "@pie-element/graphing"
   },
   {
     "name": "x-hotspot",
