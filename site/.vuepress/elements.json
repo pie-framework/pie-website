@@ -18,6 +18,12 @@
     "packageName": "@pie-element/charting"
   },
   {
+    "name": "complex-rubric",
+    "version": "1.2.4",
+    "label": "Complex Rubric",
+    "packageName": "@pie-element/complex-rubric"
+  },
+  {
     "name": "x-ebsr",
     "version": "8.2.5",
     "label": "EBSR",

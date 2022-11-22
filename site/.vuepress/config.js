@@ -49,7 +49,8 @@ module.exports = {
                 "/examples/pie-ebsr",
                 "/examples/pie-hotspot",
                 "/examples/pie-charting",
-                "/examples/pie-graphing"
+                "/examples/pie-graphing",
+                "/examples/pie-complex-rubric",
               ]
             },
             {
