@@ -15,6 +15,11 @@
     "label": "Charting"
   },
   {
+    "name": "@pie-element/complex-rubric",
+    "version": "^1.2.4",
+    "label": "Complex Rubric"
+  },
+  {
     "name": "@pie-element/ebsr",
     "version": "^1.1.0",
     "label": "EBSR"
