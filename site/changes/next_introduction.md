@@ -4,6 +4,21 @@ layout: DefaultLayout
 noSearchBox: true
 sidebarDepth: 2
 ---
+## 01/03/2023
+
+### Categorize
+
+#### Dependencies 
+
+##### @pie-lib/categorize@0.7.0
+
+###### Features
+
+Commit Date: 01/03/2023 11:36:51
+
+Version: '0.7.0'
+
+feat(categorize): conclude merge
 ## 02/21/2022
 
 ### Hotspot
