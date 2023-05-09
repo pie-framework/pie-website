@@ -17,6 +17,20 @@ save_cache: &save_cache
   key: v1-dependencies-{{ checksum "package.json" }}
 
 jobs:
+  buildBeta:
+    <<: *defaults
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache: *restore_cache
+      - run: npm install
+      - save_cache: *save_cache
+      - run:
+          name: Building The Beta Site
+          command: npm run build && npm run deployBeta
+      - run:
+          name: Commiting the changes
+          command: npm run commitChanges
   buildNext:
     <<: *defaults
     steps:
@@ -75,6 +89,11 @@ workflows:
             branches:
               only:
                 - master
+      - buildBeta:
+          filters:
+            branches:
+              only:
+                - multi-items
 
   nightly:
     triggers:
