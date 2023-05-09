@@ -68,9 +68,6 @@ jobs:
       - run:
           name: Deploying to pie-website.surge.sh
           command: npm run deployLatest
-      - run:
-          name: Commiting the changes
-          command: npm run commitChanges
 
 workflows:
   version: 2
