@@ -67,33 +67,37 @@ function renderVersions(elements) {
 }
 
 const renderPrint = (model, pie) => {
-  // customElements.whenDefined('pie-print').then(() => {
-  const one = document.querySelector('pie-print');
-  // this resolver loads `@ps` els
-  one.resolve = (tagName, pkg) => {
-    const [_, n, v] = pkg.match(/@pie-element\/(.*?)@(.*)/);
-    return Promise.resolve({
-      tagName,
-      pkg,
-      url: `https://cdn.jsdelivr.net/npm/@pie-element/${n}@ps/module/print.js`,
-      module: true,
+    // customElements.whenDefined('pie-print').then(() => {
+    const one = document.querySelector('pie-print');
+    document.querySelector('#student').addEventListener('click', () => {
+        one.config = { item, options };
     });
+    document
+        .querySelector('#instructor')
+        .addEventListener('click', () => {
+            one.config = { item, options: { role: 'instructor' } };
+        });
+    // this resolver loads `@ps` els
+    one.resolve = (tagName, pkg) => {
+        const [_, n, v] = pkg.match(/@pie-element\/(.*?)@(.*)/);
+        return Promise.resolve({
+            tagName,
+            pkg,
+            url: `https://cdn.jsdelivr.net/npm/@pie-element/${n}@ps/module/print.js`,
+            module: true,
+        });
 
-  };
-  const item = {
-    id: model.id,
-    models: [model],
-    markup: `<${model.element} id="${model.id}"></${model.element}`,
-    elements: {
-      [model.element]: pie
-    }
-  };
-  // });
-  // const { themeConfig } = this.$site;
-  // const { elements } = themeConfig;
-  // console.log('elements', elements);
-  const options = { role: 'instructor' };
-  one.config = {item, options};
+    };
+    const item = {
+        id: model.id,
+        models: [model],
+        markup: `<${model.element} id="${model.id}"></${model.element}`,
+        elements: {
+            [model.element]: pie
+        }
+    };
+    const options = { role: 'student' };
+    one.config = { item, options };
 }
 
 const getPies = (frontmatter) => {
@@ -145,7 +149,9 @@ const getPies = (frontmatter) => {
       },
 
     printRawHtml() {
-      return `<pie-print id="one"></pie-print>`;
+      return `<button id="student" class="toggle-role">student</button>
+    <button id="instructor" class="toggle-role">instructor</button>
+    <pie-print id="one"></pie-print>`;
     },
 
     shouldShowSideMenu() {
@@ -293,6 +299,25 @@ const getPies = (frontmatter) => {
             overflow scroll
             padding 0 0 0 220px
             width 100%
+        .toggle-role
+            background #fff
+            border 1px solid #ccc
+            border-radius 4px
+            box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+            color #333
+            cursor pointer
+            font-size 14px
+            font-weight 500
+            height 40px
+            line-height 40px
+            margin 10px
+            padding 0 20px
+            text-align center
+            transition all 0.2s ease-in-out
+            width 100px
+            &:hover
+                background #f5f5f5
+                box-shadow 0 1px 2px rgba(0, 0, 0, 0.2)
         .print-element-container
             overflow scroll
             padding 0 0 0 240px
