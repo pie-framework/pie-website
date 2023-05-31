@@ -6,8 +6,7 @@
                 :closeSideMenu="toggleSideMenu"
                 :sideBarTitle="'Examples'"
         />
-        <div class="element-container" v-html="rawHtml"></div>
-        <div class="print-element-container" v-html="printRawHtml"></div>
+        <div class="element-container" v-html="rawHtml + printRawHtml"></div>
     </div>
 </template>
 
@@ -149,9 +148,15 @@ const getPies = (frontmatter) => {
       },
 
     printRawHtml() {
-      return `<button id="student" class="toggle-role">student</button>
-    <button id="instructor" class="toggle-role">instructor</button>
-    <pie-print id="one"></pie-print>`;
+      return `<div class="print-element-container">
+        <div class="print-element-container__header">
+            <div class="print-element-container__header__title">Print View</div>
+            <div class="print-element-container__header__subtitle">The print view an instructor or student sees.</div>
+        </div>
+        <button id="student" class="toggle-role">student</button>
+        <button id="instructor" class="toggle-role">instructor</button>
+        <pie-print id="one"></pie-print>
+    </div>`;
     },
 
     shouldShowSideMenu() {
@@ -238,6 +243,14 @@ const getPies = (frontmatter) => {
       ));
 
       renderVersions(themeConfig.elements);
+
+        const pies = getPies(this.$page.frontmatter);
+        const packageName = pies[0].replace(/@[0-9]{1}\..*/g, '');
+        const element = themeConfig.elements.find(el => el.packageName === packageName);
+
+        if (element) {
+            renderPrint(models[0], `${element.packageName}@${element.version}`);
+        }
     },
 
     methods: {
@@ -299,6 +312,22 @@ const getPies = (frontmatter) => {
             overflow scroll
             padding 0 0 0 220px
             width 100%
+        .print-element-container__header__title
+            color rgba(0, 0, 0, 0.87)
+            font-size 16px
+            font-weight 500
+            margin 0 8px 4px 0
+        .print-element-container__header__subtitle
+            font-size 12px
+            font-weight 300
+            line-height 1.5
+            color rgba(0, 0, 0, 0.56)
+            border-bottom 1px solid rgba(0, 0, 0, 0.12)
+            padding 0 0 8px 0
+        .print-element-container
+            overflow scroll
+            border 16px solid #3f51b5
+            padding 16px
         .toggle-role
             background #fff
             border 1px solid #ccc
@@ -318,9 +347,6 @@ const getPies = (frontmatter) => {
             &:hover
                 background #f5f5f5
                 box-shadow 0 1px 2px rgba(0, 0, 0, 0.2)
-        .print-element-container
-            overflow scroll
-            padding 0 0 0 240px
         .pie-side-menu
             background #fff
             right initial
