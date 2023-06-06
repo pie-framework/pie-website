@@ -82,7 +82,7 @@ const renderPrint = (model, pie) => {
         return Promise.resolve({
             tagName,
             pkg,
-            url: `https://cdn.jsdelivr.net/npm/@pie-element/${n}@ps/module/print.js`,
+            url: `https://cdn.jsdelivr.net/npm/@pie-element/${n}/module/print.js`,
             module: true,
         });
 
