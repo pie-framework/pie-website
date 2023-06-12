@@ -4,11 +4,13 @@ const elements = require(elementsPath);
 const pieDemoRoot =
   "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@3.3.0/dist";
  // const pieDemoRoot = "http://localhost:3333/build";
+const piePrintSrc = 'https://cdn.jsdelivr.net/npm/@pie-framework/pie-print/lib/pie-print.js';
 
 module.exports = {
   title: "",
   head: [
     ["script", { src: `${pieDemoRoot}/esm/pie-demo.mjs`, type: "module" }],
+    ["script", { src: piePrintSrc, type: "module" }],
     // ["script", { src: `${pieDemoRoot}/pie-demo.esm.js`, type: "module" }],
     ["script", { src: `${pieDemoRoot}/pie-demo.js`, nomodule: true }]
   ],
