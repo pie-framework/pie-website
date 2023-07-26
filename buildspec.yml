@@ -12,14 +12,14 @@ phases:
       - export CI=true
       - export CODEBUILD_GIT_MESSAGE="$(git log -1 --pretty=%B)"
       - if [[ "${CODEBUILD_GIT_MESSAGE}" = *"[skip ci]"* ]]; then echo "Skipping CI..." && exit 1; fi
-      - npm install
-      - npm install --frozen-lockfile
+      - npm run install
+      - npm run install --frozen-lockfile
 
   build:
     commands:
-      - npm build
+      - npm run build
 
 artifacts:
   files:
     - '**/*'
-  base-directory: 'dist'
+  base-directory: 'site/.vuepress/dist'
