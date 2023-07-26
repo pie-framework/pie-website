@@ -12,13 +12,12 @@ phases:
       - export CI=true
       - export CODEBUILD_GIT_MESSAGE="$(git log -1 --pretty=%B)"
       - if [[ "${CODEBUILD_GIT_MESSAGE}" = *"[skip ci]"* ]]; then echo "Skipping CI..." && exit 1; fi
-      - npm install
-      - npm install --frozen-lockfile
+      - yarn install
 
   build:
     commands:
       - export NODE_OPTIONS=--openssl-legacy-provider
-      - npm run build
+      - yarn build
 
 artifacts:
   files:
