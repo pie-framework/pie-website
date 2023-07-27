@@ -1,73 +1,108 @@
 <template>
     <div class="pie-demo">
-        <CustomNavMenu :onMenuIconClick="toggleSideMenu" />
+        <CustomNavMenu :onMenuIconClick="toggleSideMenu"/>
         <SideMenu
                 :open="shouldShowSideMenu"
                 :closeSideMenu="toggleSideMenu"
                 :sideBarTitle="'Examples'"
         />
-        <div class="element-container" v-html="rawHtml"></div>
+        <div class="element-container" v-html="rawHtml + printRawHtml"></div>
     </div>
 </template>
 
 <script>
-  import Vue from 'vue'
-  import CustomNavMenu from './Utils/CustomNavMenu.vue'
-  import SideMenu from './Utils/SideMenu.vue';
-  import LogRocket from 'logrocket';
-  import ResizeObserver from 'resize-observer-polyfill';
-  const Sentry = require('@sentry/browser');
+import Vue from 'vue'
+import CustomNavMenu from './Utils/CustomNavMenu.vue'
+import SideMenu from './Utils/SideMenu.vue';
+import LogRocket from 'logrocket';
+import ResizeObserver from 'resize-observer-polyfill';
 
-  function setupPie(elements, model, schemas, configure, index, multiplePies) {
-    const pieDemo = document.getElementById(`demo${index}`);
+const Sentry = require('@sentry/browser');
 
-    if (pieDemo) {
-      pieDemo.model = model;
-      pieDemo.justElement = index > 0;
-      pieDemo.modelSchemaJSONURI = schemas.model;
-      pieDemo.configureSchemaJSONURI = schemas.configure;
+function setupPie(elements, model, schemas, configure, index, multiplePies) {
+  const pieDemo = document.getElementById(`demo${index}`);
 
-      /*if (pieDemo.loadPies) {
-        if (!window['pie']) {
-          const packages = elements.map(el => `${el.name}@${el.version}`);
-          const names = packages.join('+');
-          const packagesName = `@pie-element/${packages.join('+@pie-element/')}`.replace(/x-/g, '');
+  if (pieDemo) {
+    pieDemo.model = model;
+    pieDemo.justElement = index > 0;
+    pieDemo.modelSchemaJSONURI = schemas.model;
+    pieDemo.configureSchemaJSONURI = schemas.configure;
 
-          pieDemo.loadPies({
-            [names]: packagesName
-          });
-        }
-      } else {
-        setTimeout(() => setupPie(elements, model, schemas, configure, index), 200);
-      }*/
-    }
-  }
+    /*if (pieDemo.loadPies) {
+      if (!window['pie']) {
+        const packages = elements.map(el => `${el.name}@${el.version}`);
+        const names = packages.join('+');
+        const packagesName = `@pie-element/${packages.join('+@pie-element/')}`.replace(/x-/g, '');
 
-  function renderVersions(elements) {
-    const items = document.querySelectorAll('.pie-menu-content .sidebar-group-items li');
-    const itemObj = elements.reduce((acc, item) => {
-      acc[item.label] = `v${item.version}`;
-
-      return acc;
-    }, {});
-
-    items.forEach((item) => {
-      if (!item.querySelector('.version')) {
-        const span = document.createElement('span');
-        const version = itemObj[item.textContent];
-
-        span.className = 'version';
-        span.innerText = version;
-
-        item.appendChild(span);
+        pieDemo.loadPies({
+          [names]: packagesName
+        });
       }
-    });
+    } else {
+      setTimeout(() => setupPie(elements, model, schemas, configure, index), 200);
+    }*/
   }
+}
 
-  const getPies = (frontmatter) => {
-    if (frontmatter.multiple) {
-      return frontmatter.pies;
+function renderVersions(elements) {
+  const items = document.querySelectorAll('.pie-menu-content .sidebar-group-items li');
+  const itemObj = elements.reduce((acc, item) => {
+    acc[item.label] = `v${item.version}`;
+
+    return acc;
+  }, {});
+
+  items.forEach((item) => {
+    if (!item.querySelector('.version')) {
+      const span = document.createElement('span');
+      const version = itemObj[item.textContent];
+
+      span.className = 'version';
+      span.innerText = version;
+
+      item.appendChild(span);
     }
+  });
+}
+
+const renderPrint = (model, pie) => {
+    // customElements.whenDefined('pie-print').then(() => {
+    const one = document.querySelector('pie-print');
+    document.querySelector('#student').addEventListener('click', () => {
+        one.config = { item, options };
+    });
+    document
+        .querySelector('#instructor')
+        .addEventListener('click', () => {
+            one.config = { item, options: { role: 'instructor' } };
+        });
+    // this resolver loads `@ps` els
+    one.resolve = (tagName, pkg) => {
+        const [_, n, v] = pkg.match(/@pie-element\/(.*?)@(.*)/);
+        return Promise.resolve({
+            tagName,
+            pkg,
+            url: `https://cdn.jsdelivr.net/npm/@pie-element/${n}/module/print.js`,
+            module: true,
+        });
+
+    };
+    const item = {
+        id: model.id,
+        models: [model],
+        markup: `<${model.element} id="${model.id}"></${model.element}`,
+        elements: {
+            [model.element]: pie
+        }
+    };
+    const options = { role: 'student' };
+    one.config = { item, options };
+}
+
+const getPies = (frontmatter) => {
+  if (frontmatter.multiple) {
+    return frontmatter.pies;
+  }
 
     return [frontmatter.pie];
   };
@@ -112,10 +147,22 @@
         return text.join('\n')
       },
 
-      shouldShowSideMenu() {
-        return this.sideMenuVisible;
-      },
+    printRawHtml() {
+      return `<div class="print-element-container">
+        <div class="print-element-container__header">
+            <div class="print-element-container__header__title">Print View</div>
+            <div class="print-element-container__header__subtitle">The print view an instructor or student sees.</div>
+        </div>
+        <button id="student" class="toggle-role">student</button>
+        <button id="instructor" class="toggle-role">instructor</button>
+        <pie-print id="one"></pie-print>
+    </div>`;
     },
+
+    shouldShowSideMenu() {
+      return this.sideMenuVisible;
+    },
+  },
 
     mounted() {
       const { themeConfig } = this.$site;
@@ -139,7 +186,7 @@
       const modelSchemaJSONURI = this.$page.frontmatter.modelSchemaJSONURI;
       const configureSchemaJSONURI = this.$page.frontmatter.configureSchemaJSONURI;
 
-      window.addEventListener('scroll', this.onScroll);
+    window.addEventListener('scroll', this.onScroll);
 
       models.forEach((model, index) => setupPie(
         themeConfig.elements,
@@ -160,14 +207,24 @@
         this.observer.observe(this.navRef);
       }
 
-      renderVersions(themeConfig.elements);
-    },
+    console.log('models', models, configure, themeConfig.elements)
+    renderVersions(themeConfig.elements);
 
-    beforeDestroy() {
-      if (this.observer && this.navRef) {
-        this.observer.unobserve(this.navRef);
+      const pies = getPies(this.$page.frontmatter);
+      const { elements } = themeConfig;
+      const packageName = pies[0].replace(/@[0-9]{1}\..*/g, '');
+      const element = elements.find(el => el.packageName === packageName);
+
+      if (element) {
+          renderPrint(models[0], `${element.packageName}@${element.version}`);
       }
-    },
+  },
+
+  beforeDestroy() {
+    if (this.observer && this.navRef) {
+      this.observer.unobserve(this.navRef);
+    }
+  },
 
     updated() {
       const { themeConfig } = this.$site;
@@ -186,6 +243,14 @@
       ));
 
       renderVersions(themeConfig.elements);
+
+        const pies = getPies(this.$page.frontmatter);
+        const packageName = pies[0].replace(/@[0-9]{1}\..*/g, '');
+        const element = themeConfig.elements.find(el => el.packageName === packageName);
+
+        if (element) {
+            renderPrint(models[0], `${element.packageName}@${element.version}`);
+        }
     },
 
     methods: {
@@ -247,6 +312,41 @@
             overflow scroll
             padding 0 0 0 220px
             width 100%
+        .print-element-container__header__title
+            color rgba(0, 0, 0, 0.87)
+            font-size 16px
+            font-weight 500
+            margin 0 8px 4px 0
+        .print-element-container__header__subtitle
+            font-size 12px
+            font-weight 300
+            line-height 1.5
+            color rgba(0, 0, 0, 0.56)
+            border-bottom 1px solid rgba(0, 0, 0, 0.12)
+            padding 0 0 8px 0
+        .print-element-container
+            overflow scroll
+            border 16px solid #3f51b5
+            padding 16px
+        .toggle-role
+            background #fff
+            border 1px solid #ccc
+            border-radius 4px
+            box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+            color #333
+            cursor pointer
+            font-size 14px
+            font-weight 500
+            height 40px
+            line-height 40px
+            margin 10px
+            padding 0 20px
+            text-align center
+            transition all 0.2s ease-in-out
+            width 100px
+            &:hover
+                background #f5f5f5
+                box-shadow 0 1px 2px rgba(0, 0, 0, 0.2)
         .pie-side-menu
             background #fff
             right initial
