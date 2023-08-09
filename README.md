@@ -6,9 +6,11 @@ It uses VuePress https://vuepress.vuejs.org
 
 | cmd                    | description                    |
 | ---------------------- | ------------------------------ |
-| `yarn install`         | install                        |
+| `npm install`          | install                        |
 | `yarn dev`             | dev server on localhost:8080   |
 | `yarn build`           | build                          |
+| `yarn deployNext`      | deploy next version            |
+| `yarn deployLatest`    | deploy latest version          |
 
 ## clean up - todos
 
