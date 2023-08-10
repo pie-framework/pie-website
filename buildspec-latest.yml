@@ -1,0 +1,25 @@
+version: 0.2
+
+env:
+  shell: bash
+  git-credential-helper: yes
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - export CI=true
+      - export CODEBUILD_GIT_MESSAGE="$(git log -1 --pretty=%B)"
+      - if [[ "${CODEBUILD_GIT_MESSAGE}" = *"[skip ci]"* ]]; then echo "Skipping CI..." && exit 1; fi
+      - yarn install
+
+  build:
+    commands:
+      - export NODE_OPTIONS=--openssl-legacy-provider
+      - yarn buildLatest
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'site/.vuepress/dist'
