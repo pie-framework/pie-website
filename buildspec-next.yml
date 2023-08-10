@@ -23,4 +23,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'site/.vuepress/dist'
-  s3-prefix: examples-next/
+  name: examples-next
