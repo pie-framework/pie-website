@@ -1,9 +1,0 @@
-batch:
-  fast-fail: false
-  build-list:
-    - identifier: next
-      buildspec: buildspec-next.yml
-      ignore-failure: true
-    - identifier: latest
-      buildspec: buildspec-latest.yml
-      ignore-failure: true
