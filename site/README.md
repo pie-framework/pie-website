@@ -1,5 +1,5 @@
 ---
-layout: PieHome
+layout: Redirect
 navbar: false
 pageClass: customHomePage
 home: true
