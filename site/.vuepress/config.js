@@ -23,7 +23,7 @@ module.exports = {
     siteTitle: "PIE framework",
     search: false,
     nav: [
-      { text: "Examples", link: "/examples/pie-categorize" },
+      { text: "Examples", link: "/pie-categorize" },
       { text: "About", link: "https://github.com/pie-framework" }
     ],
     sidebar: {
