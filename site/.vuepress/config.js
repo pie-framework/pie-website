@@ -8,7 +8,6 @@ const piePrintSrc = 'https://cdn.jsdelivr.net/npm/@pie-framework/pie-print/lib/p
 
 module.exports = {
   base: process.env.IS_NEXT ? 'examples-next/' : '/',
-  permalink: '/examples/pie-categorize.html',
   title: "",
   head: [
     ["script", { src: `${pieDemoRoot}/esm/pie-demo.mjs`, type: "module" }],
