@@ -4,7 +4,7 @@
 export default {
   mounted() {
     console.log(this.$route.redirectedFrom, "test");
-    if (this.$route.redirectedFrom !== '/examples-next' || '/examples-next/' )
+    if (this.$route.redirectedFrom !== '/examples-next' || '/examples-next/' || undefined)
     {
       this.$router.push("/examples/pie-categorize.html");
     }
