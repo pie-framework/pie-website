@@ -7,7 +7,7 @@ const pieDemoRoot =
 const piePrintSrc = 'https://cdn.jsdelivr.net/npm/@pie-framework/pie-print/lib/pie-print.js';
 
 module.exports = {
-  base: process.env.IS_NEXT ? 'examples-next/' : '/',
+  base: process.env.IS_NEXT ? 'examples-next/' || 'examples-next' : '/',
   title: "",
   head: [
     ["script", { src: `${pieDemoRoot}/esm/pie-demo.mjs`, type: "module" }],
