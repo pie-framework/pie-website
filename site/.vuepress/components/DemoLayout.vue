@@ -79,10 +79,15 @@ const renderPrint = (model, pie) => {
     // this resolver loads `@ps` els
     one.resolve = (tagName, pkg) => {
         const [_, n, v] = pkg.match(/@pie-element\/(.*?)@(.*)/);
+        let urlToo
+        ;
+        pkg.includes('next') ? urlToo
+         = `https://cdn.jsdelivr.net/npm/@pie-element/${n}@next/module/print.js` : urlToo
+         = `https://cdn.jsdelivr.net/npm/@pie-element/${n}@latest/module/print.js`
         return Promise.resolve({
             tagName,
             pkg,
-            url: `https://cdn.jsdelivr.net/npm/@pie-element/${n}/module/print.js`,
+            url: urlToo,
             module: true,
         });
 
