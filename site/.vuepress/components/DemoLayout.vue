@@ -88,14 +88,17 @@ const renderPrint = (model, pie) => {
         });
 
     };
+    const { id, element: elementName } = model;
+
     const item = {
-        id: model.id,
-        models: [model],
-        markup: `<${model.element} id="${model.id}"></${model.element}`,
-        elements: {
-            [model.element]: pie
-        }
+      id,
+      models: [{ ...model, element: elementName }],
+      markup: `<${elementName} id="${id}"></${elementName}>`,
+      elements: {
+        [elementName]: pie
+      }
     };
+
     const options = { role: 'student' };
     one.config = { item, options };
 }
@@ -208,7 +211,6 @@ const getPies = (frontmatter) => {
         this.observer.observe(this.navRef);
       }
 
-    console.log('models', models, configure, themeConfig.elements)
     renderVersions(themeConfig.elements);
 
       const pies = getPies(this.$page.frontmatter);
