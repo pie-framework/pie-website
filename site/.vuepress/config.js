@@ -1,8 +1,9 @@
 const elementsPath = process.env.PIE_JSON_FILE || "./elements.json";
 const elements = require(elementsPath);
 
+// https://github.com/pie-framework/pie-demo-component
 const pieDemoRoot =
-  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@3.5.1/dist";
+  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@4.0.0/dist";
  // const pieDemoRoot = "http://localhost:3333/build";
 const piePrintSrc = 'https://cdn.jsdelivr.net/npm/@pie-framework/pie-print/lib/pie-print.js';
 
