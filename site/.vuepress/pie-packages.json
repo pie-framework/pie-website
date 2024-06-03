@@ -103,5 +103,15 @@
     "name": "@pie-element/select-text",
     "version": "^3.6.4",
     "label": "Select Text"
+  },
+  {
+    "name": "math-templated",
+    "version": "^2.12.0",
+    "label": "Math Templated"
+  },
+  {
+    "name": "@pie-element/passage",
+    "version": "^2.11.0",
+    "label": "Passage"
   }
 ]

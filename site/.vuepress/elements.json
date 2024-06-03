@@ -124,5 +124,17 @@
     "version": "7.12.1",
     "label": "Select Text",
     "packageName": "@pie-element/select-text"
+  },
+  {
+    "name": "math-templated",
+    "version": "2.12.0",
+    "label": "Math Templated",
+    "packageName": "@pie-element/math-templated"
+  },
+  {
+    "name": "passage",
+    "version": "2.11.0",
+    "label": "Passage",
+    "packageName": "@pie-element/passage"
   }
 ]
