@@ -28,16 +28,14 @@ model:
     equationEditor: 'geometry'
     markup: <p>If the unit price of a notebook in Store A is $1.50, what is the unit price of a binder? \${{0}}</p><p>If the unit price of a binder in Store B is $2.80, what is the unit price of a notebook? \${{1}}</p>
     responses:
-    -   allowTrailingZeros: false,
-        answer: '5',
-        id: '1',
-        validation: 'symbolic',
-        ignoreOrder: false,
-        alternates: {}
-    -   allowTrailingZeros: false,
-        answer: '2.38',
-        id: '2',
-        validation: 'literal',
-        ignoreOrder: false,
-        alternates: {}
+    -   allowTrailingZeros: false
+        answer: '5'
+        id: '1'
+        validation: 'symbolic'
+        ignoreOrder: false
+    -   allowTrailingZeros: false
+        answer: '2.38'
+        id: '2'
+        validation: 'literal'
+        ignoreOrder: false
 ---
