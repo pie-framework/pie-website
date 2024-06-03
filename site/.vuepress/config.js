@@ -51,6 +51,7 @@ module.exports = {
             "/examples/pie-charting",
             "/examples/pie-graphing",
             "/examples/pie-complex-rubric",
+            "/examples/pie-math-templated",
             "/examples/pie-passage",
           ]
         },
