@@ -79,7 +79,8 @@ const renderPrint = (model, pie) => {
     // this resolver loads `@ps` els
     one.resolve = (tagName, pkg) => {
         const [_, n, v] = pkg.match(/@pie-element\/(.*?)@(.*)/);
-        const urlValue = pkg.includes('next') ? `https://cdn.jsdelivr.net/npm/@pie-element/${n}@next/module/print.js` :  `https://cdn.jsdelivr.net/npm/@pie-element/${n}@latest/module/print.js`
+        const printVersion = pkg.includes('next') ? 'next' : 'latest';
+        const urlValue = `https://cdn.jsdelivr.net/npm/@pie-element/${n}@${printVersion}/module/print.js`;
         return Promise.resolve({
             tagName,
             pkg,
@@ -221,9 +222,13 @@ const getPies = (frontmatter) => {
       if (element) {
           renderPrint(models[0], `${element.packageName}@${element.version}`);
       }
+
+      this.$el.addEventListener('model.updated', this.updateModel);
   },
 
   beforeDestroy() {
+    this.$el.removeEventListener('model.updated', this.updateModel);
+
     if (this.observer && this.navRef) {
       this.observer.unobserve(this.navRef);
     }
@@ -257,6 +262,30 @@ const getPies = (frontmatter) => {
     },
 
     methods: {
+        updateModel() {
+            const { themeConfig } = this.$site;
+            const models = getModels(this.$page.frontmatter);
+            const configure = this.$page.frontmatter.configure;
+            const modelSchemaJSONURI = this.$page.frontmatter.modelSchemaJSONURI;
+            const configureSchemaJSONURI = this.$page.frontmatter.configureSchemaJSONURI;
+
+            models.forEach((model, index) => setupPie(
+                themeConfig.elements,
+                model,
+                { model: modelSchemaJSONURI, configure: configureSchemaJSONURI },
+                configure,
+                index,
+                models.length > 1
+            ));
+
+            const pies = getPies(this.$page.frontmatter);
+            const packageName = pies[0].replace(/@[0-9]{1}\..*/g, '');
+            const element = themeConfig.elements.find(el => el.packageName === packageName);
+
+            if (element) {
+                renderPrint(models[0], `${element.packageName}@${element.version}`);
+            }
+        },
       toggleSideMenu() {
         this.sideMenuVisible = !this.sideMenuVisible;
       },
