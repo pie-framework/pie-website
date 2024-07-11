@@ -454,6 +454,8 @@ const getPies = (frontmatter) => {
                             display block
             .element-container
                 padding 0
+    .element-parent
+        height inherit
 
 </style>
 <style src="prismjs/themes/prism-tomorrow.css"></style>
