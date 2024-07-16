@@ -43,10 +43,7 @@ model:
       ticks:
         minor: 1
         major: 2
-      initialElements:
-      - type: point
-        pointType: full
-        domainPosition: -1
+      initialElements: []
       maxNumberOfPoints: 20
       showMinorTicks: true
       snapPerTick: 1
