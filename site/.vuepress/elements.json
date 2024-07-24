@@ -136,5 +136,11 @@
     "version": "2.11.0",
     "label": "Passage",
     "packageName": "@pie-element/passage"
+  },
+  {
+    "name": "image-cloze-association",
+    "version": "5.21.5",
+    "label": "Image Drag and Drop",
+    "packageName": "@pie-element/image-cloze-association"
   }
 ]
