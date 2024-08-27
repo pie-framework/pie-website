@@ -28,7 +28,7 @@
     "lodash": "^4.17.11",
     "logrocket": "^0.6.19",
     "moment": "^2.24.0",
-    "pacote": "^9.5.0",
+    "pacote": "^18.0.6",
     "resize-observer-polyfill": "^1.5.1",
     "tar-stream": "^2.0.1"
   }
