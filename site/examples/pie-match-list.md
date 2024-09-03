@@ -1,6 +1,6 @@
 ---
 title: Match List
-layout: DemoLayout
+layout: NoUIDemoLayout
 sidebar: false
 navbar: false
 pageClass: customDemoPage

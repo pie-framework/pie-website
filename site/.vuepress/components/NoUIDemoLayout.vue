@@ -1,3 +1,4 @@
+<!-- This Layout was created and used for displaying "An authoring UI is not yet available for this item type." message in lieu of the authoring UI. See lines 307-308. -->
 <template>
   <div class="pie-demo">
         <CustomNavMenu :onMenuIconClick="toggleSideMenu"/>
@@ -6,7 +7,7 @@
                 :closeSideMenu="toggleSideMenu"
                 :sideBarTitle="'Examples'"
         />
-        <div class="element-container" style="margin:30px;"><h2>An authoring UI is not yet available for this item type.</h2></div>
+        <div class="element-container" v-html="rawHtml + printRawHtml"></div>
     </div>
 </template>
 
@@ -303,6 +304,8 @@ export default {
             overflow scroll
             padding 0 0 0 220px
             width 100%
+        .pie-author:before
+            content: "An authoring UI is not yet available for this item type."
         .print-element-container__header__title
             color rgba(0, 0, 0, 0.87)
             font-size 16px
