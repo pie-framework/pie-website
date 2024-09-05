@@ -7,7 +7,7 @@
                 :closeSideMenu="toggleSideMenu"
                 :sideBarTitle="'Examples'"
         />
-        <div class="element-container" v-html="rawHtml + printRawHtml"></div>
+        <div class="element-container no-authoring-ui" v-html="rawHtml + printRawHtml"></div>
     </div>
 </template>
 
@@ -304,7 +304,7 @@ export default {
             overflow scroll
             padding 0 0 0 220px
             width 100%
-        .pie-author:before
+        .no-authoring-ui .pie-author:before
             content: "An authoring UI is not yet available for this item type."
         .print-element-container__header__title
             color rgba(0, 0, 0, 0.87)
