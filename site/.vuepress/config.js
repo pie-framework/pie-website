@@ -53,7 +53,8 @@ module.exports = {
             "/examples/pie-complex-rubric",
             "/examples/pie-math-templated",
             "/examples/pie-passage",
-            "/examples/pie-image-cloze-association"
+            "/examples/pie-image-cloze-association",
+            "/examples/pie-fraction-model"
           ]
         },
         {
