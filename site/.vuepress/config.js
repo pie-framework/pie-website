@@ -54,7 +54,8 @@ module.exports = {
             "/examples/pie-math-templated",
             "/examples/pie-passage",
             "/examples/pie-image-cloze-association",
-            "/examples/pie-fraction-model"
+            "/examples/pie-fraction-model",
+            "/examples/pie-graphing-solution-set",
           ]
         },
         {
