@@ -26,7 +26,7 @@ model:
     - c3
     - c4
     alternateResponses:
-    - response
+    - response:
       - c4
       - c3
       - c2
