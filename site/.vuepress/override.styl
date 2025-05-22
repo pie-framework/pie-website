@@ -62,8 +62,19 @@ h6 {
 }
 
 table {
-  tr {
-    border-top: none;
+   margin: unset !important;
+   display: table !important;
+   border-width: 1px !important;
+
+   &:not([border="1"]) td, th {
+        border: 1px solid #dfe2e5 !important;
+   }
+
+   tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit !important;
 
     &:nth-child(2n) {
       background-color: transparent !important;
@@ -71,8 +82,8 @@ table {
 
     th, td {
       min-width: unset;
-      border: none;
       padding: 0;
+      border-color: inherit !important;
     }
 
     td {
