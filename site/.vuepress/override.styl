@@ -98,6 +98,20 @@ table {
   }
 }
 
+pie-player {
+   table {
+      &:not([border="1"]) td, th, tr {
+         border-width: 0 !important;
+      }
+
+      tr {
+         &:nth-child(2n) {
+            background-color: #f6f8fa !important;
+         }
+      }
+   }
+}
+
 blockquote {
   background-color: $containerBgColor;
   border-left: 10px solid $mainColor;
