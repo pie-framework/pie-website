@@ -15,6 +15,18 @@ model:
     data:
     - label: 'a'
       value: 1
+      interactive: true
     - label: 'b'
       value: 2
+      interactive: true
+    range: 
+      max: 3
+      min: 0
+      labelStep: 1
+    correctAnswer:
+      data:
+      - label: 'a'
+        value: 1
+      - label: 'b'
+        value: 1
 ---
