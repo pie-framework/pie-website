@@ -3,18 +3,19 @@ const elements = require(elementsPath);
 
 // https://github.com/pie-framework/pie-demo-component
 const pieDemoRoot =
-  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@4.2.2/dist";
- // const pieDemoRoot = "http://localhost:3333/build";
-const piePrintSrc = 'https://cdn.jsdelivr.net/npm/@pie-framework/pie-print/lib/pie-print.js';
+  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-demo@4.3.1/dist";
+// const pieDemoRoot = "http://localhost:3333/build";
+const piePrintSrc =
+  "https://cdn.jsdelivr.net/npm/@pie-framework/pie-print/lib/pie-print.js";
 
 module.exports = {
-  base: process.env.IS_NEXT ? '/examples-next/' : '/',
+  base: process.env.IS_NEXT ? "/examples-next/" : "/",
   title: "",
   head: [
     ["script", { src: `${pieDemoRoot}/esm/pie-demo.mjs`, type: "module" }],
     ["script", { src: piePrintSrc, type: "module" }],
     // ["script", { src: `${pieDemoRoot}/pie-demo.esm.js`, type: "module" }],
-    ["script", { src: `${pieDemoRoot}/pie-demo.js`, nomodule: true }]
+    ["script", { src: `${pieDemoRoot}/pie-demo.js`, nomodule: true }],
   ],
   themeConfig: {
     logrocketProject: process.env.LOGROCKET_PROJECT,
@@ -25,7 +26,7 @@ module.exports = {
     search: false,
     nav: [
       { text: "Examples", link: "/examples/pie-categorize" },
-      { text: "About", link: "https://github.com/pie-framework" }
+      { text: "About", link: "https://github.com/pie-framework" },
     ],
     sidebar: {
       "/examples/": [
@@ -56,7 +57,7 @@ module.exports = {
             "/examples/pie-image-cloze-association",
             "/examples/pie-fraction-model",
             "/examples/pie-graphing-solution-set",
-          ]
+          ],
         },
         {
           title: "Tools",
@@ -64,9 +65,9 @@ module.exports = {
           children: [
             "/examples/tools/pie-calculator",
             "/examples/tools/pie-protractor",
-            "/examples/tools/pie-ruler"
-          ]
-        }
+            "/examples/tools/pie-ruler",
+          ],
+        },
       ],
       "/changes": ["/changes/introduction.html"],
       "/": [
@@ -79,8 +80,8 @@ module.exports = {
             "/docs/using/defining-items",
             "/docs/using/packaging-items",
             "/docs/using/rendering-items",
-            "/docs/using/pie-player-api"
-          ]
+            "/docs/using/pie-player-api",
+          ],
         },
         {
           title: "PIE Development",
@@ -91,10 +92,10 @@ module.exports = {
             "/docs/developing/controller",
             "/docs/developing/packaging",
             "/docs/developing/environment",
-            "/docs/developing/tutorial/development-tutorial"
-          ]
-        }
-      ]
-    }
-  }
+            "/docs/developing/tutorial/development-tutorial",
+          ],
+        },
+      ],
+    },
+  },
 };
