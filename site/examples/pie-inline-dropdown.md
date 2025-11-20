@@ -47,7 +47,4 @@ model:
       - label: 'house '
         value: '3'
         correct: false
-    alternateResponse:
-      '2':
-      - '2'
 ---
